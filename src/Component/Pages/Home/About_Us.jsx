@@ -473,7 +473,7 @@ export default function About_Us() {
             {/* Our Solution Process Section  */}
             <Our_solution></Our_solution>
 
-            {/* Work Section */}
+            {/* Portfolio Section */}
             <div>
                 <div>
                     <div className="home2-portfolio-section">
@@ -646,7 +646,7 @@ export default function About_Us() {
                                         </li>
                                     </ul>
                                     <div className="tab-content" id="pills-tabContent">
-                                        <div className="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                                        <div className="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabIndex="0">
                                             <div className='container'>
                                                 <div className='row'>
                                                     <div className='col-lg-4 col-md-6 col-sm-6 col-12 mt-4'>
@@ -682,7 +682,7 @@ export default function About_Us() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                                        <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabIndex="0">
                                             <div className='container'>
                                                 <div className='row'>
                                                     <div className='col-lg-4 col-md-6 col-sm-6 col-12 mt-4'>
@@ -709,7 +709,7 @@ export default function About_Us() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="tab-pane fade show active" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                                        <div className="tab-pane fade show active" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabIndex="0">
                                             <div className='container'>
                                                 <div className='row'>
                                                     <div className='col-lg-4 col-md-6 col-sm-6 col-12 mt-4'>
@@ -719,6 +719,11 @@ export default function About_Us() {
                                                                 <div className='work-name-text-img'>
                                                                     <h5 className='mb-0'>Gift Shop</h5>
                                                                 </div>
+                                                            </div>
+                                                            <div className="image-wrap d-none">
+                                                                <a href="https://rahmanzeb.com">
+                                                                    <img src="/images/Jewelry Landing Page.png" />
+                                                                </a>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -746,7 +751,7 @@ export default function About_Us() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">Ui/Ux Design</div>
+                                        <div className="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabIndex="0">Ui/Ux Design</div>
                                     </div>
                                 </div>
                             </div>
@@ -795,7 +800,7 @@ export default function About_Us() {
                                             </li>
                                         </ul>
                                         <div className="tab-content" id="technologyTabContent">
-                                            <div className="tab-pane fade" id="tech-Front-End" role="tabpanel" aria-labelledby="Front-End-tab">
+                                            <div className="tab-pane fade active show" id="tech-Front-End" role="tabpanel" aria-labelledby="Front-End-tab">
                                                 <div className="row g-4 align-items-end">
                                                     <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
                                                         <div className="single-technology btn_wrapper big technology-sec-style">
@@ -848,7 +853,7 @@ export default function About_Us() {
                                                     <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
-                                                                {/* <img decoding="async" src="images/empty-technology.png" alt="Logo" /> */}
+                                                                <img decoding="async" src="images/empty-technology.png" alt="Logo" className='technology-no-icon-img' />
                                                             </div>
                                                         </div>
                                                     </div>
@@ -863,7 +868,7 @@ export default function About_Us() {
                                                     <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
-                                                                <img decoding="async" src="images/jquery.svg" alt="Logo" />
+                                                                <img decoding="async" src="images/jquery.svg" alt="Logo" className='technology-jquery-img' />
                                                             </div>
                                                             <span>JQuery</span>
                                                         </div>
@@ -887,7 +892,7 @@ export default function About_Us() {
                                                     <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
-                                                                {/* <img decoding="async" src="images/empty-technology.png" alt="Logo" /> */}
+                                                                <img decoding="async" src="images/empty-technology.png" alt="Logo" className='technology-no-icon-img' />
                                                             </div>
                                                         </div>
                                                     </div>
@@ -947,14 +952,14 @@ export default function About_Us() {
 
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
-                                                                {/* <img decoding="async" src="images/empty-technology.png" alt="Logo" /> */}
+                                                                <img decoding="async" src="images/empty-technology.png" alt="Logo" className='technology-no-icon-img' />
                                                             </div>
                                                         </div></div>
                                                     <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
 
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
-                                                                {/* <img decoding="async" src="images/empty-technology.png" alt="Logo" /> */}
+                                                                <img decoding="async" src="images/empty-technology.png" alt="Logo" className='technology-no-icon-img' />
                                                             </div>
                                                         </div></div>
                                                     <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
@@ -969,26 +974,26 @@ export default function About_Us() {
 
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
-                                                                {/* <img decoding="async" src="images/empty-technology.png" alt="Logo" /> */}
+                                                                <img decoding="async" src="images/empty-technology.png" alt="Logo" className='technology-no-icon-img' />
                                                             </div>
                                                         </div></div>
                                                     <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
 
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
-                                                                {/* <img decoding="async" src="images/empty-technology.png" alt="Logo" /> */}
+                                                                <img decoding="async" src="images/empty-technology.png" alt="Logo" className='technology-no-icon-img' />
                                                             </div>
                                                         </div></div>
                                                     <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
 
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
-                                                                {/* <img decoding="async" src="images/empty-technology.png" alt="Logo" /> */}
+                                                                <img decoding="async" src="images/empty-technology.png" alt="Logo" className='technology-no-icon-img' />
                                                             </div>
                                                         </div></div>
                                                 </div>
                                             </div>
-                                            <div className="tab-pane fade active show" id="tech-Mobile" role="tabpanel" aria-labelledby="Mobile-tab">
+                                            <div className="tab-pane fade" id="tech-Mobile" role="tabpanel" aria-labelledby="Mobile-tab">
                                                 <div className="row g-4 align-items-end">
                                                     <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
 
@@ -1042,14 +1047,14 @@ export default function About_Us() {
 
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
-                                                                {/* <img decoding="async" src="images/empty-technology.png" alt="Logo" /> */}
+                                                                <img decoding="async" src="images/empty-technology.png" alt="Logo" className='technology-no-icon-img' />
                                                             </div>
                                                         </div></div>
                                                     <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
 
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
-                                                                {/* <img decoding="async" src="images/empty-technology.png" alt="Logo" /> */}
+                                                                <img decoding="async" src="images/empty-technology.png" alt="Logo" className='technology-no-icon-img' />
                                                             </div>
                                                         </div></div>
                                                     <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
@@ -1072,14 +1077,14 @@ export default function About_Us() {
 
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
-                                                                {/* <img decoding="async" src="images/empty-technology.png" alt="Logo" /> */}
+                                                                <img decoding="async" src="images/empty-technology.png" alt="Logo" className='technology-no-icon-img' />
                                                             </div>
                                                         </div></div>
                                                     <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
 
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
-                                                                {/* <img decoding="async" src="images/empty-technology.png" alt="Logo" /> */}
+                                                                <img decoding="async" src="images/empty-technology.png" alt="Logo" className='technology-no-icon-img' />
                                                             </div>
                                                         </div>
                                                     </div>
