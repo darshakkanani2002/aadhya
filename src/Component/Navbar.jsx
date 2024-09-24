@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Home from './Pages/Home/Home';
-import About_Us from './Pages/Home/About_Us';
+import { Link, useLocation } from 'react-router-dom';
 
 export default function Navbar() {
+    const location = useLocation();
+    const [activeLink, setActiveLink] = useState(location.pathname);
     return (
         <div>
             <div className='hero-bg-banner'>
@@ -27,26 +29,24 @@ export default function Navbar() {
                             <div className="offcanvas-body">
                                 <ul className="navbar-nav m-auto mb-2 mt-0 mb-lg-0">
                                     <li className="nav-item d-flex align-items-center">
-                                        <a className="nav-link" aria-current="page" href="index.html" data-section="home">Home</a>
+                                        <Link to='/' className={`nav-link ${activeLink === '/' ? 'active' : ''}`} onClick={() => setActiveLink('/')} aria-current="page" data-section="home">Home</Link>
                                     </li>
                                     <li className="nav-item dropdown d-flex align-items-center">
-                                        <a className="nav-link dropdown-toggle" href="services.html" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <Link to='/app' className={`nav-link ${activeLink === '/app' ? 'active' : ''}`} onClick={() => setActiveLink('/app')} id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             Services
-                                        </a>
+                                        </Link>
                                         <ul className="dropdown-menu nav-sub-menu py-0" aria-labelledby="servicesDropdown">
-                                            <li><a className="dropdown-item" href="#">App Development</a></li>
-                                            <li><a className="dropdown-item" href="#">Game Development</a></li>
-                                            <li><a className="dropdown-item" href="#">Web Development</a></li>
+                                            <li><Link to='/app' className="dropdown-item">App Development</Link></li>
+                                            <li><Link className="dropdown-item" href="#">Game Development</Link></li>
+                                            <li><Link className="dropdown-item" href="#">Web Development</Link></li>
                                         </ul>
                                     </li>
                                     <li className="nav-item dropdown d-flex align-items-center">
-                                        <a className="nav-link dropdown-toggle" href="projects.html" data-section="project" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                                        <a className="nav-link" href="projects.html" data-section="project" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
                                         <ul className="dropdown-menu nav-sub-menu py-0" aria-labelledby="servicesDropdown">
                                             <li><a className="dropdown-item" href="#">Page Style 01</a></li>
                                             <li><a className="dropdown-item" href="#">Page Style 02</a></li>
                                             <li><a className="dropdown-item" href="#">Page Style 03</a></li>
-                                            <li><a className="dropdown-item" href="#">Page Style 04</a></li>
-                                            <li><a className="dropdown-item" href="#">Page Style 05</a></li>
                                         </ul>
                                     </li>
                                     <li className="nav-item d-flex align-items-center">
@@ -63,9 +63,7 @@ export default function Navbar() {
                         </div>
                     </div>
                 </nav>
-                <Home />
             </div>
-            <About_Us />
         </div>
     );
 }

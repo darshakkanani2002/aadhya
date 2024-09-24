@@ -7,6 +7,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Unbounded", system-ui;
+  /* font-family: "Lato", system-ui; */
 }
 
 body {
@@ -45,6 +46,10 @@ body {
   margin-bottom: 60px;
 }
 
+.mb-85 {
+  margin-bottom: 85px;
+}
+
 .mb-90 {
   margin-bottom: 90px;
 }
@@ -55,6 +60,10 @@ body {
 
 .mt-120 {
   margin-top: 120px;
+}
+
+.padding-top-135 {
+  padding-top: 135px;
 }
 
 /* @media (min-width: 1400px) {
@@ -105,12 +114,15 @@ body {
   color: #000000;
 }
 
-.navbar-nav li a:active {
-  color: #fff !important;
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #0093ed;
+  position: relative;
 }
 
-.navbar-nav li a:hover {
-  color: #0093ed !important;
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.show {
+  color: #0093ed;
 }
 
 
@@ -213,9 +225,13 @@ body {
   border-bottom: 1px solid #252424;
 }
 
+.nav-sub-menu li a:last-child {
+  border-bottom: none;
+}
+
 .nav-sub-menu li a:hover {
-  color: #ffffff !important;
-  background-color: #0093ed;
+  color: #1a1a1a !important;
+  background-color: #7fceff;
 }
 
 .nav-sub-menu li a::before {
@@ -2402,7 +2418,7 @@ footer .footer-top .footer-logo-contact-wrap .footer-contact .single-contact h5 
 
 footer .footer-top .footer-logo-contact-wrap .footer-contact .single-contact h5 a {
   color: #dfdfdf;
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 500;
   transition: .35s;
 }
@@ -2566,6 +2582,7 @@ footer .menu-container ul li a:hover svg {
   border-radius: 20px;
   text-align: center;
   transition: 0.3s;
+  min-height: 513px;
 }
 
 .our-service-img {
@@ -2621,6 +2638,7 @@ footer .menu-container ul li a:hover svg {
   border-radius: 20px;
   text-align: center;
   transition: 0.3s;
+  min-height: 513px;
 }
 
 .our-service-img-back-02 {
@@ -2649,6 +2667,7 @@ footer .menu-container ul li a:hover svg {
   border-radius: 20px;
   text-align: center;
   transition: 0.3s;
+  min-height: 513px;
 }
 
 .our-service-img-back-03 {
@@ -2677,6 +2696,7 @@ footer .menu-container ul li a:hover svg {
   border-radius: 20px;
   text-align: center;
   transition: 0.3s;
+  min-height: 513px;
 }
 
 .our-service-img-back-04 {
@@ -2696,6 +2716,81 @@ footer .menu-container ul li a:hover svg {
 .our-services-04:hover .our-service-img {
   transform: rotate(0deg);
   transition: 0.3s;
+}
+
+@media (min-width:1200px) {
+
+  .our-services-01,
+  .our-services-02,
+  .our-services-03,
+  .our-services-04 {
+    min-height: 564px;
+  }
+}
+
+@media (max-width:1199px) {
+
+  .our-services-01,
+  .our-services-02,
+  .our-services-03,
+  .our-services-04 {
+    min-height: 595px;
+  }
+}
+
+.our-service-prev-next-button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 8;
+}
+
+.our-service-prev-next-arrow {
+  background-color: #1a1a1a;
+  border: 1px solid #1a1a1a;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.our-service-prev-next-arrow:hover {
+  background-color: #0093ed;
+  border: 1px solid #0093ed;
+}
+
+/* .our-service-prev {
+  position: absolute;
+  left: 0;
+  z-index: 8;
+  bottom: 0;
+  transform: translateY(-50%);
+}
+
+.our-service-next {
+  position: absolute;
+  right: 0;
+  z-index: 8;
+  bottom: 0;
+  transform: translateY(-50%);
+} */
+
+/* heading before css */
+.heading-text-before {
+  position: relative;
+  display: inline-block;
+}
+
+.heading-text-before::before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  height: 3px;
+  width: 50%;
+  background-color: #0093ed;
+  transform: translateX(-50%);
 }
 
 /* our process section new css */
@@ -2735,6 +2830,7 @@ footer .menu-container ul li a:hover svg {
 
 .nav-link {
   color: #1a1a1a;
+  font-size: 20px;
 }
 
 .nav-link:hover {
@@ -2779,6 +2875,11 @@ footer .menu-container ul li a:hover svg {
   opacity: 1;
 }
 
+.work-ui-images {
+  width: 100%;
+  height: 300px;
+}
+
 .new-work-text {
   font-size: 45px !important;
 }
@@ -2800,4 +2901,111 @@ footer .menu-container ul li a:hover svg {
 
 .image-wrap:hover img {
   object-position: bottom center;
+}
+
+/* about us section new css */
+.about-us-heading-button {
+  background-color: #ff9aa2;
+  border: 3px solid #fff;
+  border-radius: 500px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, .1) !important;
+  color: #fff;
+  cursor: default;
+  font-size: 40px;
+  padding: 25px 75px;
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+.why-choose-us-01 {
+  background-color: #ffe5d3;
+  border: 2px solid #ffd1b1;
+  border-radius: 20px;
+  padding: 50px 20px 40px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.why-choose-img-back-01 {
+  background-color: #ffd9bf;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 15px;
+  transform: rotate(-16deg);
+  transition: 0.3s;
+}
+
+.why-choose-us-01:hover .why-choose-img-back-01 {
+  transform: rotate(0deg);
+  transition: 0.3s;
+}
+
+.why-choose-img {
+  width: 95px;
+  height: auto;
+  transform: rotate(16deg);
+  transition: 0.3s;
+}
+
+.why-choose-us-01:hover .why-choose-img {
+  transform: rotate(0deg);
+  transition: 0.3s;
+}
+
+.why-choose-us-02 {
+  background-color: #c4f5e4;
+  border: 2px solid #84f2cc;
+  border-radius: 20px;
+  border-radius: 20px;
+  padding: 50px 20px 40px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.why-choose-img-back-02 {
+  background-color: #afebd6;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 15px;
+  transform: rotate(-16deg);
+  transition: 0.3s;
+}
+
+.why-choose-us-02:hover .why-choose-img-back-02 {
+  transform: rotate(0deg);
+  transition: 0.3s;
+}
+
+.why-choose-us-02:hover .why-choose-img {
+  transform: rotate(0deg);
+  transition: 0.3s;
+}
+
+.why-choose-us-03 {
+  background-color: #d6ddf9;
+  border: 2px solid #b5c4ff;
+  border-radius: 20px;
+  border-radius: 20px;
+  padding: 50px 20px 40px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.why-choose-img-back-03 {
+  background-color: #c9d2f8;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 15px;
+  transform: rotate(-16deg);
+  transition: 0.3s;
+}
+
+.why-choose-us-03:hover .why-choose-img-back-03 {
+  transform: rotate(0deg);
+  transition: 0.3s;
+}
+
+.why-choose-us-03:hover .why-choose-img {
+  transform: rotate(0deg);
+  transition: 0.3s;
 }

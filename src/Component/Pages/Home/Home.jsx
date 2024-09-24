@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import About_Us from './About_Us';
 
 export default function Home() {
     const bannerImgRef = useRef(null);
@@ -172,6 +173,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+            <About_Us></About_Us>
         </div>
     )
 }

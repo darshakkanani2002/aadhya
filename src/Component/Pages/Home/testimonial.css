@@ -79,3 +79,33 @@
     z-index: 10;
     color: #000000 !important;
 }
+
+/* new testimonial css */
+.testimonial-sec {
+    background-color: #fff;
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, .2);
+    border-radius: 15px;
+    min-height: 430px;
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-star-ic {
+    filter: brightness(0) saturate(100%) invert(43%) sepia(30%) saturate(5506%) hue-rotate(179deg) brightness(98%) contrast(101%);
+}
+
+.testimonial-before {
+    position: relative;
+    display: inline;
+}
+
+.testimonial-before::before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    height: 3px;
+    width: 50%;
+    background-color: #0093ed;
+    transform: translateX(-50%);
+}

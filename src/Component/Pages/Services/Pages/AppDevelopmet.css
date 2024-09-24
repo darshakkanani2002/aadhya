@@ -1,0 +1,323 @@
+.app-hero-back {
+    background-color: #eff3f8;
+    height: auto;
+    padding: 50px 0;
+    width: 100%;
+}
+
+.app-hero-content p {
+    color: #717171;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+
+.btn-white-color {
+    background-color: #0093ed;
+    color: #fff;
+    position: relative;
+    padding: 15px 40px;
+    border-radius: 24px 0px;
+    transition: 0.3s;
+}
+
+.btn-white-color:hover {
+    background-color: #fff;
+    color: #1a1a1a;
+    position: relative;
+    padding: 15px 40px;
+    border-radius: 24px 0px;
+    box-shadow: 0 0 20px rgba(3, 143, 204, .15);
+}
+
+.app-hero-01 {
+    animation: up-down-three 4s linear 0s infinite normal none running;
+}
+
+.app-hero-search-img {
+    position: absolute;
+    right: 20%;
+    top: 22%;
+    max-width: 100%;
+    height: auto;
+    animation: up-down-three 3s linear 0s infinite normal none running;
+}
+
+.app-hero-lock-img {
+    position: absolute;
+    left: 0;
+    top: 37%;
+    max-width: 100%;
+    height: auto;
+    animation: up-down-three 3s linear 0s infinite normal none running;
+}
+
+.app-hero-user-img {
+    position: absolute;
+    bottom: 0;
+    right: 1%;
+    max-width: 100%;
+    height: auto;
+    animation: up-down-three 3s linear 0s infinite normal none running;
+}
+
+@keyframes up-down-three {
+
+    0%,
+    100% {
+        transform: translateY(-.3rem);
+    }
+
+    50% {
+        transform: translateY(.3rem);
+    }
+}
+
+/* upwork section css */
+.app-upwork-box {
+    background-color: #fff;
+    padding: 90px 15px;
+    position: relative;
+}
+
+.app-upwork-img {
+    border-right: 1px solid #e4e4e4;
+}
+
+.app-upwork-content p {
+    color: #4b4b4b;
+    font-weight: 400;
+}
+
+.app-development-back {
+    background-color: #f8fbff;
+    padding: 100px 0;
+}
+
+.app-heding-before {
+    position: relative;
+    display: inline-block;
+}
+
+.app-heding-before::before {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 3px;
+    background-color: #0093ed;
+    width: 50%;
+}
+
+.app-development-back-01 {
+    background-color: #ffe4c2;
+    border: 2px solid #fcd09a;
+    padding: 50px 20px 40px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.app-development-img-back-01 {
+    background-color: #fcd09a;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 15px;
+    transform: rotate(-16deg);
+    transition: 0.3s;
+}
+
+.app-development-back-02 {
+    background-color: #e5dcff;
+    border: 2px solid #d2c2ff;
+    padding: 50px 20px 40px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.app-development-img-back-02 {
+    background-color: #d2c2ff;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 15px;
+    transform: rotate(-16deg);
+    transition: 0.3s;
+}
+
+.app-development-back-03 {
+    background-color: #ffd2e5;
+    border: 2px solid #ffbeda;
+    padding: 50px 20px 40px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.app-development-img-back-03 {
+    background-color: #ffbeda;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 15px;
+    transform: rotate(-16deg);
+    transition: 0.3s;
+}
+
+.app-development-back-04 {
+    background-color: #cfe9ff;
+    border: 2px solid #b4dfff;
+    padding: 50px 20px 40px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.app-development-img-back-04 {
+    background-color: #b4dfff;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 15px;
+    transform: rotate(-16deg);
+    transition: 0.3s;
+}
+
+.app-development-back-05 {
+    background-color: #bae9e4;
+    border: 2px solid #addad5;
+    padding: 50px 20px 40px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.app-development-img-back-05 {
+    background-color: #addad5;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 15px;
+    transform: rotate(-16deg);
+    transition: 0.3s;
+}
+
+.app-development-back-06 {
+    background: #fdeeb2;
+    border: 2px solid #f2e19b;
+    padding: 50px 20px 40px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.app-development-img-back-06 {
+    background-color: #f2e19b;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 15px;
+    transform: rotate(-16deg);
+    transition: 0.3s;
+}
+
+.app-development-img {
+    height: 90px;
+    width: 90px;
+    transform: rotate(16deg);
+    transition: 0.3s;
+}
+
+.app-development-back-01:hover .app-development-img-back-01 {
+    transform: rotate(0deg);
+    transition: 0.3s;
+}
+
+.app-development-back-01:hover .app-development-img {
+    transform: rotate(0deg);
+    transition: 0.3s;
+}
+
+.app-development-back-02:hover .app-development-img-back-02 {
+    transform: rotate(0deg);
+    transition: 0.3s;
+}
+
+.app-development-back-02:hover .app-development-img {
+    transform: rotate(0deg);
+    transition: 0.3s;
+}
+
+.app-development-back-03:hover .app-development-img-back-03 {
+    transform: rotate(0deg);
+    transition: 0.3s;
+}
+
+.app-development-back-03:hover .app-development-img {
+    transform: rotate(0deg);
+    transition: 0.3s;
+}
+
+.app-development-back-04:hover .app-development-img-back-04 {
+    transform: rotate(0deg);
+    transition: 0.3s;
+}
+
+.app-development-back-04:hover .app-development-img {
+    transform: rotate(0deg);
+    transition: 0.3s;
+}
+
+.app-development-back-05:hover .app-development-img-back-05 {
+    transform: rotate(0deg);
+    transition: 0.3s;
+}
+
+.app-development-back-05:hover .app-development-img {
+    transform: rotate(0deg);
+    transition: 0.3s;
+}
+
+.app-development-back-06:hover .app-development-img-back-06 {
+    transform: rotate(0deg);
+    transition: 0.3s;
+}
+
+.app-development-back-06:hover .app-development-img {
+    transform: rotate(0deg);
+    transition: 0.3s;
+}
+
+.app-develop-content h4 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.app-develop-content p {
+    color: #4b4b4b !important;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 20px !important;
+}
+
+@media (min-width:1399px) {
+
+    .app-development-back-01,
+    .app-development-back-02,
+    .app-development-back-03,
+    .app-development-back-04,
+    .app-development-back-05,
+    .app-development-back-06 {
+        min-height: 475px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1200px) {
+
+    .app-development-back-01,
+    .app-development-back-02,
+    .app-development-back-03,
+    .app-development-back-04,
+    .app-development-back-05,
+    .app-development-back-06 {
+        min-height: 560px;
+    }
+}

@@ -6,6 +6,7 @@ import Project from './Project';
 import Our_solution from './Our_solution';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Our_Service from './Our_Service';
 
 export default function About_Us() {
     const [countStarted, setCountStarted] = useState
@@ -169,6 +170,63 @@ export default function About_Us() {
                                 <div className="col-sm-7 d-sm-flex  d-none">
                                     <div className="about-right-img animet-images magnetic-item overflow-hidden">
                                         <img decoding="async" src="images/about-01.webp" alt="image" className='about-us-img img-fluid' />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className='container my-5 d-none'>
+                <div>
+                    <div className='text-center'>
+                        <button className='about-us-heading-button mb-2'>Why Aadhya</button>
+                        <div className='container'>
+                            <div className='d-flex justify-content-center gap-2'>
+                                <img src="/images/why-section-border-img-01.png" alt="why-section-border-img-01" className='mb-2 d-lg-block d-md-none d-none img-fluid' />
+                                <img src="/images/why-section-border-img-02.png" alt="why-section-border-img-02" className='mb-2 d-lg-block d-md-none d-none img-fluid' />
+                                <img src="/images/why-section-border-img-03.png" alt="why-section-border-img-03" className='mb-2 d-lg-block d-md-none d-none img-fluid' />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='row'>
+                        <div className='col-lg-4 mt-lg-0 mt-md-3 mt-3'>
+                            <div>
+                                <div className='why-choose-us-01'>
+                                    <div className='why-choose-img-back-01'>
+                                        <img src="/images/why-img-innovations.gif" alt="why-img-innovations" className='why-choose-img' />
+                                    </div>
+                                    <div class="service-text mt-5">
+                                        <h4>Innovation</h4>
+                                        <p class="mt-3 sm-mt-4 ">We believe in innovating and meeting customer needs in every project. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='col-lg-4 mt-lg-0 mt-md-3 mt-3'>
+                            <div>
+                                <div className='why-choose-us-02'>
+                                    <div className='why-choose-img-back-02'>
+                                        <img src="/images/why-img-quality-focused.gif" alt="why-img-quality-focused" className='why-choose-img' />
+                                    </div>
+                                    <div class="service-text mt-5">
+                                        <h4>Innovation</h4>
+                                        <p class="mt-3 sm-mt-4 ">We believe in innovating and meeting customer needs in every project. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='col-lg-4 mt-lg-0 mt-md-3 mt-3'>
+                            <div>
+                                <div className='why-choose-us-03'>
+                                    <div className='why-choose-img-back-03'>
+                                        <img src="/images/why-img-value-for-money.gif" alt="why-img-value-for-money" className='why-choose-img' />
+                                    </div>
+                                    <div class="service-text mt-5">
+                                        <h4>Innovation</h4>
+                                        <p class="mt-3 sm-mt-4 ">We believe in innovating and meeting customer needs in every project. </p>
                                     </div>
                                 </div>
                             </div>
@@ -367,7 +425,7 @@ export default function About_Us() {
                 </div>
             </div>
             <div className='our-service-section py-5'>
-                <div className='container'>
+                {/* <div className='container'>
                     <div className='row'>
                         <div className='col-lg-4 mt-120 px-4'>
                             <h2>Our Service</h2>
@@ -428,8 +486,11 @@ export default function About_Us() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
+                <Our_Service></Our_Service>
             </div>
+
+
             {/* Exper and projects */}
             <Project></Project>
 
@@ -626,7 +687,7 @@ export default function About_Us() {
                         <div className='container'>
                             <div className="section-title three text-animation row">
                                 <div className='about-our-company col-lg-12 our-solution-style-1 text-center mb-5' data-aos="flip-up" >
-                                    <h2 className='text-lg-start text-md-center text-center new-work-text'>Our Portfolio</h2>
+                                    <h2 className='text-lg-start text-md-center text-center new-work-text heading-text-before'>Our Portfolio</h2>
                                 </div>
                             </div>
                             <div className='row'>
@@ -687,22 +748,31 @@ export default function About_Us() {
                                                 <div className='row'>
                                                     <div className='col-lg-4 col-md-6 col-sm-6 col-12 mt-4'>
                                                         <a href="#">
-                                                            <div>
-                                                                <img src="/images/work-game-img-01.webp" alt="work-game-img-01" className='img-fluid' />
+                                                            <div className='position-relative wok-img-div'>
+                                                                <img src="/images/work-game-img-01.webp" alt="work-game-img-01" className='img-fluid rounded-4' />
+                                                                <div className='work-name-text-img'>
+                                                                    <h5 className='mb-0'>ACCUBOW</h5>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
                                                     <div className='col-lg-4 col-md-6 col-sm-6 col-12 mt-4'>
                                                         <a href="#">
-                                                            <div>
+                                                            <div className='position-relative wok-img-div'>
                                                                 <img src="/images/work-game-img-02.webp" alt="work-game-img-02" className='img-fluid' />
+                                                                <div className='work-name-text-img'>
+                                                                    <h5 className='mb-0'>Zombie Shooter</h5>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
                                                     <div className='col-lg-4 col-md-6 col-sm-6 col-12 mt-4'>
                                                         <a href="#">
-                                                            <div>
+                                                            <div className='position-relative wok-img-div'>
                                                                 <img src="/images/work-game-img-03.webp" alt="work-game-img-03" className='img-fluid' />
+                                                                <div className='work-name-text-img'>
+                                                                    <h5 className='mb-0'>Traffic Rider</h5>
+                                                                </div>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -751,7 +821,40 @@ export default function About_Us() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabIndex="0">Ui/Ux Design</div>
+                                        <div className="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabIndex="0">
+                                            <div className='row'>
+                                                <div className='col-lg-4 col-md-6 col-sm-6 col-12 mt-4'>
+                                                    <a href="#">
+                                                        <div className='position-relative wok-img-div'>
+                                                            <img src="/images/work-ui-img-04.jpg" alt="work-ui-img-04" className='img-fluid rounded-4 work-ui-images' />
+                                                            <div className='work-name-text-img'>
+                                                                <h5 className='mb-0'>Ui/UX Design</h5>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div className='col-lg-4 col-md-6 col-sm-6 col-12 mt-4'>
+                                                    <a href="#">
+                                                        <div className='position-relative wok-img-div'>
+                                                            <img src="/images/work-ui-img-02.jpg" alt="work-ui-img-02   " className='img-fluid rounded-4 work-ui-images' />
+                                                            <div className='work-name-text-img'>
+                                                                <h5 className='mb-0'>Weather Ui/UX Design</h5>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div className='col-lg-4 col-md-6 col-sm-6 col-12 mt-4'>
+                                                    <a href="#">
+                                                        <div className='position-relative wok-img-div'>
+                                                            <img src="/images/work-ui-img-03.jpg" alt="work-ui-img-03" className='img-fluid rounded-4 work-ui-images' />
+                                                            <div className='work-name-text-img'>
+                                                                <h5 className='mb-0'>Car Wash Ui/UX Design</h5>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -851,7 +954,7 @@ export default function About_Us() {
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
-                                                        <div className="single-technology btn_wrapper technology-sec-style">
+                                                        <div className="single-technology btn_wrapper technology-sec-style d-none">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/empty-technology.png" alt="Logo" className='technology-no-icon-img' />
                                                             </div>
@@ -890,7 +993,7 @@ export default function About_Us() {
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
-                                                        <div className="single-technology btn_wrapper technology-sec-style">
+                                                        <div className="single-technology btn_wrapper technology-sec-style d-none">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/empty-technology.png" alt="Logo" className='technology-no-icon-img' />
                                                             </div>
@@ -901,7 +1004,6 @@ export default function About_Us() {
                                             <div className="tab-pane fade" id="tech-Back-End" role="tabpanel" aria-labelledby="Back-End-tab">
                                                 <div className="row g-4 align-items-end">
                                                     <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
-
                                                         <div className="single-technology btn_wrapper big technology-sec-style">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/node-js.svg" alt="Logo" />
@@ -909,7 +1011,6 @@ export default function About_Us() {
                                                             <span>Node JS</span>
                                                         </div></div>
                                                     <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
-
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/ruby.svg" alt="Logo" />
@@ -917,7 +1018,6 @@ export default function About_Us() {
                                                             <span>Ruby</span>
                                                         </div></div>
                                                     <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
-
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/django.svg" alt="Logo" />
@@ -925,7 +1025,6 @@ export default function About_Us() {
                                                             <span>D Jnago</span>
                                                         </div></div>
                                                     <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
-
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/express-js.svg" alt="Logo" />
@@ -933,7 +1032,6 @@ export default function About_Us() {
                                                             <span>Express JS</span>
                                                         </div></div>
                                                     <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
-
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/asp.svg" alt="Logo" />
@@ -941,7 +1039,6 @@ export default function About_Us() {
                                                             <span>ASP .Net</span>
                                                         </div></div>
                                                     <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
-
                                                         <div className="single-technology btn_wrapper big technology-sec-style" >
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/laravel.svg" alt="Logo" />
@@ -949,21 +1046,18 @@ export default function About_Us() {
                                                             <span>Laravel</span>
                                                         </div></div>
                                                     <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
-
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/empty-technology.png" alt="Logo" className='technology-no-icon-img' />
                                                             </div>
                                                         </div></div>
                                                     <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
-
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/empty-technology.png" alt="Logo" className='technology-no-icon-img' />
                                                             </div>
                                                         </div></div>
                                                     <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
-
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/firebase.svg" alt="Logo" />
@@ -971,7 +1065,6 @@ export default function About_Us() {
                                                             <span>Firebase</span>
                                                         </div></div>
                                                     <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
-
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/empty-technology.png" alt="Logo" className='technology-no-icon-img' />
@@ -1140,8 +1233,6 @@ export default function About_Us() {
                     </div>
                 </div>
             </div>
-
-
 
             {/* Latest Blog Section */}
             <div>
