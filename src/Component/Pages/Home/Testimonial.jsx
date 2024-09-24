@@ -14,7 +14,7 @@ export default function Testimonial() {
     const prevRef = useRef(null);
     const nextRef = useRef(null);
     return (
-        <div className='testimonial py-5'>
+        <div className='testimonial py-5 overflow-hidden'>
             <>
                 <Swiper
                     pagination={{

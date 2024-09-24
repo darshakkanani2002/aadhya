@@ -15,7 +15,7 @@ export default function Our_Service() {
     const nextRef = useRef(null);
 
     return (
-        <div className='position-relative'>
+        <div className='position-relative overflow-hidden'>
             <div className='container'>
                 <div className="section-title three text-animation row">
                     <div className='about-our-company col-lg-12 our-solution-style-1 text-center mb-5' data-aos="flip-up" >
