@@ -187,6 +187,8 @@
     border-radius: 20px;
     text-align: center;
     transition: 0.3s;
+    display: flex;
+    align-items: center;
 }
 
 .app-development-rotate {

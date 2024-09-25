@@ -318,12 +318,14 @@ export default function AppDevelopment() {
                                 <div>
                                     <div className='p-2'>
                                         <div className='app-development-back-04 app-development'>
-                                            <div className='app-development-img-back-04 app-development-rotate'>
-                                                <img src="/images/app-develop-img-04.gif" alt="app-develop-img-04" className='app-development-img' />
-                                            </div>
-                                            <div className="app-develop-content mt-5">
-                                                <h4>Progressive Web App Development</h4>
-                                                <p>Our progressive web app development services can benefit you with a responsive and polished app for all devices.</p>
+                                            <div>
+                                                <div className='app-development-img-back-04 app-development-rotate'>
+                                                    <img src="/images/app-develop-img-04.gif" alt="app-develop-img-04" className='app-development-img' />
+                                                </div>
+                                                <div className="app-develop-content mt-5">
+                                                    <h4>Progressive Web App Development</h4>
+                                                    <p>Our progressive web app development services can benefit you with a responsive and polished app for all devices.</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -331,12 +333,14 @@ export default function AppDevelopment() {
                                 <div>
                                     <div className='p-2'>
                                         <div className='app-development-back-05 app-development'>
-                                            <div className='app-development-img-back-05 app-development-rotate'>
-                                                <img src="/images/app-develop-img-05.gif" alt="app-develop-img-05" className='app-development-img' />
-                                            </div>
-                                            <div className="app-develop-content mt-5">
-                                                <h4>UI & UX Designing</h4>
-                                                <p>We house UI and UX experts who play a pivotal role in making your mobile app appealing and user-friendly.</p>
+                                            <div>
+                                                <div className='app-development-img-back-05 app-development-rotate'>
+                                                    <img src="/images/app-develop-img-05.gif" alt="app-develop-img-05" className='app-development-img' />
+                                                </div>
+                                                <div className="app-develop-content mt-5">
+                                                    <h4>UI & UX Designing</h4>
+                                                    <p>We house UI and UX experts who play a pivotal role in making your mobile app appealing and user-friendly.</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -344,12 +348,14 @@ export default function AppDevelopment() {
                                 <div>
                                     <div className='p-2'>
                                         <div className='app-development-back-06 app-development'>
-                                            <div className='app-development-img-back-06 app-development-rotate'>
-                                                <img src="/images/app-develop-img-06.gif" alt="app-develop-img-06" className='app-development-img' />
-                                            </div>
-                                            <div className="app-develop-content mt-5">
-                                                <h4>Maintenance & Support</h4>
-                                                <p>Periodic maintenance and upgrades of the application are seamlessly handled under our mobile app development services.</p>
+                                            <div>
+                                                <div className='app-development-img-back-06 app-development-rotate'>
+                                                    <img src="/images/app-develop-img-06.gif" alt="app-develop-img-06" className='app-development-img' />
+                                                </div>
+                                                <div className="app-develop-content mt-5">
+                                                    <h4>Maintenance & Support</h4>
+                                                    <p>Periodic maintenance and upgrades of the application are seamlessly handled under our mobile app development services.</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -357,12 +363,14 @@ export default function AppDevelopment() {
                                 <div>
                                     <div className='p-2'>
                                         <div className='app-development-back-07 app-development'>
-                                            <div className='app-development-img-back-07 app-development-rotate'>
-                                                <img src="/images/app-develop-img-07.gif" alt="app-develop-img-07" className='app-development-img' />
-                                            </div>
-                                            <div className="app-develop-content mt-5">
-                                                <h4>QA & Testing</h4>
-                                                <p>Every app is tested for superior quality and functioning. In fact, if you have developed one, we run a detailed check to ensure optimum performance.</p>
+                                            <div>
+                                                <div className='app-development-img-back-07 app-development-rotate'>
+                                                    <img src="/images/app-develop-img-07.gif" alt="app-develop-img-07" className='app-development-img' />
+                                                </div>
+                                                <div className="app-develop-content mt-5">
+                                                    <h4>QA & Testing</h4>
+                                                    <p>Every app is tested for superior quality and functioning. In fact, if you have developed one, we run a detailed check to ensure optimum performance.</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -370,12 +378,14 @@ export default function AppDevelopment() {
                                 <div>
                                     <div className='p-2'>
                                         <div className='app-development-back-08 app-development'>
-                                            <div className='app-development-img-back-08 app-development-rotate'>
-                                                <img src="/images/app-develop-img-08.gif" alt="app-develop-img-08" className='app-development-img' />
-                                            </div>
-                                            <div className="app-develop-content mt-5">
-                                                <h4>App Migrations & Integrations</h4>
-                                                <p>Our mobile app solutions include assisting you with migrating your apps from one framework to another or integrating them for better functionality.</p>
+                                            <div>
+                                                <div className='app-development-img-back-08 app-development-rotate'>
+                                                    <img src="/images/app-develop-img-08.gif" alt="app-develop-img-08" className='app-development-img' />
+                                                </div>
+                                                <div className="app-develop-content mt-5">
+                                                    <h4>App Migrations & Integrations</h4>
+                                                    <p>Our mobile app solutions include assisting you with migrating your apps from one framework to another or integrating them for better functionality.</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
