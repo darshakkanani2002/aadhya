@@ -242,6 +242,40 @@
 
 @media (max-width:768px) {
     .app-development {
-        min-height: 600px;
+        min-height: 400px;
+    }
+
+    .app-develop-content h4 {
+        font-size: 18px;
+    }
+
+    .app-develop-content p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:512px) {
+    .app-development {
+        min-height: 420px;
+    }
+}
+
+@media (max-width:429px) {
+    .app-development {
+        min-height: 482px;
+    }
+}
+
+@media (max-width:319px) {
+    .app-development {
+        min-height: 478px;
+    }
+
+    .app-develop-content h4 {
+        font-size: 16px;
+    }
+
+    .app-develop-content p {
+        font-size: 12px;
     }
 }
