@@ -218,6 +218,42 @@
     transition: 0.3s;
 }
 
+.app-development-back-07 {
+    background: #e3edb4;
+    border: 2px solid #d6e395;
+    padding: 50px 20px 40px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.app-development-img-back-07 {
+    background-color: #d6e395;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 15px;
+    transform: rotate(-16deg);
+    transition: 0.3s;
+}
+
+.app-development-back-08 {
+    background: #ffd6c9;
+    border: 2px solid #f1c3b5;
+    padding: 50px 20px 40px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.app-development-img-back-08 {
+    background-color: #f1c3b5;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 15px;
+    transform: rotate(-16deg);
+    transition: 0.3s;
+}
+
 .app-development-img {
     height: 90px;
     width: 90px;
@@ -285,6 +321,26 @@
     transition: 0.3s;
 }
 
+.app-development-back-07:hover .app-development-img-back-07 {
+    transform: rotate(0deg);
+    transition: 0.3s;
+}
+
+.app-development-back-07:hover .app-development-img {
+    transform: rotate(0deg);
+    transition: 0.3s;
+}
+
+.app-development-back-08:hover .app-development-img-back-08 {
+    transform: rotate(0deg);
+    transition: 0.3s;
+}
+
+.app-development-back-08:hover .app-development-img {
+    transform: rotate(0deg);
+    transition: 0.3s;
+}
+
 .app-develop-content h4 {
     color: #000;
     font-size: 24px;
@@ -305,19 +361,23 @@
     .app-development-back-03,
     .app-development-back-04,
     .app-development-back-05,
-    .app-development-back-06 {
-        min-height: 475px;
+    .app-development-back-06,
+    .app-development-back-07,
+    .app-development-back-08 {
+        min-height: 499px;
     }
 }
 
-@media screen and (min-width:768px) and (max-width:1200px) {
+@media screen and (min-width:768px) and (max-width:1398px) {
 
     .app-development-back-01,
     .app-development-back-02,
     .app-development-back-03,
     .app-development-back-04,
     .app-development-back-05,
-    .app-development-back-06 {
+    .app-development-back-06,
+    .app-development-back-07,
+    .app-development-back-08 {
         min-height: 560px;
     }
 }

@@ -184,6 +184,35 @@ export default function AppDevelopment() {
                                 </div>
                             </div>
                         </div>
+
+                        <div className='row justify-content-center'>
+                            <div className="col-lg-4 col-md-6 col-12 mt-5">
+                                <div>
+                                    <div className='app-development-back-07'>
+                                        <div className='app-development-img-back-07'>
+                                            <img src="/images/app-develop-img-07.gif" alt="app-develop-img-07" className='app-development-img' />
+                                        </div>
+                                        <div className="app-develop-content mt-5">
+                                            <h4>QA & Testing</h4>
+                                            <p>Every app is tested for superior quality and functioning. In fact, if you have developed one, we run a detailed check to ensure optimum performance.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 col-12 mt-5">
+                                <div>
+                                    <div className='app-development-back-08'>
+                                        <div className='app-development-img-back-08'>
+                                            <img src="/images/app-develop-img-08.gif" alt="app-develop-img-08" className='app-development-img' />
+                                        </div>
+                                        <div className="app-develop-content mt-5">
+                                            <h4>App Migrations & Integrations</h4>
+                                            <p>Our mobile app solutions include assisting you with migrating your apps from one framework to another or integrating them for better functionality.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
