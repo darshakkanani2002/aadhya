@@ -83,7 +83,7 @@ export default function AppDevelopProcess() {
                             <div className='app-delop-process-text'>
                                 <div className='app-develop-process-content'>
                                     <h2>Understanding Requirements</h2>
-                                    <p>This stage helps us understand client's perspective and end goals.</p>
+                                    <p>This stage helps us understand client's perspective and end goals of our application.</p>
                                 </div>
                             </div>
                             <div className='app-develop-process-border'>

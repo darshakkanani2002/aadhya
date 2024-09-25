@@ -599,4 +599,8 @@
         top: 115px;
         width: 13px;
     }
+
+    .br-tag-display {
+        display: block;
+    }
 }
