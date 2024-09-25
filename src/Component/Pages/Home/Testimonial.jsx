@@ -124,7 +124,7 @@ export default function Testimonial() {
                     </button>
                 </div>
                 <div className="section-title three text-animation row">
-                    <div className='about-our-company col-lg-12 our-solution-style-1 text-center mb-5' data-aos="flip-up" >
+                    <div className='about-our-company col-lg-12 our-solution-style-1 text-center mb-5' >
                         <h2 className='text-lg-start text-md-center text-center new-work-text testimonial-before'>Testimonials</h2>
                     </div>
                 </div>

@@ -537,6 +537,21 @@
     min-height: 650px;
 }
 
+.slick-next,
+.slick-prev {
+    background-color: #000;
+    z-index: 10;
+    display: none !important;
+}
+
+.slick-prev {
+    left: -11px;
+}
+
+.slick-next {
+    right: -11px;
+}
+
 @media (max-width:1340px) {
     .app-develop-process-content::after {
         background-color: #f2bcab;
@@ -565,6 +580,13 @@
 
     .br-tag-display {
         display: none;
+    }
+
+    .slick-next,
+    .slick-prev {
+        background-color: #000;
+        z-index: 10;
+        display: block !important;
     }
 }
 

@@ -3,14 +3,13 @@ import './AppDevelopmet.css'
 import Slider from "react-slick";
 export default function AppDevelopProcess() {
     var settings = {
-        dots: true,
         infinite: true,
+        dots: false,
         speed: 500,
         slidesToShow: 6,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         initialSlide: 0,
-        autoplay: false,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 3000,
         responsive: [
             {
                 breakpoint: 1640,
@@ -18,7 +17,7 @@ export default function AppDevelopProcess() {
                     slidesToShow: 5,
                     slidesToScroll: 2,
                     infinite: true,
-                    dots: true
+                    autoplay: true,
                 }
             },
             {
@@ -27,7 +26,7 @@ export default function AppDevelopProcess() {
                     slidesToShow: 4,
                     slidesToScroll: 2,
                     infinite: true,
-                    dots: true
+                    autoplay: true,
                 }
             },
             {
@@ -36,7 +35,7 @@ export default function AppDevelopProcess() {
                     slidesToShow: 3,
                     slidesToScroll: 2,
                     infinite: true,
-                    dots: true
+                    autoplay: true,
                 }
             },
             {
@@ -45,7 +44,7 @@ export default function AppDevelopProcess() {
                     slidesToShow: 2,
                     slidesToScroll: 2,
                     infinite: true,
-                    dots: true
+                    autoplay: true,
                 }
             },
             {
@@ -53,7 +52,8 @@ export default function AppDevelopProcess() {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    initialSlide: 1
+                    initialSlide: 1,
+                    autoplay: true,
                 }
             },
             {
@@ -68,7 +68,7 @@ export default function AppDevelopProcess() {
     return (
         <div>
             <div className="slider-container mt-5">
-                <div className='container'>
+                <div className='container-fluid'>
                     <div className='row'>
                         <div className='col-12'>
                             <div className='text-center'>
@@ -82,7 +82,7 @@ export default function AppDevelopProcess() {
                         <div className='p-2 app-proccess-sec'>
                             <div className='app-delop-process-text'>
                                 <div className='app-develop-process-content'>
-                                    <h2>Understanding Requirements</h2>
+                                    <h2>Understanding <br className='br-tag-display' /> Requirements</h2>
                                     <p>This stage helps us understand client's perspective and end goals of our application.</p>
                                 </div>
                             </div>

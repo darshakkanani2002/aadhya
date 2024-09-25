@@ -38,10 +38,10 @@ export default function Our_Service() {
                     slidesPerView={3}
                     spaceBetween={30}
                     loop={true}
-                    // autoplay={{
-                    //     delay: 7000,
-                    //     disableOnInteraction: false,
-                    // }}
+                    autoplay={{
+                        delay: 7000,
+                        disableOnInteraction: false,
+                    }}
                     breakpoints={{
                         320: {
                             slidesPerView: 1,

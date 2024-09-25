@@ -2,6 +2,7 @@ import React from 'react'
 import './AppDevelopmet.css'
 import Slider from "react-slick";
 import AppDevelopProcess from './AppDevelopProcess';
+import Testimonial from '../../Home/Testimonial';
 
 export default function AppDevelopment() {
     var settings = {
@@ -402,6 +403,9 @@ export default function AppDevelopment() {
             <div className='container-fluid'>
                 <AppDevelopProcess></AppDevelopProcess>
             </div>
+
+            {/* Testimonial*/}
+            <Testimonial></Testimonial>
         </div>
     )
 }
