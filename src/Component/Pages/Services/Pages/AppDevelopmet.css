@@ -289,3 +289,310 @@
         font-size: 12px;
     }
 }
+
+/* App-develop-process section css*/
+/* App-develop-process section css*/
+.app-develop-process-content {
+    position: relative;
+}
+
+.app-develop-process-content h2 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: .02em;
+    line-height: 31px;
+    text-align: center;
+}
+
+.app-develop-process-content p {
+    color: #8d8d8d;
+    font-size: 11px;
+    font-weight: 400;
+    padding: 10px 0 8px;
+    text-align: center;
+}
+
+.app-develop-process-content::before {
+    background-color: #f2bcab;
+    border-radius: 50%;
+    content: "";
+    height: 13px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 135px;
+    width: 13px;
+}
+
+.app-develop-process-content::after {
+    background-color: #f2bcab;
+    content: "";
+    height: 65px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 145px;
+    width: 4px;
+}
+
+.app-delop-process-text {
+    position: relative;
+}
+
+.app-delop-process-text::after {
+    background-color: #fff;
+    border: 3px solid #fff;
+    border-color: #f2bcab;
+    border-radius: 50%;
+    bottom: calc(100% + 23px);
+    content: "";
+    height: 19px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    width: 19px;
+    z-index: 1;
+    bottom: -90px;
+}
+
+.app-develop-process-border {
+    border-left: 3px solid #f2bcab;
+    border-top: 3px solid #f2bcab;
+    border-right: 3px solid #f2bcab;
+    height: 100.3px;
+    margin-top: 79px;
+    border-radius: 150px 150px 0 0;
+    position: relative;
+}
+
+.app-develop-process-border::before {
+    border-radius: 50%;
+    content: "";
+    height: 13px;
+    position: absolute;
+    width: 13px;
+    bottom: -3px;
+    left: -8px;
+    background-color: #f2bcab;
+}
+
+.app-develop-process-border::after {
+    border-radius: 50%;
+    content: "";
+    height: 13px;
+    position: absolute;
+    width: 13px;
+    bottom: -3px;
+    right: -8px;
+    background-color: #f2bcab;
+}
+
+.app-process-circle {
+    background-color: #f2bcab;
+    height: 165px;
+    width: 165px;
+    display: flex;
+    margin: auto;
+    margin-top: 35px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    box-shadow: 2px 23px 32px -11px #07388278;
+}
+
+.proccess-img {
+    height: 75px;
+    width: 74px;
+    display: flex;
+    margin: auto;
+}
+
+
+.app-develop-process-content-2 {
+    position: relative;
+}
+
+.app-develop-process-content-2 h2 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: .02em;
+    line-height: 31px;
+    text-align: center;
+}
+
+.app-develop-process-content-2 p {
+    color: #8d8d8d;
+    font-size: 11px;
+    font-weight: 400;
+    padding: 10px 0 8px;
+    text-align: center;
+}
+
+.app-develop-process-content-2::after {
+    background-color: #f0c2d4;
+    border-radius: 50%;
+    content: "";
+    height: 13px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    bottom: 86px;
+    width: 13px;
+}
+
+.app-develop-process-content-2::before {
+    background-color: #f0c2d4;
+    content: "";
+    height: 65px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    bottom: 98px;
+    width: 4px;
+}
+
+.app-delop-process-text-2 {
+    position: relative;
+}
+
+.app-delop-process-text-2::before {
+    background-color: #fff;
+    border: 3px solid #fff;
+    border-color: #f0c2d4;
+    border-radius: 50%;
+    bottom: calc(100% + 23px);
+    content: "";
+    height: 19px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    width: 19px;
+    z-index: 1;
+    top: -140px;
+}
+
+.app-develop-process-border-2 {
+    border-left: 3px solid #f0c2d4;
+    border-bottom: 3px solid #f0c2d4;
+    border-right: 3px solid #f0c2d4;
+    height: 100.3px;
+    margin-bottom: 79px;
+    border-radius: 0px 0px 150px 150px;
+    position: relative;
+}
+
+.app-develop-process-border-2::before {
+    border-radius: 50%;
+    content: "";
+    height: 13px;
+    position: absolute;
+    width: 13px;
+    top: -3px;
+    left: -8px;
+    background-color: #f0c2d4;
+}
+
+.app-develop-process-border-2::after {
+    border-radius: 50%;
+    content: "";
+    height: 13px;
+    position: absolute;
+    width: 13px;
+    top: -3px;
+    right: -8px;
+    background-color: #f0c2d4;
+}
+
+.app-process-circle-2 {
+    background-color: #f0c2d4;
+    height: 165px;
+    width: 165px;
+    display: flex;
+    margin: auto;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    box-shadow: 2px -23px 32px -11px #07388278;
+    transform: translateY(-95px);
+}
+
+.proccess-img-2 {
+    height: 75px;
+    width: 74px;
+    display: flex;
+    margin: auto;
+}
+
+.app-process-bottom {
+    transform: translateY(325px);
+}
+
+.app-proccess-sec {
+    min-height: 650px;
+}
+
+@media (max-width:1340px) {
+    .app-develop-process-content::after {
+        background-color: #f2bcab;
+        content: "";
+        height: 65px;
+        left: 0;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        top: 96px;
+        width: 4px;
+    }
+
+    .app-develop-process-content::before {
+        background-color: #f2bcab;
+        border-radius: 50%;
+        content: "";
+        height: 13px;
+        left: 0;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        top: 85px;
+        width: 13px;
+    }
+}
+
+@media (max-width:767px) {
+    .app-process-bottom {
+        transform: translateY(160px);
+    }
+}
+
+@media (max-width:377px) {
+    .app-develop-process-content::after {
+        background-color: #f2bcab;
+        content: "";
+        height: 65px;
+        left: 0;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        top: 127px;
+        width: 4px;
+    }
+
+    .app-develop-process-content::before {
+        background-color: #f2bcab;
+        border-radius: 50%;
+        content: "";
+        height: 13px;
+        left: 0;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        top: 115px;
+        width: 13px;
+    }
+}
