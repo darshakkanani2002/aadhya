@@ -123,8 +123,8 @@ export default function AppDevelopment() {
 
             {/* App development solution section */}
             <div className='d-lg-block d-md-none d-none overflow-hidden'>
-                <div className='app-development-back'>
-                    <div className='container'>
+                <div className='app-development-back overflow-hidden'>
+                    <div className='container overflow-hidden'>
                         <div className='row'>
                             <div className='col-12'>
                                 <div className='text-center'>
