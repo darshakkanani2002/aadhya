@@ -122,7 +122,7 @@ export default function AppDevelopment() {
             </div>
 
             {/* App development solution section */}
-            <div className='d-lg-block d-md-none d-none'>
+            <div className='d-lg-block d-md-none d-none overflow-hidden'>
                 <div className='app-development-back'>
                     <div className='container'>
                         <div className='row'>
