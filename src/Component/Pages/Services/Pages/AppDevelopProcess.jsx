@@ -117,14 +117,14 @@ export default function AppDevelopProcess() {
                         <div className='p-2'>
                             <div className='app-delop-process-text'>
                                 <div className='app-develop-process-content'>
-                                    <h2>Understanding Requirements</h2>
-                                    <p>This stage helps us understand client's perspective and end goals.</p>
+                                    <h2>Using Right <br className='br-tag-display' />Technology</h2>
+                                    <p>Further, we select technology to use for app development which depends on the type of application.</p>
                                 </div>
                             </div>
                             <div className='app-develop-process-border'>
                                 <div className='app-process-img'>
                                     <div className='app-process-circle'>
-                                        <img src="/images/app-proccess-img-01.svg" alt="app-proccess-img-01" className='img-fluid proccess-img' />
+                                        <img src="/images/app-proccess-img-03.svg" alt="app-proccess-img-03" className='img-fluid proccess-img' />
                                     </div>
                                 </div>
                             </div>
@@ -135,14 +135,14 @@ export default function AppDevelopProcess() {
                             <div className='app-develop-process-border-2'>
                                 <div className='app-process-img-2'>
                                     <div className='app-process-circle-2'>
-                                        <img src="/images/app-proccess-img-02.svg" alt="app-proccess-img-02" className='img-fluid proccess-img-2' />
+                                        <img src="/images/app-proccess-img-06.svg" alt="app-proccess-img-06" className='img-fluid proccess-img-2' />
                                     </div>
                                 </div>
                             </div>
                             <div className='app-delop-process-text-2'>
                                 <div className='app-develop-process-content-2'>
-                                    <h2>Creating Strategies</h2>
-                                    <p>Various strategies are developed to deliver the project on time.</p>
+                                    <h2>Developing The App</h2>
+                                    <p>A team of developers works simultaneously on the coding and app</p>
                                 </div>
                             </div>
                         </div>
@@ -151,14 +151,14 @@ export default function AppDevelopProcess() {
                         <div className='p-2'>
                             <div className='app-delop-process-text'>
                                 <div className='app-develop-process-content'>
-                                    <h2>Understanding Requirements</h2>
-                                    <p>This stage helps us understand client's perspective and end goals.</p>
+                                    <h2>Testing <br className='br-tag-display' /> Phase</h2>
+                                    <p>Once the app is developed, it goes through a thorough testing process for bugs and errors.</p>
                                 </div>
                             </div>
                             <div className='app-develop-process-border'>
                                 <div className='app-process-img'>
                                     <div className='app-process-circle'>
-                                        <img src="/images/app-proccess-img-01.svg" alt="app-proccess-img-01" className='img-fluid proccess-img' />
+                                        <img src="/images/app-proccess-img-07.svg" alt="app-proccess-img-07" className='img-fluid proccess-img' />
                                     </div>
                                 </div>
                             </div>
@@ -169,14 +169,14 @@ export default function AppDevelopProcess() {
                             <div className='app-develop-process-border-2'>
                                 <div className='app-process-img-2'>
                                     <div className='app-process-circle-2'>
-                                        <img src="/images/app-proccess-img-02.svg" alt="app-proccess-img-02" className='img-fluid proccess-img-2' />
+                                        <img src="/images/app-proccess-img-08.svg" alt="app-proccess-img-08" className='img-fluid proccess-img-2' />
                                     </div>
                                 </div>
                             </div>
                             <div className='app-delop-process-text-2'>
                                 <div className='app-develop-process-content-2'>
-                                    <h2>Creating Strategies</h2>
-                                    <p>Various strategies are developed to deliver the project on time.</p>
+                                    <h2>Launching Project</h2>
+                                    <p>After successful testing, the project is delivered to the client.</p>
                                 </div>
                             </div>
                         </div>

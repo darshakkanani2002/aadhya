@@ -562,6 +562,10 @@
         top: 85px;
         width: 13px;
     }
+
+    .br-tag-display {
+        display: none;
+    }
 }
 
 @media (max-width:767px) {
