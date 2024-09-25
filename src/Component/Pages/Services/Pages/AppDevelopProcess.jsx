@@ -118,7 +118,7 @@ export default function AppDevelopProcess() {
                             <div className='app-delop-process-text'>
                                 <div className='app-develop-process-content'>
                                     <h2>Using Right <br className='br-tag-display' />Technology</h2>
-                                    <p>Further, we select technology to use for app development which depends on the type of application.</p>
+                                    <p>Further, we select technology to use for app development which depends on the type of apk.</p>
                                 </div>
                             </div>
                             <div className='app-develop-process-border'>
