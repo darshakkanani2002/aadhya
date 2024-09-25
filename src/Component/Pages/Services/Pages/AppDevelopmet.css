@@ -113,140 +113,83 @@
 .app-development-back-01 {
     background-color: #ffe4c2;
     border: 2px solid #fcd09a;
-    padding: 50px 20px 40px;
-    border-radius: 20px;
-    text-align: center;
-    transition: 0.3s;
 }
 
 .app-development-img-back-01 {
     background-color: #fcd09a;
-    display: inline-block;
-    padding: 20px;
-    border-radius: 15px;
-    transform: rotate(-16deg);
-    transition: 0.3s;
 }
 
 .app-development-back-02 {
     background-color: #e5dcff;
     border: 2px solid #d2c2ff;
-    padding: 50px 20px 40px;
-    border-radius: 20px;
-    text-align: center;
-    transition: 0.3s;
 }
 
 .app-development-img-back-02 {
     background-color: #d2c2ff;
-    display: inline-block;
-    padding: 20px;
-    border-radius: 15px;
-    transform: rotate(-16deg);
-    transition: 0.3s;
 }
 
 .app-development-back-03 {
     background-color: #ffd2e5;
     border: 2px solid #ffbeda;
-    padding: 50px 20px 40px;
-    border-radius: 20px;
-    text-align: center;
-    transition: 0.3s;
 }
 
 .app-development-img-back-03 {
     background-color: #ffbeda;
-    display: inline-block;
-    padding: 20px;
-    border-radius: 15px;
-    transform: rotate(-16deg);
-    transition: 0.3s;
 }
 
 .app-development-back-04 {
     background-color: #cfe9ff;
     border: 2px solid #b4dfff;
-    padding: 50px 20px 40px;
-    border-radius: 20px;
-    text-align: center;
-    transition: 0.3s;
 }
 
 .app-development-img-back-04 {
     background-color: #b4dfff;
-    display: inline-block;
-    padding: 20px;
-    border-radius: 15px;
-    transform: rotate(-16deg);
-    transition: 0.3s;
 }
 
 .app-development-back-05 {
     background-color: #bae9e4;
     border: 2px solid #addad5;
-    padding: 50px 20px 40px;
-    border-radius: 20px;
-    text-align: center;
-    transition: 0.3s;
 }
 
 .app-development-img-back-05 {
     background-color: #addad5;
-    display: inline-block;
-    padding: 20px;
-    border-radius: 15px;
-    transform: rotate(-16deg);
-    transition: 0.3s;
 }
 
 .app-development-back-06 {
     background: #fdeeb2;
     border: 2px solid #f2e19b;
-    padding: 50px 20px 40px;
-    border-radius: 20px;
-    text-align: center;
-    transition: 0.3s;
 }
 
 .app-development-img-back-06 {
     background-color: #f2e19b;
-    display: inline-block;
-    padding: 20px;
-    border-radius: 15px;
-    transform: rotate(-16deg);
-    transition: 0.3s;
 }
 
 .app-development-back-07 {
     background: #e3edb4;
     border: 2px solid #d6e395;
-    padding: 50px 20px 40px;
-    border-radius: 20px;
-    text-align: center;
-    transition: 0.3s;
 }
 
 .app-development-img-back-07 {
     background-color: #d6e395;
-    display: inline-block;
-    padding: 20px;
-    border-radius: 15px;
-    transform: rotate(-16deg);
-    transition: 0.3s;
 }
 
 .app-development-back-08 {
     background: #ffd6c9;
     border: 2px solid #f1c3b5;
+}
+
+.app-development-img-back-08 {
+    background-color: #f1c3b5;
+}
+
+.app-development {
     padding: 50px 20px 40px;
     border-radius: 20px;
     text-align: center;
     transition: 0.3s;
 }
 
-.app-development-img-back-08 {
-    background-color: #f1c3b5;
+.app-development-rotate {
     display: inline-block;
     padding: 20px;
     border-radius: 15px;
@@ -261,82 +204,12 @@
     transition: 0.3s;
 }
 
-.app-development-back-01:hover .app-development-img-back-01 {
+.app-development:hover .app-development-rotate {
     transform: rotate(0deg);
     transition: 0.3s;
 }
 
-.app-development-back-01:hover .app-development-img {
-    transform: rotate(0deg);
-    transition: 0.3s;
-}
-
-.app-development-back-02:hover .app-development-img-back-02 {
-    transform: rotate(0deg);
-    transition: 0.3s;
-}
-
-.app-development-back-02:hover .app-development-img {
-    transform: rotate(0deg);
-    transition: 0.3s;
-}
-
-.app-development-back-03:hover .app-development-img-back-03 {
-    transform: rotate(0deg);
-    transition: 0.3s;
-}
-
-.app-development-back-03:hover .app-development-img {
-    transform: rotate(0deg);
-    transition: 0.3s;
-}
-
-.app-development-back-04:hover .app-development-img-back-04 {
-    transform: rotate(0deg);
-    transition: 0.3s;
-}
-
-.app-development-back-04:hover .app-development-img {
-    transform: rotate(0deg);
-    transition: 0.3s;
-}
-
-.app-development-back-05:hover .app-development-img-back-05 {
-    transform: rotate(0deg);
-    transition: 0.3s;
-}
-
-.app-development-back-05:hover .app-development-img {
-    transform: rotate(0deg);
-    transition: 0.3s;
-}
-
-.app-development-back-06:hover .app-development-img-back-06 {
-    transform: rotate(0deg);
-    transition: 0.3s;
-}
-
-.app-development-back-06:hover .app-development-img {
-    transform: rotate(0deg);
-    transition: 0.3s;
-}
-
-.app-development-back-07:hover .app-development-img-back-07 {
-    transform: rotate(0deg);
-    transition: 0.3s;
-}
-
-.app-development-back-07:hover .app-development-img {
-    transform: rotate(0deg);
-    transition: 0.3s;
-}
-
-.app-development-back-08:hover .app-development-img-back-08 {
-    transform: rotate(0deg);
-    transition: 0.3s;
-}
-
-.app-development-back-08:hover .app-development-img {
+.app-development:hover .app-development-img {
     transform: rotate(0deg);
     transition: 0.3s;
 }
@@ -356,28 +229,14 @@
 
 @media (min-width:1399px) {
 
-    .app-development-back-01,
-    .app-development-back-02,
-    .app-development-back-03,
-    .app-development-back-04,
-    .app-development-back-05,
-    .app-development-back-06,
-    .app-development-back-07,
-    .app-development-back-08 {
+    .app-development {
         min-height: 499px;
     }
 }
 
 @media screen and (min-width:768px) and (max-width:1398px) {
 
-    .app-development-back-01,
-    .app-development-back-02,
-    .app-development-back-03,
-    .app-development-back-04,
-    .app-development-back-05,
-    .app-development-back-06,
-    .app-development-back-07,
-    .app-development-back-08 {
-        min-height: 560px;
+    .app-development {
+        min-height: 580px;
     }
 }

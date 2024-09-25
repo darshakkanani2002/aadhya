@@ -100,9 +100,9 @@ export default function AppDevelopment() {
                         <div className="row">
                             <div className="col-lg-4 col-md-6 col-12 mt-5">
                                 <div>
-                                    <div className='app-development-back-01'>
+                                    <div className='app-development-back-01 app-development'>
                                         <div>
-                                            <div className='app-development-img-back-01'>
+                                            <div className='app-development-img-back-01 app-development-rotate'>
                                                 <img src="/images/app-develop-img-01.gif" alt="app-develop-img-01" className='app-development-img' />
                                             </div>
                                             <div className="app-develop-content mt-5">
@@ -115,9 +115,9 @@ export default function AppDevelopment() {
                             </div>
                             <div className="col-lg-4 col-md-6 col-12 mt-5">
                                 <div>
-                                    <div className='app-development-back-02'>
+                                    <div className='app-development-back-02 app-development'>
                                         <div>
-                                            <div className='app-development-img-back-02'>
+                                            <div className='app-development-img-back-02 app-development-rotate'>
                                                 <img src="/images/app-develop-img-02.gif" alt="app-develop-img-02" className='app-development-img' />
                                             </div>
                                             <div className="app-develop-content mt-5">
@@ -130,8 +130,8 @@ export default function AppDevelopment() {
                             </div>
                             <div className="col-lg-4 col-md-6 col-12 mt-5">
                                 <div>
-                                    <div className='app-development-back-03'>
-                                        <div className='app-development-img-back-03'>
+                                    <div className='app-development-back-03 app-development'>
+                                        <div className='app-development-img-back-03 app-development-rotate'>
                                             <img src="/images/app-develop-img-03.gif" alt="app-develop-img-03" className='app-development-img' />
                                         </div>
                                         <div className="app-develop-content mt-5">
@@ -144,8 +144,8 @@ export default function AppDevelopment() {
 
                             <div className="col-lg-4 col-md-6 col-12 mt-5">
                                 <div>
-                                    <div className='app-development-back-04'>
-                                        <div className='app-development-img-back-04'>
+                                    <div className='app-development-back-04 app-development'>
+                                        <div className='app-development-img-back-04 app-development-rotate'>
                                             <img src="/images/app-develop-img-04.gif" alt="app-develop-img-04" className='app-development-img' />
                                         </div>
                                         <div className="app-develop-content mt-5">
@@ -158,8 +158,8 @@ export default function AppDevelopment() {
 
                             <div className="col-lg-4 col-md-6 col-12 mt-5">
                                 <div>
-                                    <div className='app-development-back-05'>
-                                        <div className='app-development-img-back-05'>
+                                    <div className='app-development-back-05 app-development'>
+                                        <div className='app-development-img-back-05 app-development-rotate'>
                                             <img src="/images/app-develop-img-05.gif" alt="app-develop-img-05" className='app-development-img' />
                                         </div>
                                         <div className="app-develop-content mt-5">
@@ -172,8 +172,8 @@ export default function AppDevelopment() {
 
                             <div className="col-lg-4 col-md-6 col-12 mt-5">
                                 <div>
-                                    <div className='app-development-back-06'>
-                                        <div className='app-development-img-back-06'>
+                                    <div className='app-development-back-06 app-development'>
+                                        <div className='app-development-img-back-06 app-development-rotate'>
                                             <img src="/images/app-develop-img-06.gif" alt="app-develop-img-06" className='app-development-img' />
                                         </div>
                                         <div className="app-develop-content mt-5">
@@ -188,8 +188,8 @@ export default function AppDevelopment() {
                         <div className='row justify-content-center'>
                             <div className="col-lg-4 col-md-6 col-12 mt-5">
                                 <div>
-                                    <div className='app-development-back-07'>
-                                        <div className='app-development-img-back-07'>
+                                    <div className='app-development-back-07 app-development'>
+                                        <div className='app-development-img-back-07 app-development-rotate'>
                                             <img src="/images/app-develop-img-07.gif" alt="app-develop-img-07" className='app-development-img' />
                                         </div>
                                         <div className="app-develop-content mt-5">
@@ -201,8 +201,8 @@ export default function AppDevelopment() {
                             </div>
                             <div className="col-lg-4 col-md-6 col-12 mt-5">
                                 <div>
-                                    <div className='app-development-back-08'>
-                                        <div className='app-development-img-back-08'>
+                                    <div className='app-development-back-08 app-development'>
+                                        <div className='app-development-img-back-08 app-development-rotate'>
                                             <img src="/images/app-develop-img-08.gif" alt="app-develop-img-08" className='app-development-img' />
                                         </div>
                                         <div className="app-develop-content mt-5">
