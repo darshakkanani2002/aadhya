@@ -238,7 +238,15 @@
 
 @media screen and (min-width:768px) and (max-width:1398px) {
     .app-development {
-        min-height: 580px;
+        min-height: 465px;
+    }
+
+    .app-develop-content h4 {
+        font-size: 18px;
+    }
+
+    .app-develop-content p {
+        font-size: 14px;
     }
 }
 
