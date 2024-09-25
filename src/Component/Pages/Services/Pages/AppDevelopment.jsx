@@ -41,7 +41,7 @@ export default function AppDevelopment() {
         ]
     };
     return (
-        <div className='padding-top-135'>
+        <div className='padding-top-135 overflow-hidden'>
             <div className='app-hero-back'>
                 <div className='container'>
                     <div className='row align-items-center'>
@@ -122,7 +122,7 @@ export default function AppDevelopment() {
             </div>
 
             {/* App development solution section */}
-            <div className='d-lg-block d-md-block d-block overflow-hidden'>
+            <div className='d-lg-block d-md-none d-none overflow-hidden'>
                 <div className='app-development-back overflow-hidden'>
                     <div className='container overflow-hidden'>
                         <div className='row'>
@@ -255,7 +255,7 @@ export default function AppDevelopment() {
                 </div>
             </div>
             {/* for media query */}
-            <div className='d-lg-none d-md-none d-none'>
+            <div className='d-lg-none d-md-block d-block'>
                 <div className='app-development-back'>
                     <div className='container position-relative'>
                         <div className='container'>
