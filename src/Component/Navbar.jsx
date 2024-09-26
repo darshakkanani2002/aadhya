@@ -37,8 +37,8 @@ export default function Navbar() {
                                         </Link>
                                         <ul className="dropdown-menu nav-sub-menu py-0" aria-labelledby="servicesDropdown">
                                             <li><Link to='/app' className="dropdown-item">App Development</Link></li>
-                                            <li><Link className="dropdown-item" href="#">Game Development</Link></li>
-                                            <li><Link className="dropdown-item" href="#">Web Development</Link></li>
+                                            <li><Link to='/game' className="dropdown-item">Game Development</Link></li>
+                                            <li><Link className="dropdown-item">Web Development</Link></li>
                                         </ul>
                                     </li>
                                     <li className="nav-item dropdown d-flex align-items-center">
@@ -53,7 +53,7 @@ export default function Navbar() {
                                         <a className="nav-link" href="blog.html" data-section="blog">Portfolio</a>
                                     </li>
                                     <li className="nav-item d-flex align-items-center">
-                                        <a className="nav-link text-nowrap" href="./contact.html" data-section="contact">Contact Us</a>
+                                        <Link to='/contact' className={`nav-link text-nowrap ${activeLink === '/contact' ? 'active' : ''}`} onClick={() => setActiveLink('/contact')} data-section="contact">Contact Us</Link>
                                     </li>
                                 </ul>
                                 <div className="p-1 nav-contact-button mt-3 mt-lg-0" role="search">

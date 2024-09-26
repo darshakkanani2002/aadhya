@@ -1,0 +1,101 @@
+.game-hero-img-02 {
+    animation: left-right 2s linear infinite;
+    position: absolute;
+    right: 28%;
+    top: 11%;
+    z-index: 1;
+}
+
+.game-hero-img-03 {
+    animation: up-down-two 2s linear infinite;
+    left: 39%;
+    position: absolute;
+    top: -1%;
+}
+
+.game-hero-img-04 {
+    animation: roted 8s linear infinite;
+    position: absolute;
+    right: 43.5%;
+    top: 38.6%;
+}
+@media screen and (min-width:1400px) and (max-width:1500px) {
+    .game-hero-img-02 {
+        height: 75px;
+    }
+
+    .game-hero-img-03 {
+        height: 167px;
+    }
+
+    .game-hero-img-04 {
+        right: 39%;
+        top: 38.6%;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1399px) {
+    .game-hero-img-02 {
+        height: 62px;
+    }
+
+    .game-hero-img-03 {
+        height: 141px;
+    }
+
+    .game-hero-img-04 {
+        right: 39%;
+        top: 38.6%;
+        height: 18px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .game-hero-img-02 {
+        height: 54px;
+    }
+
+    .game-hero-img-03 {
+        height: 120px;
+    }
+
+    .game-hero-img-04 {
+        right: 39%;
+        top: 38.6%;
+        height: 13px;
+    }
+}
+
+@keyframes left-right {
+
+    0%,
+    100% {
+        transform: translateX(-.2rem);
+    }
+
+    50% {
+        transform: translateX(.2rem);
+    }
+}
+
+@keyframes up-down-two {
+
+    0%,
+    100% {
+        transform: translateY(-.3rem);
+    }
+
+    50% {
+        transform: translateY(.2rem);
+    }
+}
+
+@keyframes roted {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(1turn);
+    }
+}

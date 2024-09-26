@@ -1,11 +1,8 @@
 import React from 'react'
 import './AppDevelopmet.css'
 import Slider from "react-slick";
-import AppDevelopProcess from './AppDevelopProcess';
-import Testimonial from '../../Home/Testimonial';
-import AppUpWork from './AppUpWork';
 
-export default function AppDevelopment() {
+export default function AppDevelopmentSolution() {
     var settings = {
         dots: true,
         infinite: true,
@@ -43,91 +40,7 @@ export default function AppDevelopment() {
         ]
     };
     return (
-        <div className='padding-top-89 overflow-hidden'>
-            <div className='app-hero-back'>
-                <div className='container'>
-                    <div className='row align-items-center'>
-                        <div className='col-lg-6'>
-                            <div className='app-hero-content'>
-                                <h1 className='fw-bold'>Mobile App Development <br></br>Company</h1>
-                                <p>We build dynamic, user-friendly, and engaging mobile applications.</p>
-                                <a className="hero-btn btn-white-color btn-animate " href="/quotation">Get a Quote</a>
-                            </div>
-                        </div>
-                        <div className='col-lg-6 px-1 d-lg-block d-md-none d-none'>
-                            <div className='position-relative'>
-                                <img src="/images/app-hero-01.svg" alt="app-hero-01" className='img-fluid app-hero-01' />
-                                <img src="/images/app-hero-search-img.svg" alt="app-hero-search-img" className='app-hero-search-img img-fluid' />
-                                <img src="/images/app-hero-lock-img.svg" alt="app-hero-lock-img" className='app-hero-lock-img img-fluid' />
-                                <img src="/images/app-hero-user-img.svg" alt="app-hero-user-img" className='app-hero-user-img img-fluid' />
-                            </div>
-                        </div>
-                        <div className='col-lg-6 d-lg-none d-md-block d-block'>
-                            <div className='position-relative pt-lg-0 pt-md-5 pt-5'>
-                                <img src="/images/app-hero-02.svg" alt="app-hero-02" className='img-fluid app-hero-01' />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {/* Upwork Section */}
-            <div className='app-main-upwork appupwork-media'>
-                <div className='app-upwork-box'>
-                    <div className='container'>
-                        <div className='row'>
-                            <div className='col-lg-3 col-md-6 col-12 mt-lg-0 mt-md-4 mt-4'>
-                                <div className='d-flex align-items-center justify-content-center app-upwork-img'>
-                                    <div>
-                                        <img src="/images/app-upwork-img-01.svg" alt="app-upwork-img-01" />
-                                    </div>
-                                    <div className='app-upwork-content ms-4'>
-                                        <p className='mb-0'>10+ Years in  </p>
-                                        <p className='mb-0'>  Industry</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='col-lg-3 col-md-6 col-12 mt-lg-0 mt-md-4 mt-4'>
-                                <div className='d-flex align-items-center justify-content-center app-upwork-img'>
-                                    <div>
-                                        <img src="/images/app-upwork-img-02.svg" alt="app-upwork-img-02" />
-                                    </div>
-                                    <div className='app-upwork-content ms-4'>
-                                        <p className='mb-0'>2x Growth Rate  </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='col-lg-3 col-md-6 col-12 mt-lg-0 mt-md-4 mt-4'>
-                                <div className='d-flex align-items-center justify-content-center app-upwork-img'>
-                                    <div>
-                                        <img src="/images/app-upwork-img-03.svg" alt="app-upwork-img-03" className='img-fluid' width='91' height='66' />
-                                    </div>
-                                    <div className='app-upwork-content ms-4'>
-                                        <p className='mb-0'>300+ Exports  </p>
-                                        <p className='mb-0'> Professionals</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='col-lg-3 col-md-6 col-12 mt-lg-0 mt-md-4 mt-4'>
-                                <div className='d-flex align-items-center justify-content-center'>
-                                    <div>
-                                        <img src="/images/app-upwork-img-04.svg" alt="app-upwork-img-04" />
-                                    </div>
-                                    <div className='app-upwork-content ms-4'>
-                                        <p className='mb-0'>789+ Projects  </p>
-                                        <p className='mb-0'>  Delivered</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div className='appupwork-slider-media'>
-                <AppUpWork></AppUpWork>
-            </div>
-
-            {/* App development solution section */}
+        <div>
             <div>
                 <div className='d-lg-block d-md-none d-none overflow-hidden'>
                     <div className='app-development-back overflow-hidden'>
@@ -403,14 +316,6 @@ export default function AppDevelopment() {
                     </div>
                 </div>
             </div>
-
-            {/* App Develop Process Section */}
-            <div className='container-fluid'>
-                <AppDevelopProcess></AppDevelopProcess>
-            </div>
-
-            {/* Testimonial*/}
-            <Testimonial></Testimonial>
         </div>
     )
 }

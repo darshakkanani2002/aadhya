@@ -3009,3 +3009,98 @@ footer .menu-container ul li a:hover svg {
   transform: rotate(0deg);
   transition: 0.3s;
 }
+
+
+/* ------------------*/
+/* Contact Page css */
+/*-----------------*/
+.contact-hero {
+  background: #eff3f8;
+  padding: 80px 0 70px;
+}
+
+.contact-hero-content h1 {
+  color: #000;
+  font-size: 45px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contact-hero-content p {
+  color: #717171;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.contact-form-back {
+  background-color: #eff3f8;
+  position: relative;
+}
+
+.contact-form-back::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 350px;
+  height: 100%;
+  background-color: #0093ed;
+}
+
+.contact-form-heading h2 span {
+  color: #0093ed;
+}
+
+.contact-us-send-btn {
+  width: 100%;
+  border: none;
+  padding: 12px 24px 12px 24px;
+  font-size: 16px;
+  font-weight: 700;
+  background: #0093ed;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.contact-img {
+  filter: brightness(0) saturate(100%) invert(2%) sepia(6%) saturate(7%) hue-rotate(314deg) brightness(90%) contrast(82%);
+  height: 50px;
+  width: 50px;
+}
+
+
+
+.contact-us-map {
+  max-width: 545px !important;
+  min-height: 700px !important;
+}
+
+@media (max-width:425px) {
+  .contact-hero-content h1 {
+    font-size: 32px;
+  }
+
+  .contact-hero-content p {
+    font-size: 12px;
+  }
+
+  .contact-us-lable {
+    font-size: 13px;
+  }
+
+  .contact-img-contant h6 {
+    font-size: 15px;
+  }
+
+  .contact-img-contant p {
+    font-size: 13px;
+  }
+
+}
+
+@media (max-width:992px) {
+  .contact-form-back::after {
+    display: none;
+  }
+
+}

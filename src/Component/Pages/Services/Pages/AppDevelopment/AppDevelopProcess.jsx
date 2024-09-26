@@ -72,7 +72,7 @@ export default function AppDevelopProcess() {
                     <div className='row'>
                         <div className='col-12'>
                             <div className='text-center'>
-                                <h2 className='fw-bold app-heding-before'>App Development Process</h2>
+                                <h2 className='fw-bold app-heding-before'>Development Process</h2>
                             </div>
                         </div>
                     </div>
