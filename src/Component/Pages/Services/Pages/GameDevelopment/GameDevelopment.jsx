@@ -35,26 +35,27 @@ export default function GameDevelopment() {
                         </div>
                     </div>
                 </div>
-            </div>
 
-            {/* Upwork section */}
-            <div>
-                <AppUpWork></AppUpWork>
-            </div>
 
-            {/* Game Development section */}
-            <div>
-                <AppDevelopmentSolution></AppDevelopmentSolution>
-            </div>
+                {/* Upwork section */}
+                <div>
+                    <AppUpWork></AppUpWork>
+                </div>
 
-            {/* Game Develop process Section */}
-            <div>
-                <AppDevelopProcess></AppDevelopProcess>
-            </div>
+                {/* Game Development section */}
+                <div>
+                    <AppDevelopmentSolution></AppDevelopmentSolution>
+                </div>
 
-            {/* Testimonial Section */}
-            <div>
-                <Testimonial></Testimonial>
+                {/* Game Develop process Section */}
+                <div>
+                    <AppDevelopProcess></AppDevelopProcess>
+                </div>
+
+                {/* Testimonial Section */}
+                <div>
+                    <Testimonial></Testimonial>
+                </div>
             </div>
         </div>
     )
