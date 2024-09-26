@@ -565,7 +565,7 @@
 
 .slick-next,
 .slick-prev {
-    background-color: #000;
+    background-color: #0093ed !important;
     z-index: 10;
     height: 28px;
     width: 28px;
@@ -775,5 +775,5 @@
 .slick-prev:hover {
     color: transparent;
     outline: 0;
-    background: #0093ed;
+    background: #0093ed !important;
 }

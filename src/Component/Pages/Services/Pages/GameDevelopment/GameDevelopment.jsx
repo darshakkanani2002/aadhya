@@ -1,4 +1,5 @@
 import React from 'react'
+import '../AppDevelopment/AppDevelopmet.css'
 import './GameDevelopment.css'
 import AppUpWork from '../AppDevelopment/AppUpWork'
 import AppDevelopmentSolution from '../AppDevelopment/AppDevelopmentSolution'
