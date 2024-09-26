@@ -139,13 +139,13 @@ export default function Testimonial() {
                         // navigation={{
                         //     clickable: true,
                         // }}
-                        autoplay={{
-                            delay: 2500,
-                            disableOnInteraction: false,
-                        }}
+                        // autoplay={{
+                        //     delay: 2500,
+                        //     disableOnInteraction: false,
+                        // }}
                         breakpoints={{
                             // When the window is >= 320px (small screens)
-                            320: {
+                            0: {
                                 slidesPerView: 1,
                                 spaceBetween: 10,
                             },
@@ -178,12 +178,12 @@ export default function Testimonial() {
                     >
                         <SwiperSlide>
                             <div className='p-3 mb-85'>
-                                <div className='testimonial-sec p-4 text-center'>
+                                <div className='testimonial-sec p-lg-4 p-md-4 p-sm-4 p-0 text-center'>
                                     <div>
                                         <div className='text-center mb-4'>
                                             <img src="/images/img_testimonial_02.png" alt="img_testimonial_02" />
                                         </div>
-                                        <div>
+                                        <div className='testimonial-content'>
                                             <div className='mb-2'>
                                                 <h5 className='mb-0'>Rohan Singh</h5>
                                                 <span className='testimonial-post-text mb-5'>CEO at astra.com</span>
@@ -199,7 +199,7 @@ export default function Testimonial() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='p-3 mb-85'>
-                                <div className='testimonial-sec p-4 text-center'>
+                                <div className='testimonial-sec p-lg-4 p-md-4 p-sm-4 p-0 text-center'>
                                     <div>
                                         <div className='text-center mb-4'>
                                             <img src="/images/img_testimonial_03.png" alt="img_testimonial_03" />
@@ -220,7 +220,7 @@ export default function Testimonial() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='p-3 mb-85'>
-                                <div className='testimonial-sec p-4 text-center'>
+                                <div className='testimonial-sec p-lg-4 p-md-4 p-sm-4 p-0 text-center'>
                                     <div>
                                         <div className='text-center mb-4'>
                                             <img src="/images/img_testimonial_04.png" alt="img_testimonial_04" />
@@ -241,7 +241,7 @@ export default function Testimonial() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='p-3 mb-85'>
-                                <div className='testimonial-sec p-4 text-center'>
+                                <div className='testimonial-sec p-lg-4 p-md-4 p-sm-4 p-0 text-center'>
                                     <div>
                                         <div className='text-center mb-4'>
                                             <img src="/images/img_testimonial_05.png" alt="img_testimonial_05" />

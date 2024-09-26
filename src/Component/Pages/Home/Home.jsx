@@ -38,8 +38,8 @@ export default function Home() {
                         <div className='col-xxl-8 col-xl-7 col-lg-7 d-lg-flex d-block align-items-center'>
                             <div className='banner-content-wrap'>
                                 <h1 className="text-animation2">We Compose <span>Software</span> Masterpieces</h1>
-                                <div className='banner-content'>
-                                    <div className='vector-and-review  text-animation'>
+                                <div className='banner-content d-lg-flex d-md-block d-block'>
+                                    <div className='vector-and-review  text-animation d-lg-block d-md-flex d-flex justify-content-lg-start justify-content-md-center justify-content-center'>
                                         <div>
                                             <div className='hero-vector'>
                                                 <i className="fa-solid fa-arrow-right-long d-lg-block d-none"></i>
@@ -61,17 +61,18 @@ export default function Home() {
                                                     </ul>
                                                     <span>(50 Review)</span>
                                                 </div>
-                                            </a></div>
+                                            </a>
+                                        </div>
                                     </div>
                                     <div className="content-and-btn text-animation" style={{ perspective: "400px" }}>
-                                        <div className='hero-banner-review-text'>
+                                        <div className='hero-banner-review-text  d-lg-block d-md-flex d-flex justify-content-lg-start justify-content-md-center justify-content-center'>
                                             <p style={{ perspective: "400px" }} data-aos="fade-up">
                                                 <div className='hero-banner-review-text'>Axleo is a business that provides services related to online </div>
                                                 <div className='hero-banner-review-text'><span>marketing,web development, design,</span>  and other digital </div>
                                                 <div className='hero-banner-review-text' s>solutions clients.</div>
                                             </p>
                                         </div>
-                                        <div className='hero-banner-review-text' s>
+                                        <div className='hero-banner-review-text  d-lg-block d-md-flex d-flex justify-content-lg-start justify-content-md-center justify-content-center'>
                                             <div className="banner-btn">
                                                 <a className='hero-button-hover text-decoration-none' href="http://+990737621432" target="_blank" rel="nofollow">
                                                     <span className="icon"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">

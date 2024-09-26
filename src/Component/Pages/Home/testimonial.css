@@ -109,3 +109,13 @@
     background-color: #0093ed;
     transform: translateX(-50%);
 }
+
+@media (max-width:425px) {
+    .testimonial-content p {
+        font-size: 14px;
+    }
+
+    .testimonial-content img {
+        width: 165px;
+    }
+}

@@ -3,6 +3,7 @@ import './AppDevelopmet.css'
 import Slider from "react-slick";
 import AppDevelopProcess from './AppDevelopProcess';
 import Testimonial from '../../Home/Testimonial';
+import AppUpWork from './AppUpWork';
 
 export default function AppDevelopment() {
     var settings = {
@@ -70,7 +71,7 @@ export default function AppDevelopment() {
                 </div>
             </div>
             {/* Upwork Section */}
-            <div className='app-main-upwork'>
+            <div className='app-main-upwork appupwork-media'>
                 <div className='app-upwork-box'>
                     <div className='container'>
                         <div className='row'>
@@ -120,6 +121,10 @@ export default function AppDevelopment() {
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div className='appupwork-slider-media'>
+                <AppUpWork></AppUpWork>
             </div>
 
             {/* App development solution section */}
