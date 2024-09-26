@@ -626,3 +626,89 @@
         display: block;
     }
 }
+
+.app-delop-process-text-blue::after {
+    border-color: #bad1ea;
+}
+
+.app-process-border-blue {
+    border-color: #bad1ea;
+}
+
+.app-process-border-blue::before {
+    background-color: #bad1ea;
+}
+
+.app-process-border-blue::after {
+    background-color: #bad1ea;
+}
+
+
+.app-process-circle-blue {
+    background-color: #bad1ea;
+}
+
+.app-develop-process-content-blue::before {
+    background-color: #bad1ea;
+}
+
+.app-develop-process-content-blue::after {
+    background-color: #bad1ea;
+}
+
+.app-develop-process-border-green {
+    border-color: #dce8a1;
+}
+
+.app-develop-process-border-green::before {
+    background-color: #dce8a1;
+}
+
+.app-develop-process-border-green::after {
+    background-color: #dce8a1;
+}
+
+.app-develop-process-circle-green {
+    background-color: #dce8a1;
+}
+
+.app-delop-process-text-green::before {
+    border-color: #dce8a1;
+}
+
+.app-develop-process-content-green::before {
+    background-color: #dce8a1;
+}
+
+.app-develop-process-content-green::after {
+    background-color: #dce8a1;
+}
+
+
+.app-develop-process-border-yellow {
+    border-color: #f6e396;
+}
+
+.app-develop-process-border-yellow::before {
+    background-color: #f6e396;
+}
+
+.app-develop-process-border-yellow::after {
+    background-color: #f6e396;
+}
+
+.app-process-circle-yellow {
+    background-color: #f6e396;
+}
+
+.app-delop-process-text-yellow::after {
+    border-color: #f6e396;
+}
+
+.app-develop-process-content-yellow::before {
+    background-color: #f6e396;
+}
+
+.app-develop-process-content-yellow::after {
+    background-color: #f6e396;
+}

@@ -115,15 +115,15 @@ export default function AppDevelopProcess() {
                     </div>
                     <div>
                         <div className='p-2'>
-                            <div className='app-delop-process-text'>
-                                <div className='app-develop-process-content'>
+                            <div className='app-delop-process-text app-delop-process-text-blue'>
+                                <div className='app-develop-process-content app-develop-process-content-blue'>
                                     <h2>Using Right <br className='br-tag-display' />Technology</h2>
                                     <p>Further, we select technology to use for app development which depends on the type of apk.</p>
                                 </div>
                             </div>
-                            <div className='app-develop-process-border'>
+                            <div className='app-develop-process-border app-process-border-blue'>
                                 <div className='app-process-img'>
-                                    <div className='app-process-circle'>
+                                    <div className='app-process-circle app-process-circle-blue'>
                                         <img src="/images/app-proccess-img-03.svg" alt="app-proccess-img-03" className='img-fluid proccess-img' />
                                     </div>
                                 </div>
@@ -132,15 +132,15 @@ export default function AppDevelopProcess() {
                     </div>
                     <div>
                         <div className='p-2 app-process-bottom'>
-                            <div className='app-develop-process-border-2'>
+                            <div className='app-develop-process-border-2 app-develop-process-border-green'>
                                 <div className='app-process-img-2'>
-                                    <div className='app-process-circle-2'>
+                                    <div className='app-process-circle-2 app-develop-process-circle-green'>
                                         <img src="/images/app-proccess-img-06.svg" alt="app-proccess-img-06" className='img-fluid proccess-img-2' />
                                     </div>
                                 </div>
                             </div>
-                            <div className='app-delop-process-text-2'>
-                                <div className='app-develop-process-content-2'>
+                            <div className='app-delop-process-text-2 app-delop-process-text-green'>
+                                <div className='app-develop-process-content-2 app-develop-process-content-green'>
                                     <h2>Developing The App</h2>
                                     <p>A team of developers works simultaneously on the coding and app</p>
                                 </div>
@@ -149,15 +149,15 @@ export default function AppDevelopProcess() {
                     </div>
                     <div>
                         <div className='p-2'>
-                            <div className='app-delop-process-text'>
-                                <div className='app-develop-process-content'>
+                            <div className='app-delop-process-text app-delop-process-text-yellow'>
+                                <div className='app-develop-process-content app-develop-process-content-yellow'>
                                     <h2>Testing <br className='br-tag-display' /> Phase</h2>
                                     <p>Once the app is developed, it goes through a thorough testing process for bugs and errors.</p>
                                 </div>
                             </div>
-                            <div className='app-develop-process-border'>
+                            <div className='app-develop-process-border app-develop-process-border-yellow'>
                                 <div className='app-process-img'>
-                                    <div className='app-process-circle'>
+                                    <div className='app-process-circle app-process-circle-yellow'>
                                         <img src="/images/app-proccess-img-07.svg" alt="app-proccess-img-07" className='img-fluid proccess-img' />
                                     </div>
                                 </div>
