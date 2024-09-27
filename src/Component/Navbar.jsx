@@ -45,7 +45,7 @@ export default function Navbar() {
                                         <Link to='/technology' className={`nav-link ${activeLink === '/technology' ? 'active' : ''}`} onClick={() => setActiveLink('/technology')} >Technologies</Link>
                                     </li>
                                     <li className="nav-item d-flex align-items-center">
-                                        <a className="nav-link" href="blog.html" data-section="blog">Portfolio</a>
+                                        <Link to='/portfolio' className={`nav-link ${activeLink === '/portfolio' ? 'active' : ''}`} onClick={() => setActiveLink('/portfolio')} data-section="blog">Portfolio</Link>
                                     </li>
                                     <li className="nav-item d-flex align-items-center">
                                         <Link to='/contact' className={`nav-link text-nowrap ${activeLink === '/contact' ? 'active' : ''}`} onClick={() => setActiveLink('/contact')} data-section="contact">Contact Us</Link>

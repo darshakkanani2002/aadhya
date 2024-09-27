@@ -862,6 +862,7 @@ export default function About_Us() {
                     </div>
                 </div>
             </div>
+            
             {/* We Used Technology Section */}
             <div>
                 <div>
