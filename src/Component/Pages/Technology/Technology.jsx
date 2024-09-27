@@ -20,7 +20,7 @@ export default function Technology() {
                             </div>
                             <div className='col-lg-6 px-1 d-lg-block d-md-none d-none'>
                                 <div className='position-relative'>
-                                    <img src="/images/techonology-hero-img-01.svg" alt="techonology-hero-img-01" className='img-fluid app-hero-01' />
+                                    <img src="/images/techonology-hero-img-01.svg" alt="techonology-hero-img-01" className='img-fluid app-hero-01 w-100' />
                                     <img src="/images/techonology-hero-img-02.svg" alt="techonology-hero-img-02" className='technology-hero-img-02 img-fluid' />
                                     <img src="/images/techonology-hero-img-03.svg" alt="techonology-hero-img-03" className='technology-hero-img-03 img-fluid' />
                                 </div>
