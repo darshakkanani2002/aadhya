@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
@@ -8,11 +8,19 @@ import 'swiper/css/pagination';
 // import 'swiper/css/navigation';
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import AOS from 'aos';
 
 export default function Testimonial() {
     // Refs to control navigation
     const prevRef = useRef(null);
     const nextRef = useRef(null);
+
+    useEffect(() => {
+        AOS.init({
+            duration: 2000, // duration of the animations (default: 1000ms)
+            once: true, // whether animation should happen only once - while scrolling down
+        });
+    }, []);
     return (
         <div className='testimonial py-5 overflow-hidden'>
             <>
@@ -178,7 +186,7 @@ export default function Testimonial() {
                     >
                         <SwiperSlide>
                             <div className='p-3 mb-85'>
-                                <div className='testimonial-sec p-lg-4 p-md-4 p-sm-4 p-0 text-center'>
+                                <div className='testimonial-sec p-lg-4 p-md-4 p-sm-4 p-0 text-center' data-aos="zoom-in">
                                     <div>
                                         <div className='text-center mb-4'>
                                             <img src="/images/img_testimonial_02.png" alt="img_testimonial_02" />
@@ -199,7 +207,7 @@ export default function Testimonial() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='p-3 mb-85'>
-                                <div className='testimonial-sec p-lg-4 p-md-4 p-sm-4 p-0 text-center'>
+                                <div className='testimonial-sec p-lg-4 p-md-4 p-sm-4 p-0 text-center' data-aos="zoom-in">
                                     <div>
                                         <div className='text-center mb-4'>
                                             <img src="/images/img_testimonial_03.png" alt="img_testimonial_03" />
@@ -220,7 +228,7 @@ export default function Testimonial() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='p-3 mb-85'>
-                                <div className='testimonial-sec p-lg-4 p-md-4 p-sm-4 p-0 text-center'>
+                                <div className='testimonial-sec p-lg-4 p-md-4 p-sm-4 p-0 text-center' data-aos="zoom-in">
                                     <div>
                                         <div className='text-center mb-4'>
                                             <img src="/images/img_testimonial_04.png" alt="img_testimonial_04" />
@@ -241,7 +249,7 @@ export default function Testimonial() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='p-3 mb-85'>
-                                <div className='testimonial-sec p-lg-4 p-md-4 p-sm-4 p-0 text-center'>
+                                <div className='testimonial-sec p-lg-4 p-md-4 p-sm-4 p-0 text-center' data-aos="zoom-in">
                                     <div>
                                         <div className='text-center mb-4'>
                                             <img src="/images/img_testimonial_05.png" alt="img_testimonial_05" />

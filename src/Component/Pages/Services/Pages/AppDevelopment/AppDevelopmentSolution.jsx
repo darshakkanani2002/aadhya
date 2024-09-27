@@ -1,8 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './AppDevelopmet.css'
 import Slider from "react-slick";
+import AOS from 'aos';
 
 export default function AppDevelopmentSolution() {
+    useEffect(() => {
+        AOS.init({
+            duration: 2000, // duration of the animations (default: 1000ms)
+            once: true, // whether animation should happen only once - while scrolling down
+        });
+    }, []);
     var settings = {
         dots: true,
         infinite: true,
@@ -56,7 +63,7 @@ export default function AppDevelopmentSolution() {
 
                         <div className='container'>
                             <div className="row">
-                                <div className="col-lg-4 col-md-6 col-12 mt-5">
+                                <div className="col-lg-4 col-md-6 col-12 mt-5" data-aos="zoom-in">
                                     <div>
                                         <div className='app-development-back-01 app-development'>
                                             <div>
@@ -71,7 +78,7 @@ export default function AppDevelopmentSolution() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-6 col-12 mt-5">
+                                <div className="col-lg-4 col-md-6 col-12 mt-5" data-aos="zoom-in">
                                     <div>
                                         <div className='app-development-back-02 app-development'>
                                             <div>
@@ -86,7 +93,7 @@ export default function AppDevelopmentSolution() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-6 col-12 mt-5">
+                                <div className="col-lg-4 col-md-6 col-12 mt-5" data-aos="zoom-in">
                                     <div className='app-development-back-03 app-development'>
                                         <div>
                                             <div className='app-development-img-back-03 app-development-rotate'>
@@ -100,7 +107,7 @@ export default function AppDevelopmentSolution() {
                                     </div>
                                 </div>
 
-                                <div className="col-lg-4 col-md-6 col-12 mt-5">
+                                <div className="col-lg-4 col-md-6 col-12 mt-5" data-aos="zoom-in">
                                     <div className='app-development-back-04 app-development'>
                                         <div>
                                             <div className='app-development-img-back-04 app-development-rotate'>
@@ -114,7 +121,7 @@ export default function AppDevelopmentSolution() {
                                     </div>
                                 </div>
 
-                                <div className="col-lg-4 col-md-6 col-12 mt-5">
+                                <div className="col-lg-4 col-md-6 col-12 mt-5" data-aos="zoom-in">
                                     <div className='app-development-back-05 app-development'>
                                         <div>
                                             <div className='app-development-img-back-05 app-development-rotate'>
@@ -128,7 +135,7 @@ export default function AppDevelopmentSolution() {
                                     </div>
                                 </div>
 
-                                <div className="col-lg-4 col-md-6 col-12 mt-5">
+                                <div className="col-lg-4 col-md-6 col-12 mt-5" data-aos="zoom-in">
                                     <div className='app-development-back-06 app-development'>
                                         <div>
                                             <div className='app-development-img-back-06 app-development-rotate'>
@@ -144,7 +151,7 @@ export default function AppDevelopmentSolution() {
                             </div>
 
                             <div className='row justify-content-center'>
-                                <div className="col-lg-4 col-md-6 col-12 mt-5">
+                                <div className="col-lg-4 col-md-6 col-12 mt-5" data-aos="zoom-in">
                                     <div className='app-development-back-07 app-development'>
                                         <div>
                                             <div className='app-development-img-back-07 app-development-rotate'>
@@ -157,7 +164,7 @@ export default function AppDevelopmentSolution() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-6 col-12 mt-5">
+                                <div className="col-lg-4 col-md-6 col-12 mt-5" data-aos="zoom-in">
                                     <div className='app-development-back-08 app-development'>
                                         <div>
                                             <div className='app-development-img-back-08 app-development-rotate'>
