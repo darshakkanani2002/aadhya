@@ -42,12 +42,7 @@ export default function Navbar() {
                                         </ul>
                                     </li>
                                     <li className="nav-item dropdown d-flex align-items-center">
-                                        <a className="nav-link" href="projects.html" data-section="project" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
-                                        <ul className="dropdown-menu nav-sub-menu py-0" aria-labelledby="servicesDropdown">
-                                            <li><a className="dropdown-item" href="#">Page Style 01</a></li>
-                                            <li><a className="dropdown-item" href="#">Page Style 02</a></li>
-                                            <li><a className="dropdown-item" href="#">Page Style 03</a></li>
-                                        </ul>
+                                        <Link to='/technology' className={`nav-link ${activeLink === '/technology' ? 'active' : ''}`} onClick={() => setActiveLink('/technology')} >Technologies</Link>
                                     </li>
                                     <li className="nav-item d-flex align-items-center">
                                         <a className="nav-link" href="blog.html" data-section="blog">Portfolio</a>
