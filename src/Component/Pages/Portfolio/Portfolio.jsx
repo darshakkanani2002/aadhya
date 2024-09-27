@@ -1,13 +1,6 @@
-import React, { useEffect } from 'react'
-import AOS from 'aos';
+import React from 'react'
 
 export default function Portfolio() {
-    useEffect(() => {
-        AOS.init({
-            duration: 2000, // duration of the animations (default: 1000ms)
-            once: true, // whether animation should happen only once - while scrolling down
-        });
-    }, []);
     return (
         <div>
             <div className='padding-top-89'>
@@ -36,7 +29,7 @@ export default function Portfolio() {
                         <div className="home2-portfolio-section">
                             <div className='container'>
                                 <div className="section-title three text-animation row">
-                                    <div className='about-our-company col-lg-12 our-solution-style-1 text-center mb-5' data-aos="flip-up" >
+                                    <div className='about-our-company col-lg-12 our-solution-style-1 text-center mb-5'>
                                         <h2 className='text-lg-start text-md-center text-center new-work-text heading-text-before'>Our Portfolio</h2>
                                     </div>
                                 </div>
