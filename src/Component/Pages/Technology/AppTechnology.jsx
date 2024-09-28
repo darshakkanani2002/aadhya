@@ -1,6 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos';
 
 export default function AppTechnology() {
+    useEffect(() => {
+        AOS.init({
+            duration: 2000, // duration of the animations (default: 1000ms)
+            once: true, // whether animation should happen only once - while scrolling down
+        });
+    }, []);
     return (
         <div>
             <div className='technology-mobile-back py-5 mt-1'>
@@ -38,7 +45,7 @@ export default function AppTechnology() {
                                                         <div className="tab-content" id="technologyTabContent">
                                                             <div className="tab-pane fade active show mt-5 pt-5" id="tech-Front-End" role="tabpanel" aria-labelledby="Front-End-tab">
                                                                 <div className="row g-4 align-items-end">
-                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                                             <div className="icon mb-3">
                                                                                 <img decoding="async" src="images/technology-app-front-img-01.svg" alt="technology-app-front-img-01" className='technology-img' />
@@ -46,7 +53,7 @@ export default function AppTechnology() {
                                                                             <span>Android Studio</span>
                                                                         </div>
                                                                     </div>
-                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                                             <div className="icon mb-3">
                                                                                 <img decoding="async" src="images/technology-app-front-img-02.svg" alt="technology-app-front-img-02.svg" className='technology-img' />
@@ -54,7 +61,7 @@ export default function AppTechnology() {
                                                                             <span>Xcode</span>
                                                                         </div>
                                                                     </div>
-                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                                             <div className="icon mb-3">
                                                                                 <img decoding="async" src="images/technology-app-front-img-03.svg" alt="technology-app-front-img-03.svg" className='technology-img' />
@@ -62,7 +69,7 @@ export default function AppTechnology() {
                                                                             <span>React Native</span>
                                                                         </div>
                                                                     </div>
-                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                                             <div className="icon mb-3">
                                                                                 <img decoding="async" src="images/technology-app-front-img-04.svg" alt="technology-app-front-img-04.svg" className='technology-img' />
@@ -70,7 +77,7 @@ export default function AppTechnology() {
                                                                             <span>Flutter</span>
                                                                         </div>
                                                                     </div>
-                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                                             <div className="icon mb-3">
                                                                                 <img decoding="async" src="images/technology-app-front-img-05.svg" alt="technology-app-front-img-04" className='technology-img' />
@@ -78,7 +85,7 @@ export default function AppTechnology() {
                                                                             <span>Kotlin</span>
                                                                         </div>
                                                                     </div>
-                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                                             <div className="icon mb-3">
                                                                                 <img decoding="async" src="images/technology-app-front-img-06.svg" alt="technology-app-front-img-04" className='technology-img' />
@@ -90,7 +97,7 @@ export default function AppTechnology() {
                                                             </div>
                                                             <div className="tab-pane fade mt-5 pt-5" id="tech-Back-End" role="tabpanel" aria-labelledby="Back-End-tab">
                                                                 <div className="row g-4 align-items-end">
-                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                                             <div className="icon mb-3">
                                                                                 <img decoding="async" src="images/technology-app-back-img-01.svg" alt="technology-app-back-img-01" className='technology-img' />
@@ -98,7 +105,7 @@ export default function AppTechnology() {
                                                                             <span>PHP</span>
                                                                         </div>
                                                                     </div>
-                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                                             <div className="icon mb-3">
                                                                                 <img decoding="async" src="images/technology-app-back-img-02.svg" alt="technology-app-back-img-02.svg" className='technology-img' />
@@ -106,7 +113,7 @@ export default function AppTechnology() {
                                                                             <span>Node.js</span>
                                                                         </div>
                                                                     </div>
-                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                                             <div className="icon mb-3">
                                                                                 <img decoding="async" src="images/technology-app-back-img-03.svg" alt="technology-app-back-img-03.svg" className='technology-img' />
@@ -114,7 +121,7 @@ export default function AppTechnology() {
                                                                             <span>Python</span>
                                                                         </div>
                                                                     </div>
-                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                                             <div className="icon mb-3">
                                                                                 <img decoding="async" src="images/technology-app-back-img-04.svg" alt="technology-app-back-img-04.svg" className='technology-img' />
@@ -122,7 +129,7 @@ export default function AppTechnology() {
                                                                             <span>Laravel</span>
                                                                         </div>
                                                                     </div>
-                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                                             <div className="icon mb-3">
                                                                                 <img decoding="async" src="images/technology-app-back-img-05.svg" alt="technology-app-back-img-04" className='technology-img' />
@@ -130,7 +137,7 @@ export default function AppTechnology() {
                                                                             <span>CodeIgniter</span>
                                                                         </div>
                                                                     </div>
-                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                                             <div className="icon mb-3">
                                                                                 <img decoding="async" src="images/technology-app-back-img-06.svg" alt="technology-app-back-img-04" className='technology-img' />
@@ -142,23 +149,23 @@ export default function AppTechnology() {
                                                             </div>
                                                             <div className="tab-pane fade mt-5 pt-5" id="tech-Mobile" role="tabpanel" aria-labelledby="Mobile-tab">
                                                                 <div className="row g-4 align-items-end">
-                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                                             <div className="icon">
                                                                                 <img decoding="async" src="images/technology-app-database-img-01.svg" alt="technology-app-database-img-01" className='technology-img' />
                                                                             </div>
-                                                                            <span>Android</span>
+                                                                            <span>MongoDB</span>
                                                                         </div>
                                                                     </div>
-                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                                             <div className="icon">
                                                                                 <img decoding="async" src="images/technology-app-database-img-02.svg" alt="technology-app-database-img-01" className='technology-img' />
                                                                             </div>
-                                                                            <span>Iso App</span>
+                                                                            <span>MySQL</span>
                                                                         </div>
                                                                     </div>
-                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                                             <div className="icon">
                                                                                 <img decoding="async" src="images/technology-app-database-img-03.svg" alt="technology-app-database-img-01" className='technology-img' />
@@ -166,28 +173,28 @@ export default function AppTechnology() {
                                                                             <span>Firebase</span>
                                                                         </div>
                                                                     </div>
-                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                                             <div className="icon">
                                                                                 <img decoding="async" src="images/technology-app-database-img-04.svg" alt="technology-app-database-img-04" className='technology-img' />
                                                                             </div>
-                                                                            <span>React Native</span>
+                                                                            <span>DynamoDB</span>
                                                                         </div>
                                                                     </div>
-                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                                             <div className="icon">
                                                                                 <img decoding="async" src="images/technology-app-database-img-05.svg" alt="technology-app-database-img-05" className='technology-img' />
                                                                             </div>
-                                                                            <span>Java</span>
+                                                                            <span>PostgreSQL</span>
                                                                         </div>
                                                                     </div>
-                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                                             <div className="icon">
                                                                                 <img decoding="async" src="images/technology-app-database-img-06.svg" alt="technology-app-database-img-06" className='technology-img' />
                                                                             </div>
-                                                                            <span>Kotlin</span>
+                                                                            <span>Room</span>
                                                                         </div>
                                                                     </div>
                                                                 </div>

@@ -186,7 +186,7 @@ export default function Testimonial() {
                     >
                         <SwiperSlide>
                             <div className='p-3 mb-85'>
-                                <div className='testimonial-sec p-lg-4 p-md-4 p-sm-4 p-0 text-center' data-aos="zoom-in">
+                                <div className='testimonial-sec p-lg-4 p-md-4 p-sm-4 p-0 text-center' data-aos="zoom-in" data-aos-delay="500">
                                     <div>
                                         <div className='text-center mb-4'>
                                             <img src="/images/img_testimonial_02.png" alt="img_testimonial_02" />
@@ -207,7 +207,7 @@ export default function Testimonial() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='p-3 mb-85'>
-                                <div className='testimonial-sec p-lg-4 p-md-4 p-sm-4 p-0 text-center' data-aos="zoom-in">
+                                <div className='testimonial-sec p-lg-4 p-md-4 p-sm-4 p-0 text-center' data-aos="zoom-in" data-aos-delay="500">
                                     <div>
                                         <div className='text-center mb-4'>
                                             <img src="/images/img_testimonial_03.png" alt="img_testimonial_03" />
@@ -228,7 +228,7 @@ export default function Testimonial() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='p-3 mb-85'>
-                                <div className='testimonial-sec p-lg-4 p-md-4 p-sm-4 p-0 text-center' data-aos="zoom-in">
+                                <div className='testimonial-sec p-lg-4 p-md-4 p-sm-4 p-0 text-center' data-aos="zoom-in" data-aos-delay="500">
                                     <div>
                                         <div className='text-center mb-4'>
                                             <img src="/images/img_testimonial_04.png" alt="img_testimonial_04" />
@@ -249,7 +249,7 @@ export default function Testimonial() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='p-3 mb-85'>
-                                <div className='testimonial-sec p-lg-4 p-md-4 p-sm-4 p-0 text-center' data-aos="zoom-in">
+                                <div className='testimonial-sec p-lg-4 p-md-4 p-sm-4 p-0 text-center' data-aos="zoom-in" data-aos-delay="500">
                                     <div>
                                         <div className='text-center mb-4'>
                                             <img src="/images/img_testimonial_05.png" alt="img_testimonial_05" />

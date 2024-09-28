@@ -1,4 +1,5 @@
 import React from 'react'
+import Testimonial from '../Home/Testimonial'
 
 export default function Portfolio() {
     return (
@@ -26,7 +27,7 @@ export default function Portfolio() {
 
                 <div>
                     <div>
-                        <div className="home2-portfolio-section">
+                        <div className="home2-portfolio-section bg-white">
                             <div className='container'>
                                 <div className="section-title three text-animation row">
                                     <div className='about-our-company col-lg-12 our-solution-style-1 text-center mb-5'>
@@ -203,6 +204,12 @@ export default function Portfolio() {
                                 </div>
                             </div>
                         </div>
+
+                        {/* testimonial */}
+                        <div>
+                            <Testimonial></Testimonial>
+                        </div>
+
                     </div>
                 </div>
             </div>

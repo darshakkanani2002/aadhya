@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
@@ -8,17 +8,24 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';  // Ensure navigation styles are imported
 // Import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import AOS from 'aos';
 
 export default function Our_Service() {
     // Refs to control navigation
     const prevRef = useRef(null);
     const nextRef = useRef(null);
+    useEffect(() => {
+        AOS.init({
+            duration: 2000, // duration of the animations (default: 1000ms)
+            once: true, // whether animation should happen only once - while scrolling down
+        });
+    }, []);
 
     return (
         <div className='position-relative overflow-hidden'>
             <div className='container'>
                 <div className="section-title three text-animation row">
-                    <div className='about-our-company col-lg-12 our-solution-style-1 text-center mb-5' data-aos="flip-up" >
+                    <div className='about-our-company col-lg-12 our-solution-style-1 text-center mb-5' >
                         <h2 className='testimonial-before'>Our Service</h2>
                         <p className='mt-4'>As one of the leading software development companies, we at Vasundhara have a diverse <br /> range of services for our clients, where we operate in these core areas services.</p>
                     </div>
@@ -75,7 +82,7 @@ export default function Our_Service() {
                 >
                     <SwiperSlide>
                         <div className='mb-85'>
-                            <div>
+                            <div data-aos="zoom-in" data-aos-delay="500">
                                 <div className='our-services-01'>
                                     <div className='our-service-img-back-01'>
                                         <img src="/images/web-development.gif" alt="" className='img-fluid our-service-img' />
@@ -91,7 +98,7 @@ export default function Our_Service() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='mb-85'>
-                            <div>
+                            <div data-aos="zoom-in" data-aos-delay="500">
                                 <div className='our-services-02'>
                                     <div className='our-service-img-back-02'>
                                         <img src="/images/mobile-app-development.gif" alt="" className='img-fluid our-service-img' />
@@ -107,28 +114,32 @@ export default function Our_Service() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='mb-85'>
-                            <div className='our-services-03'>
-                                <div className='our-service-img-back-03'>
-                                    <img src="/images/game-development.gif" alt="" className='img-fluid our-service-img' />
-                                </div>
-                                <div className='our-service-text mt-5'>
-                                    <h5>Game Development</h5>
-                                    <p>We are a leading game development company in India that deploys cutting edge technologies to build and deliver some of the most successful games in the industry. </p>
-                                    <a className="learn-more" href="/web-development-company">Learn More</a>
+                            <div data-aos="zoom-in" data-aos-delay="500">
+                                <div className='our-services-03'>
+                                    <div className='our-service-img-back-03'>
+                                        <img src="/images/game-development.gif" alt="" className='img-fluid our-service-img' />
+                                    </div>
+                                    <div className='our-service-text mt-5'>
+                                        <h5>Game Development</h5>
+                                        <p>We are a leading game development company in India that deploys cutting edge technologies to build and deliver some of the most successful games in the industry. </p>
+                                        <a className="learn-more" href="/web-development-company">Learn More</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='mb-85'>
-                            <div className='our-services-04'>
-                                <div className='our-service-img-back-04'>
-                                    <img src="/images/hire-offshore-developers.gif" alt="" className='img-fluid our-service-img' />
-                                </div>
-                                <div className='our-service-text mt-5'>
-                                    <h5>Game Development</h5>
-                                    <p>We are a leading game development company in India that deploys cutting edge technologies to build and deliver some of the most successful games in the industry. </p>
-                                    <a className="learn-more" href="/web-development-company">Learn More</a>
+                            <div data-aos="zoom-in" data-aos-delay="500">
+                                <div className='our-services-04'>
+                                    <div className='our-service-img-back-04'>
+                                        <img src="/images/hire-offshore-developers.gif" alt="" className='img-fluid our-service-img' />
+                                    </div>
+                                    <div className='our-service-text mt-5'>
+                                        <h5>Game Development</h5>
+                                        <p>We are a leading game development company in India that deploys cutting edge technologies to build and deliver some of the most successful games in the industry. </p>
+                                        <a className="learn-more" href="/web-development-company">Learn More</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>

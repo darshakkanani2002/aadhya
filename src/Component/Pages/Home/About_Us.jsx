@@ -72,18 +72,18 @@ export default function About_Us() {
                 <div className='container-xl container-fluids about-our-company-sec'>
                     <div className='mb-5 overflow-hidden'>
                         <div className="section-title three text-animation row">
-                            <div className='about-our-company col-lg-4' data-aos="flip-up" >
+                            <div className='about-our-company col-lg-4' >
                                 <h2 className='text-lg-start text-md-center text-center'>ABOUT OUR<span>COMPANY</span> </h2>
                             </div>
                             <div className='about-our-company col-lg-8'>
                                 <div className="dash-and-paragraph three row">
-                                    <div className='col-lg-6' data-aos="flip-up">
+                                    <div className='col-lg-6'>
                                         <svg className='about-icon-svg d-lg-block d-md-none d-none' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 477 65">
                                             <path d="M0.333333 3C0.333333 4.47276 1.52724 5.66667 3 5.66667C4.47276 5.66667 5.66667 4.47276 5.66667 3C5.66667 1.52724 4.47276 0.333333 3 0.333333C1.52724 0.333333 0.333333 1.52724 0.333333 3ZM475 3L475.255 3.42984L476.82 2.5H475V3ZM438.668 65L441.872 60.197L436.111 59.8239L438.668 65ZM3 3.5H475V2.5H3V3.5ZM474.745 2.57016C459.928 11.3742 441.341 27.8789 438.461 60.47L439.457 60.5581C442.3 28.3895 460.613 12.1303 475.255 3.42984L474.745 2.57016Z"></path>
                                         </svg>
                                     </div>
                                     <div className="btn-and-paragraph col-lg-6 d-flex justify-content-lg-start justify-content-center">
-                                        <p data-aos="flip-up">
+                                        <p>
                                             <div className='about-our-company'>Digital agencies can vary in size and </div>
                                             <div className='about-our-company'>specialization. Some may focus on specific </div>
                                             <div className='about-our-company'>niches, such as healthcare or </div>
@@ -686,7 +686,7 @@ export default function About_Us() {
 
                         <div className='container'>
                             <div className="section-title three text-animation row">
-                                <div className='about-our-company col-lg-12 our-solution-style-1 text-center mb-5' data-aos="flip-up" >
+                                <div className='about-our-company col-lg-12 our-solution-style-1 text-center mb-5'>
                                     <h2 className='text-lg-start text-md-center text-center new-work-text heading-text-before'>Our Portfolio</h2>
                                 </div>
                             </div>
@@ -746,7 +746,7 @@ export default function About_Us() {
                                         <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabIndex="0">
                                             <div className='container'>
                                                 <div className='row'>
-                                                    <div className='col-lg-4 col-md-6 col-sm-6 col-12 mt-4'>
+                                                    <div className='col-lg-4 col-md-6 col-sm-6 col-12 mt-4' data-aos="zoom-in" data-aos-delay="500">
                                                         <a href="#">
                                                             <div className='position-relative wok-img-div'>
                                                                 <img src="/images/work-game-img-01.webp" alt="work-game-img-01" className='img-fluid rounded-4' />
@@ -756,7 +756,7 @@ export default function About_Us() {
                                                             </div>
                                                         </a>
                                                     </div>
-                                                    <div className='col-lg-4 col-md-6 col-sm-6 col-12 mt-4'>
+                                                    <div className='col-lg-4 col-md-6 col-sm-6 col-12 mt-4' data-aos="zoom-in" data-aos-delay="500">
                                                         <a href="#">
                                                             <div className='position-relative wok-img-div'>
                                                                 <img src="/images/work-game-img-02.webp" alt="work-game-img-02" className='img-fluid' />
@@ -766,7 +766,7 @@ export default function About_Us() {
                                                             </div>
                                                         </a>
                                                     </div>
-                                                    <div className='col-lg-4 col-md-6 col-sm-6 col-12 mt-4'>
+                                                    <div className='col-lg-4 col-md-6 col-sm-6 col-12 mt-4' data-aos="zoom-in" data-aos-delay="500">
                                                         <a href="#">
                                                             <div className='position-relative wok-img-div'>
                                                                 <img src="/images/work-game-img-03.webp" alt="work-game-img-03" className='img-fluid' />
@@ -782,7 +782,7 @@ export default function About_Us() {
                                         <div className="tab-pane fade show active" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabIndex="0">
                                             <div className='container'>
                                                 <div className='row'>
-                                                    <div className='col-lg-4 col-md-6 col-sm-6 col-12 mt-4'>
+                                                    <div className='col-lg-4 col-md-6 col-sm-6 col-12 mt-4' data-aos="zoom-in" data-aos-delay="500">
                                                         <a href="https://shop-gift.netlify.app" target='_blank'>
                                                             <div className='position-relative wok-img-div'>
                                                                 <img src="/images/work-web-img-01.jpg" alt="work-web-img-01" className='img-fluid rounded-4' />
@@ -797,7 +797,7 @@ export default function About_Us() {
                                                             </div>
                                                         </a>
                                                     </div>
-                                                    <div className='col-lg-4 col-md-6 col-sm-6 col-12 mt-4'>
+                                                    <div className='col-lg-4 col-md-6 col-sm-6 col-12 mt-4' data-aos="zoom-in" data-aos-delay="500">
                                                         <a href="https://vedartharchitech.netlify.app" target='_blank'>
                                                             <div className='position-relative wok-img-div'>
                                                                 <img src="/images/work-web-img-02.jpg" alt="work-web-img-02" className='img-fluid rounded-4' />
@@ -808,7 +808,7 @@ export default function About_Us() {
 
                                                         </a>
                                                     </div>
-                                                    <div className='col-lg-4 col-md-6 col-sm-6 col-12 mt-4'>
+                                                    <div className='col-lg-4 col-md-6 col-sm-6 col-12 mt-4' data-aos="zoom-in" data-aos-delay="500">
                                                         <a href="https://effulgent-bonbon-a558df.netlify.app" target='_blank'>
                                                             <div className='position-relative wok-img-div'>
                                                                 <img src="/images/work-web-img-03.jpg" alt="work-web-img-03" className='img-fluid rounded-4' />
@@ -823,7 +823,7 @@ export default function About_Us() {
                                         </div>
                                         <div className="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabIndex="0">
                                             <div className='row'>
-                                                <div className='col-lg-4 col-md-6 col-sm-6 col-12 mt-4'>
+                                                <div className='col-lg-4 col-md-6 col-sm-6 col-12 mt-4' data-aos="zoom-in" data-aos-delay="500">
                                                     <a href="#">
                                                         <div className='position-relative wok-img-div'>
                                                             <img src="/images/work-ui-img-04.jpg" alt="work-ui-img-04" className='img-fluid rounded-4 work-ui-images' />
@@ -833,7 +833,7 @@ export default function About_Us() {
                                                         </div>
                                                     </a>
                                                 </div>
-                                                <div className='col-lg-4 col-md-6 col-sm-6 col-12 mt-4'>
+                                                <div className='col-lg-4 col-md-6 col-sm-6 col-12 mt-4' data-aos="zoom-in" data-aos-delay="500">
                                                     <a href="#">
                                                         <div className='position-relative wok-img-div'>
                                                             <img src="/images/work-ui-img-02.jpg" alt="work-ui-img-02   " className='img-fluid rounded-4 work-ui-images' />
@@ -843,7 +843,7 @@ export default function About_Us() {
                                                         </div>
                                                     </a>
                                                 </div>
-                                                <div className='col-lg-4 col-md-6 col-sm-6 col-12 mt-4'>
+                                                <div className='col-lg-4 col-md-6 col-sm-6 col-12 mt-4' data-aos="zoom-in" data-aos-delay="500">
                                                     <a href="#">
                                                         <div className='position-relative wok-img-div'>
                                                             <img src="/images/work-ui-img-03.jpg" alt="work-ui-img-03" className='img-fluid rounded-4 work-ui-images' />
@@ -862,7 +862,7 @@ export default function About_Us() {
                     </div>
                 </div>
             </div>
-            
+
             {/* We Used Technology Section */}
             <div>
                 <div>
@@ -906,7 +906,7 @@ export default function About_Us() {
                                         <div className="tab-content" id="technologyTabContent">
                                             <div className="tab-pane fade active show" id="tech-Front-End" role="tabpanel" aria-labelledby="Front-End-tab">
                                                 <div className="row g-4 align-items-end">
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                         <div className="single-technology btn_wrapper big technology-sec-style">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/html.svg" alt="Logo" />
@@ -914,7 +914,7 @@ export default function About_Us() {
                                                             <span>HTML</span>
                                                         </div>
                                                     </div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/css.svg" alt="Logo" />
@@ -922,7 +922,7 @@ export default function About_Us() {
                                                             <span>CSS</span>
                                                         </div>
                                                     </div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/javascript.svg" alt="Logo" />
@@ -930,7 +930,7 @@ export default function About_Us() {
                                                             <span>Javascript</span>
                                                         </div>
                                                     </div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/vue.svg" alt="Logo" />
@@ -938,7 +938,7 @@ export default function About_Us() {
                                                             <span>Vue JS</span>
                                                         </div>
                                                     </div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/react.svg" alt="Logo" />
@@ -946,7 +946,7 @@ export default function About_Us() {
                                                             <span>React JS</span>
                                                         </div>
                                                     </div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                         <div className="single-technology btn_wrapper big technology-sec-style">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/angular.svg" alt="Logo" />
@@ -961,7 +961,7 @@ export default function About_Us() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/d3.svg" alt="Logo" />
@@ -969,7 +969,7 @@ export default function About_Us() {
                                                             <span>D3 JS</span>
                                                         </div>
                                                     </div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/jquery.svg" alt="Logo" className='technology-jquery-img' />
@@ -977,7 +977,7 @@ export default function About_Us() {
                                                             <span>JQuery</span>
                                                         </div>
                                                     </div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/typescript.svg" alt="Logo" />
@@ -985,7 +985,7 @@ export default function About_Us() {
                                                             <span>TypeScript</span>
                                                         </div>
                                                     </div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/graphql.svg" alt="Logo" />
@@ -1004,81 +1004,81 @@ export default function About_Us() {
                                             </div>
                                             <div className="tab-pane fade" id="tech-Back-End" role="tabpanel" aria-labelledby="Back-End-tab">
                                                 <div className="row g-4 align-items-end">
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                         <div className="single-technology btn_wrapper big technology-sec-style">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/node-js.svg" alt="Logo" />
                                                             </div>
                                                             <span>Node JS</span>
                                                         </div></div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/ruby.svg" alt="Logo" />
                                                             </div>
                                                             <span>Ruby</span>
                                                         </div></div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/django.svg" alt="Logo" />
                                                             </div>
                                                             <span>D Jnago</span>
                                                         </div></div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/express-js.svg" alt="Logo" />
                                                             </div>
                                                             <span>Express JS</span>
                                                         </div></div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/asp.svg" alt="Logo" />
                                                             </div>
                                                             <span>ASP .Net</span>
                                                         </div></div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                         <div className="single-technology btn_wrapper big technology-sec-style" >
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/laravel.svg" alt="Logo" />
                                                             </div>
                                                             <span>Laravel</span>
                                                         </div></div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none" data-aos="zoom-in" data-aos-delay="500">
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/empty-technology.png" alt="Logo" className='technology-no-icon-img' />
                                                             </div>
                                                         </div></div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none" data-aos="zoom-in" data-aos-delay="500">
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/empty-technology.png" alt="Logo" className='technology-no-icon-img' />
                                                             </div>
                                                         </div></div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/firebase.svg" alt="Logo" />
                                                             </div>
                                                             <span>Firebase</span>
                                                         </div></div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none" data-aos="zoom-in" data-aos-delay="500">
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/empty-technology.png" alt="Logo" className='technology-no-icon-img' />
                                                             </div>
                                                         </div></div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none" data-aos="zoom-in" data-aos-delay="500">
 
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/empty-technology.png" alt="Logo" className='technology-no-icon-img' />
                                                             </div>
                                                         </div></div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none" data-aos="zoom-in" data-aos-delay="500">
 
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
@@ -1089,7 +1089,7 @@ export default function About_Us() {
                                             </div>
                                             <div className="tab-pane fade" id="tech-Mobile" role="tabpanel" aria-labelledby="Mobile-tab">
                                                 <div className="row g-4 align-items-end">
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
 
                                                         <div className="single-technology btn_wrapper big technology-sec-style">
                                                             <div className="icon">
@@ -1097,7 +1097,7 @@ export default function About_Us() {
                                                             </div>
                                                             <span>Flutter</span>
                                                         </div></div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
 
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
@@ -1105,7 +1105,7 @@ export default function About_Us() {
                                                             </div>
                                                             <span>Android</span>
                                                         </div></div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
 
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
@@ -1113,7 +1113,7 @@ export default function About_Us() {
                                                             </div>
                                                             <span>Iso App</span>
                                                         </div></div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
 
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
@@ -1121,7 +1121,7 @@ export default function About_Us() {
                                                             </div>
                                                             <span>Firebase</span>
                                                         </div></div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
 
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
@@ -1129,7 +1129,7 @@ export default function About_Us() {
                                                             </div>
                                                             <span>React Native</span>
                                                         </div></div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
 
                                                         <div className="single-technology btn_wrapper big technology-sec-style">
                                                             <div className="icon">
@@ -1137,21 +1137,21 @@ export default function About_Us() {
                                                             </div>
                                                             <span>Swift</span>
                                                         </div></div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none" data-aos="zoom-in" data-aos-delay="500">
 
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/empty-technology.png" alt="Logo" className='technology-no-icon-img' />
                                                             </div>
                                                         </div></div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none" data-aos="zoom-in" data-aos-delay="500">
 
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/empty-technology.png" alt="Logo" className='technology-no-icon-img' />
                                                             </div>
                                                         </div></div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
 
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
@@ -1159,7 +1159,7 @@ export default function About_Us() {
                                                             </div>
                                                             <span>Java</span>
                                                         </div></div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
 
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
@@ -1167,15 +1167,14 @@ export default function About_Us() {
                                                             </div>
                                                             <span>Kotlin</span>
                                                         </div></div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none" data-aos="zoom-in" data-aos-delay="500">
 
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/empty-technology.png" alt="Logo" className='technology-no-icon-img' />
                                                             </div>
                                                         </div></div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
-
+                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none" data-aos="zoom-in" data-aos-delay="500">
                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                             <div className="icon">
                                                                 <img decoding="async" src="images/empty-technology.png" alt="Logo" className='technology-no-icon-img' />
@@ -1261,7 +1260,7 @@ export default function About_Us() {
                     <div className="home2-blog-section">
                         <div className="container-lg container-fluid">
                             <div className="row g-4">
-                                <div className="col-lg-4 col-md-6">
+                                <div className="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">
                                     <div className="magnetic-wrap"><div className="blog-card2 magnetic-item">
                                         <a href="3" className="blog-img">
                                             <img loading="lazy" decoding="async" width="600" height="400" src="images/blog-st-img12-600x400.webp" className="attachment-blog-grid-thumb size-blog-grid-thumb wp-post-image img-fluid w-100 blog-img" alt="" /> </a>
@@ -1297,7 +1296,7 @@ export default function About_Us() {
                                         </div>
                                     </div></div>
                                 </div>
-                                <div className="col-lg-4 col-md-6">
+                                <div className="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">
                                     <div className="magnetic-wrap"><div className="blog-card2 magnetic-item">
                                         <a href="#" className="blog-img">
                                             <img loading="lazy" decoding="async" width="600" height="400" src="images/blog-st-img11-600x400.webp" className="attachment-blog-grid-thumb size-blog-grid-thumb wp-post-image img-fluid w-100 blog-img" alt="" /> </a>
@@ -1333,7 +1332,7 @@ export default function About_Us() {
                                         </div>
                                     </div></div>
                                 </div>
-                                <div className="col-lg-4 col-md-6">
+                                <div className="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">
                                     <div className="magnetic-wrap"><div className="blog-card2 magnetic-item">
                                         <a href="#" className="blog-img">
                                             <img loading="lazy" decoding="async" width="600" height="400" src="images/blog-st-img10-600x400.webp" className="attachment-blog-grid-thumb size-blog-grid-thumb wp-post-image img-fluid w-100 blog-img" alt="" /> </a>

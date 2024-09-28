@@ -3,6 +3,7 @@ import './Technology.css'
 import AppTechnology from './AppTechnology'
 import GameTechnology from './GameTechnology'
 import WebTechnology from './WebTechnology'
+import Testimonial from '../Home/Testimonial'
 
 export default function Technology() {
     return (
@@ -45,6 +46,9 @@ export default function Technology() {
 
                 {/* Web Technologies */}
                 <WebTechnology></WebTechnology>
+
+                {/* testimonial */}
+                <Testimonial></Testimonial>
             </div>
         </div>
     )
