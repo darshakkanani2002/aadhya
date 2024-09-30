@@ -7,6 +7,7 @@ export default function Navbar() {
     useEffect(() => {
         // Update the active link when the location changes
         setActiveLink(location.pathname);
+        window.scrollTo(0, 0);
     }, [location.pathname]);
 
     // Function to check if the active link is a service route
@@ -19,10 +20,10 @@ export default function Navbar() {
                 <nav className="navbar navigation_bar navbar-expand-lg">
                     <div className="container">
                         <div className="">
-                            <a className="navbar-brand py-0" href="index.html">
+                            <Link to='/' className="navbar-brand py-0">
                                 <img src="images/logo-updated.png" className="logo img-fluid"
                                     alt="logo" />
-                            </a>
+                            </Link>
                         </div>
                         <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNav"
                             aria-controls="navbarNav">
