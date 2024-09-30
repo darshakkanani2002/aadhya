@@ -82,7 +82,7 @@ export default function Contact() {
                                                     <div className='contact-img-contant'>
                                                         <div className='ps-3'>
                                                             <h6 className="mb-0">PHONE</h6>
-                                                            <p className="mb-0">03 5432 1234</p>
+                                                            <p className="mb-0">+91 - 9099310347</p>
                                                         </div>
                                                     </div>
                                                 </div>

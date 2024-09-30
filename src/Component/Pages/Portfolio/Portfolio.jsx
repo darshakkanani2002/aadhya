@@ -17,7 +17,7 @@ export default function Portfolio() {
                             </div>
                             <div className='col-lg-6 px-1 pt-lg-0 pt-md-5 pt-5'>
                                 <div className='position-relative'>
-                                    <img src="/images/portfolio-hero-main-img.svg" alt="game-hero-img-01" className='img-fluid app-hero-01' />
+                                    <img src="/images/portfolio-hero-main-img.svg" alt="game-hero-img-01" className='img-fluid app-hero-01 w-100' />
                                 </div>
                             </div>
                         </div>

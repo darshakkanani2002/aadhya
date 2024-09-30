@@ -10,6 +10,7 @@ import GameDevelopment from './Component/Pages/Services/Pages/GameDevelopment/Ga
 import Contact from './Component/Pages/Contact/Pages/Contact'
 import Technology from './Component/Pages/Technology/Technology'
 import Portfolio from './Component/Pages/Portfolio/Portfolio'
+import WebDevelopment from './Component/Pages/Services/Pages/WebDevelopment/WebDevelopment'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
           <Route path='/' element={<Home />}></Route>
           <Route path='/app' element={<AppDevelopment />}></Route>
           <Route path='/game' element={<GameDevelopment></GameDevelopment>}></Route>
+          <Route path='/web' element={<WebDevelopment></WebDevelopment>}></Route>
           <Route path='/contact' element={<Contact></Contact>}></Route>
           <Route path='/technology' element={<Technology></Technology>}></Route>
           <Route path='/portfolio' element={<Portfolio></Portfolio>}></Route>

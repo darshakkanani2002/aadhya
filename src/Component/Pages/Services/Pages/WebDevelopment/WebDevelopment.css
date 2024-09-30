@@ -1,0 +1,54 @@
+.web-hero-img-02 {
+    animation: roted 8s linear infinite;
+    left: 26%;
+    max-width: 154px;
+    position: absolute;
+    top: 2%;
+    width: 100%;
+}
+
+.web-hero-img-03 {
+    animation: roted 8s linear infinite reverse;
+    left: 14%;
+    max-width: 82px;
+    position: absolute;
+    top: 3%;
+    width: 100%;
+}
+
+.web-hero-img-04 {
+    animation: up-down-two 3s linear infinite;
+    right: 19.7%;
+    top: 53%;
+    max-width: 12px;
+    position: absolute;
+    z-index: 3;
+}
+
+.web-hero-img-05 {
+    animation: up-down-two 2s linear infinite;
+    right: 16.7%;
+    top: 58%;
+    width: 100%;
+    max-width: 12px;
+    position: absolute;
+    z-index: 3;
+}
+
+.web-hero-img-06 {
+    animation: up-down-three 3s linear infinite;
+    max-width: 12px;
+    position: absolute;
+    right: 13.7%;
+    top: 48%;
+    width: 100%;
+    z-index: 3;
+}
+
+.web-hero-img-07 {
+    animation: roted 8s linear infinite;
+    max-width: 90px;
+    position: absolute;
+    right: 0;
+    top: 44%;
+}

@@ -38,7 +38,7 @@ export default function Navbar() {
                                         <ul className="dropdown-menu nav-sub-menu py-0" aria-labelledby="servicesDropdown">
                                             <li><Link to='/app' className="dropdown-item">App Development</Link></li>
                                             <li><Link to='/game' className="dropdown-item">Game Development</Link></li>
-                                            <li><Link className="dropdown-item">Web Development</Link></li>
+                                            <li><Link to='/web' className="dropdown-item">Web Development</Link></li>
                                         </ul>
                                     </li>
                                     <li className="nav-item dropdown d-flex align-items-center">
