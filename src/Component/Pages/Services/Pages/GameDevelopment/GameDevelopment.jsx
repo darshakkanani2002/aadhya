@@ -8,7 +8,7 @@ import Testimonial from '../../../Home/Testimonial'
 
 export default function GameDevelopment() {
     return (
-        <div>
+        <div id='main-section'>
             <div className='padding-top-89 overflow-hidden'>
                 <div className='app-hero-back'>
                     <div className='container'>

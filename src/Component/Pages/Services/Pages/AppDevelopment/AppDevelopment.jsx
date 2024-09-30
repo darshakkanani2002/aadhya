@@ -9,7 +9,7 @@ import AppDevelopmentSolution from './AppDevelopmentSolution';
 export default function AppDevelopment() {
 
     return (
-        <div className='padding-top-89 overflow-hidden'>
+        <div className='padding-top-89 overflow-hidden' id='main-section'>
             <div className='app-hero-back'>
                 <div className='container'>
                     <div className='row align-items-center'>

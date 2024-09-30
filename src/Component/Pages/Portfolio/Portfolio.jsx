@@ -5,7 +5,7 @@ export default function Portfolio() {
     return (
         <div>
             <div className='padding-top-89'>
-                <div className='app-hero-back'>
+                <div className='app-hero-back' id='main-section'>
                     <div className='container'>
                         <div className='row align-items-center'>
                             <div className='col-lg-6 text-lg-start text-md-center text-center'>
@@ -23,8 +23,6 @@ export default function Portfolio() {
                         </div>
                     </div>
                 </div>
-
-
                 <div>
                     <div>
                         <div className="home2-portfolio-section bg-white">

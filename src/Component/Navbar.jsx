@@ -7,12 +7,23 @@ export default function Navbar() {
     useEffect(() => {
         // Update the active link when the location changes
         setActiveLink(location.pathname);
-        window.scrollTo(0, 0);
+        // Scroll to the top when the active link changes without using window.scrollTo
+        const mainSection = document.getElementById('main-section');
+        if (mainSection) {
+            mainSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
     }, [location.pathname]);
 
     // Function to check if the active link is a service route
     const isServiceActive = () => {
         return ['/app', '/game', '/web'].includes(activeLink);
+    };
+    // Force page reload
+    const handleLinkClick = (path) => {
+        setActiveLink(path);
+        if (path === location.pathname) {
+            window.location.reload();
+        }
     };
     return (
         <div>
@@ -38,26 +49,26 @@ export default function Navbar() {
                             <div className="offcanvas-body">
                                 <ul className="navbar-nav m-auto mb-2 mt-0 mb-lg-0">
                                     <li className="nav-item d-flex align-items-center">
-                                        <Link to='/' className={`nav-link ${activeLink === '/' ? 'active' : ''}`} onClick={() => setActiveLink('/')} aria-current="page" data-section="home">Home</Link>
+                                        <Link to='/' className={`nav-link ${activeLink === '/' ? 'active' : ''}`} onClick={() => handleLinkClick('/')} aria-current="page" data-section="home">Home</Link>
                                     </li>
                                     <li className="nav-item dropdown d-flex align-items-center">
                                         <Link className={`nav-link ${isServiceActive() ? 'active' : ''}`} id="servicesDropdown" role="button" aria-expanded="false">
                                             Services
                                         </Link>
                                         <ul className="dropdown-menu nav-sub-menu py-0" aria-labelledby="servicesDropdown">
-                                            <li><Link to='/app' className="dropdown-item" onClick={() => setActiveLink('/app')}>App Development</Link></li>
-                                            <li><Link to='/game' className="dropdown-item" onClick={() => setActiveLink('/game')}>Game Development</Link></li>
-                                            <li><Link to='/web' className="dropdown-item" onClick={() => setActiveLink('/web')}>Web Development</Link></li>
+                                            <li><Link to='/app' className="dropdown-item" onClick={() => handleLinkClick('/app')}>App Development</Link></li>
+                                            <li><Link to='/game' className="dropdown-item" onClick={() => handleLinkClick('/game')}>Game Development</Link></li>
+                                            <li><Link to='/web' className="dropdown-item" onClick={() => handleLinkClick('/web')}>Web Development</Link></li>
                                         </ul>
                                     </li>
                                     <li className="nav-item dropdown d-flex align-items-center">
-                                        <Link to='/technology' className={`nav-link ${activeLink === '/technology' ? 'active' : ''}`} onClick={() => setActiveLink('/technology')} >Technologies</Link>
+                                        <Link to='/technology' className={`nav-link ${activeLink === '/technology' ? 'active' : ''}`} onClick={() => handleLinkClick('/technology')} >Technologies</Link>
                                     </li>
                                     <li className="nav-item d-flex align-items-center">
-                                        <Link to='/portfolio' className={`nav-link ${activeLink === '/portfolio' ? 'active' : ''}`} onClick={() => setActiveLink('/portfolio')} data-section="blog">Portfolio</Link>
+                                        <Link to='/portfolio' className={`nav-link ${activeLink === '/portfolio' ? 'active' : ''}`} onClick={() => handleLinkClick('/portfolio')} data-section="blog">Portfolio</Link>
                                     </li>
                                     <li className="nav-item d-flex align-items-center">
-                                        <Link to='/contact' className={`nav-link text-nowrap ${activeLink === '/contact' ? 'active' : ''}`} onClick={() => setActiveLink('/contact')} data-section="contact">Contact Us</Link>
+                                        <Link to='/contact' className={`nav-link text-nowrap ${activeLink === '/contact' ? 'active' : ''}`} onClick={() => handleLinkClick('/contact')} data-section="contact">Contact Us</Link>
                                     </li>
                                 </ul>
                                 <div className="p-1 nav-contact-button mt-3 mt-lg-0" role="search">

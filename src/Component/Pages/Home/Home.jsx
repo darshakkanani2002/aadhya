@@ -32,7 +32,7 @@ export default function Home() {
     return (
         <div>
             {/* hero section */}
-            <div className='hero-section'>
+            <div className='hero-section' id='main-section'>
                 <div className='container-xl container-fluid'>
                     <div className='row'>
                         <div className='col-xxl-8 col-xl-7 col-lg-7 d-lg-flex d-block align-items-center'>

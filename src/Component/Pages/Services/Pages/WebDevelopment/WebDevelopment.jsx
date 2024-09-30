@@ -8,7 +8,7 @@ import AppDevelopProcess from '../AppDevelopment/AppDevelopProcess'
 export default function WebDevelopment() {
     return (
         <div>
-            <div className='padding-top-89'>
+            <div className='padding-top-89' id='main-section'>
                 <div className='app-hero-back'>
                     <div className='container'>
                         <div className='row align-items-center'>

@@ -6,8 +6,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Unbounded", system-ui;
-  /* font-family: "Lato", system-ui; */
+  /* font-family: "Unbounded", system-ui; */
+  font-family: "Lato", system-ui;
 }
 
 body {
@@ -2724,7 +2724,7 @@ footer .menu-container ul li a:hover svg {
   .our-services-02,
   .our-services-03,
   .our-services-04 {
-    min-height: 564px;
+    min-height: 500px;
   }
 }
 
