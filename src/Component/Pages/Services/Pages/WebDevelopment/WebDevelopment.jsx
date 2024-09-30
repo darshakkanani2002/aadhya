@@ -3,6 +3,7 @@ import './WebDevelopment.css'
 import AppUpWork from '../AppDevelopment/AppUpWork'
 import WebDevelopmentSolustion from './WebDevelopmentSolustion'
 import Testimonial from '../../../Home/Testimonial'
+import AppDevelopProcess from '../AppDevelopment/AppDevelopProcess'
 
 export default function WebDevelopment() {
     return (
@@ -46,6 +47,10 @@ export default function WebDevelopment() {
                 {/* Web Development Solustion section */}
                 <div>
                     <WebDevelopmentSolustion></WebDevelopmentSolustion>
+                </div>
+                {/* Wed Development process */}
+                <div>
+                    <AppDevelopProcess></AppDevelopProcess>
                 </div>
                 {/* Testimonial Section */}
                 <div>
