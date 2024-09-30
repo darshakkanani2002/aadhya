@@ -1,10 +1,18 @@
-import React, { useState } from 'react';
-import Home from './Pages/Home/Home';
+import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
 export default function Navbar() {
     const location = useLocation();
     const [activeLink, setActiveLink] = useState(location.pathname);
+    useEffect(() => {
+        // Update the active link when the location changes
+        setActiveLink(location.pathname);
+    }, [location.pathname]);
+
+    // Function to check if the active link is a service route
+    const isServiceActive = () => {
+        return ['/app', '/game', '/web'].includes(activeLink);
+    };
     return (
         <div>
             <div className='hero-bg-banner'>
@@ -32,13 +40,13 @@ export default function Navbar() {
                                         <Link to='/' className={`nav-link ${activeLink === '/' ? 'active' : ''}`} onClick={() => setActiveLink('/')} aria-current="page" data-section="home">Home</Link>
                                     </li>
                                     <li className="nav-item dropdown d-flex align-items-center">
-                                        <Link to='/app' className={`nav-link ${activeLink === '/app' ? 'active' : ''}`} onClick={() => setActiveLink('/app')} id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <Link className={`nav-link ${isServiceActive() ? 'active' : ''}`} id="servicesDropdown" role="button" aria-expanded="false">
                                             Services
                                         </Link>
                                         <ul className="dropdown-menu nav-sub-menu py-0" aria-labelledby="servicesDropdown">
-                                            <li><Link to='/app' className="dropdown-item">App Development</Link></li>
-                                            <li><Link to='/game' className="dropdown-item">Game Development</Link></li>
-                                            <li><Link to='/web' className="dropdown-item">Web Development</Link></li>
+                                            <li><Link to='/app' className="dropdown-item" onClick={() => setActiveLink('/app')}>App Development</Link></li>
+                                            <li><Link to='/game' className="dropdown-item" onClick={() => setActiveLink('/game')}>Game Development</Link></li>
+                                            <li><Link to='/web' className="dropdown-item" onClick={() => setActiveLink('/web')}>Web Development</Link></li>
                                         </ul>
                                     </li>
                                     <li className="nav-item dropdown d-flex align-items-center">
