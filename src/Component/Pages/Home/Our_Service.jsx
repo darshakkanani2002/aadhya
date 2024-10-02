@@ -23,9 +23,9 @@ export default function Our_Service() {
 
     return (
         <div className='position-relative overflow-hidden'>
-            <div className='container'>
+            <div className='container-lg container-fluid-md container-fluid'>
                 <div className="section-title three text-animation row">
-                    <div className='about-our-company col-lg-12 our-solution-style-1 text-center mb-5' >
+                    <div className='about-our-company-content col-lg-12 our-solution-style-1 text-center mb-5' >
                         <h2 className='testimonial-before'>Our Service</h2>
                         <p className='mt-4'>As one of the leading software development companies, we at Vasundhara have a diverse <br /> range of services for our clients, where we operate in these core areas services.</p>
                     </div>
@@ -34,10 +34,12 @@ export default function Our_Service() {
                 {/* Custom Navigation */}
                 <div className="custom-navigation our-service-prev-next-button">
                     <button ref={prevRef} className="our-service-prev custom-prev me-2 our-service-prev-next-arrow">
-                        <i className="fa-solid fa-arrow-left"></i>
+                        {/* <i className="fa-solid fa-arrow-left"></i> */}
+                        <img src="/images/our-service-left-arrow.svg" alt="our-service-left-arrow"  className='our-service-img-arrow'/>
                     </button>
                     <button ref={nextRef} className="our-service-next custom-next ms-2 our-service-prev-next-arrow">
-                        <i className="fa-solid fa-arrow-right"></i>
+                        {/* <i className="fa-solid fa-arrow-right"></i> */}
+                        <img src="/images/our-service-right-arrow.svg" alt="our-service-right-arrow" className='our-service-img-arrow'/>
                     </button>
                 </div>
 
@@ -45,20 +47,24 @@ export default function Our_Service() {
                     slidesPerView={3}
                     spaceBetween={30}
                     loop={true}
-                    autoplay={{
-                        delay: 7000,
-                        disableOnInteraction: false,
-                    }}
+                    // autoplay={{
+                    //     delay: 7000,
+                    //     disableOnInteraction: false,
+                    // }}
                     breakpoints={{
-                        320: {
+                        0: {
                             slidesPerView: 1,
                             spaceBetween: 10,
                         },
                         768: {
-                            slidesPerView: 2,
+                            slidesPerView: 1,
                             spaceBetween: 20,
                         },
                         1024: {
+                            slidesPerView: 2,
+                            spaceBetween: 30,
+                        },
+                        1200: {
                             slidesPerView: 3,
                             spaceBetween: 30,
                         },
@@ -83,30 +89,15 @@ export default function Our_Service() {
                     <SwiperSlide>
                         <div className='mb-85'>
                             <div data-aos="zoom-in" data-aos-delay="500">
-                                <div className='our-services-01'>
-                                    <div className='our-service-img-back-01'>
-                                        <img src="/images/web-development.gif" alt="" className='img-fluid our-service-img' />
-                                    </div>
-                                    <div className='our-service-text mt-5'>
-                                        <h5>Web Development</h5>
-                                        <p>We help companies with unique and comprehensive web development services that empower you and your clients.</p>
-                                        <a className="learn-more" href="/web-development-company">Learn More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className='mb-85'>
-                            <div data-aos="zoom-in" data-aos-delay="500">
-                                <div className='our-services-02'>
-                                    <div className='our-service-img-back-02'>
-                                        <img src="/images/mobile-app-development.gif" alt="" className='img-fluid our-service-img' />
-                                    </div>
-                                    <div className='our-service-text mt-5'>
-                                        <h5>Mobile App Development</h5>
-                                        <p>We can assist you with user-friendly, interactive and feature-rich mobile app development services to enable your digital growth.</p>
-                                        <a className="learn-more" href="/web-development-company">Learn More</a>
+                                <div className='our-service our-services-01 position-relative p-3'>
+                                    <div className='our-service-inner-border our-services-inner-border-01'>
+                                        <div className='our-service-img-back our-service-img-back-01'>
+                                            <img src="/images/our-service-icon-01.svg" alt="our-service-icon-01" className='img-fluid' />
+                                        </div>
+                                        <div className='our-service-text'>
+                                            <h5>Mobile App Development</h5>
+                                            <p>we specialize in delivering custom mobile app development services tailored to meet our clients' unique business needs.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -115,14 +106,15 @@ export default function Our_Service() {
                     <SwiperSlide>
                         <div className='mb-85'>
                             <div data-aos="zoom-in" data-aos-delay="500">
-                                <div className='our-services-03'>
-                                    <div className='our-service-img-back-03'>
-                                        <img src="/images/game-development.gif" alt="" className='img-fluid our-service-img' />
-                                    </div>
-                                    <div className='our-service-text mt-5'>
-                                        <h5>Game Development</h5>
-                                        <p>We are a leading game development company in India that deploys cutting edge technologies to build and deliver some of the most successful games in the industry. </p>
-                                        <a className="learn-more" href="/web-development-company">Learn More</a>
+                                <div className='our-service our-services-02 position-relative p-3'>
+                                    <div className='our-service-inner-border our-services-inner-border-02'>
+                                        <div className='our-service-img-back our-service-img-back-02'>
+                                            <img src="/images/our-service-icon-02.svg" alt="our-service-icon-02" className='img-fluid' />
+                                        </div>
+                                        <div className='our-service-text'>
+                                            <h5>Game Development</h5>
+                                            <p>we offer end-to-end game development services, creating immersive and engaging gaming experiences for various platforms, including mobile, PC, and consoles.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -131,14 +123,32 @@ export default function Our_Service() {
                     <SwiperSlide>
                         <div className='mb-85'>
                             <div data-aos="zoom-in" data-aos-delay="500">
-                                <div className='our-services-04'>
-                                    <div className='our-service-img-back-04'>
-                                        <img src="/images/hire-offshore-developers.gif" alt="" className='img-fluid our-service-img' />
+                                <div className='our-service our-services-03 position-relative p-3'>
+                                    <div className="our-service-inner-border our-services-inner-border-03">
+                                        <div className='our-service-img-back our-service-img-back-03'>
+                                            <img src="/images/our-service-icon-03.svg" alt="our-service-icon-03" className='img-fluid' />
+                                        </div>
+                                        <div className='our-service-text'>
+                                            <h5>Web Development</h5>
+                                            <p>we provide comprehensive web development services designed to create dynamic, responsive, and high-performing websites and web applications. </p>
+                                        </div>
                                     </div>
-                                    <div className='our-service-text mt-5'>
-                                        <h5>Game Development</h5>
-                                        <p>We are a leading game development company in India that deploys cutting edge technologies to build and deliver some of the most successful games in the industry. </p>
-                                        <a className="learn-more" href="/web-development-company">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className='mb-85'>
+                            <div data-aos="zoom-in" data-aos-delay="500">
+                                <div className='our-service our-services-02 position-relative p-3'>
+                                    <div className='our-service-inner-border our-services-inner-border-02'>
+                                        <div className='our-service-img-back our-service-img-back-02'>
+                                            <img src="/images/our-service-icon-02.svg" alt="our-service-icon-02" className='img-fluid' />
+                                        </div>
+                                        <div className='our-service-text'>
+                                            <h5>Game Development</h5>
+                                            <p>we offer end-to-end game development services, creating immersive and engaging gaming experiences for various platforms, including mobile, PC, and consoles.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

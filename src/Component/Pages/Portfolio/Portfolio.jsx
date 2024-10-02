@@ -35,18 +35,20 @@ export default function Portfolio() {
                                 <div className='row'>
                                     <div className='col-12'>
                                         <ul className="nav nav-pills mb-3 d-flex justify-content-center work-navigation-ul gap-5" id="pills-tab" role="tablist">
-                                            <li className="nav-item" role="presentation">
-                                                <button className="nav-link" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">App Development</button>
-                                            </li>
-                                            <li className="nav-item" role="presentation">
-                                                <button className="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Game Development</button>
-                                            </li>
-                                            <li className="nav-item" role="presentation">
-                                                <button className="nav-link active" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Website Development</button>
-                                            </li>
-                                            <li className="nav-item" role="presentation">
-                                                <button className="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Ui/Ux Design</button>
-                                            </li>
+                                            <div>
+                                                <li className="nav-item" role="presentation">
+                                                    <button className="nav-link" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">App Development</button>
+                                                </li>
+                                                <li className="nav-item" role="presentation">
+                                                    <button className="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Game Development</button>
+                                                </li>
+                                                <li className="nav-item" role="presentation">
+                                                    <button className="nav-link active" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Website Development</button>
+                                                </li>
+                                                <li className="nav-item" role="presentation">
+                                                    <button className="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Ui/Ux Design</button>
+                                                </li>
+                                            </div>
                                         </ul>
                                         <div className="tab-content" id="pills-tabContent">
                                             <div className="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabIndex="0">

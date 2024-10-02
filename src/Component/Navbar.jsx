@@ -65,14 +65,14 @@ export default function Navbar() {
                                         <Link to='/technology' className={`nav-link ${activeLink === '/technology' ? 'active' : ''}`} onClick={() => handleLinkClick('/technology')} >Technologies</Link>
                                     </li>
                                     <li className="nav-item d-flex align-items-center">
-                                        <Link to='/portfolio' className={`nav-link ${activeLink === '/portfolio' ? 'active' : ''}`} onClick={() => handleLinkClick('/portfolio')} data-section="blog">Portfolio</Link>
+                                        <Link data-section="contact">Company</Link>
                                     </li>
                                     <li className="nav-item d-flex align-items-center">
-                                        <Link to='/contact' className={`nav-link text-nowrap ${activeLink === '/contact' ? 'active' : ''}`} onClick={() => handleLinkClick('/contact')} data-section="contact">Contact Us</Link>
+                                        <Link to='/portfolio' className={`nav-link ${activeLink === '/portfolio' ? 'active' : ''}`} onClick={() => handleLinkClick('/portfolio')} data-section="blog">Portfolio</Link>
                                     </li>
                                 </ul>
                                 <div className="p-1 nav-contact-button mt-3 mt-lg-0" role="search">
-                                    <div><a href="#"><button className="nav-bar-contact-btn text-nowrap">Schedule a Call</button></a></div>
+                                    <div><Link to='/contact'><button className="nav-bar-contact-btn text-nowrap">Contact Us</button></Link></div>
                                 </div>
                             </div>
                         </div>

@@ -125,10 +125,12 @@ export default function Testimonial() {
                 {/* Custom Navigation */}
                 <div className="custom-navigation our-service-prev-next-button">
                     <button ref={prevRef} className="our-service-prev custom-prev me-2 our-service-prev-next-arrow">
-                        <i className="fa-solid fa-arrow-left"></i>
+                        {/* <i className="fa-solid fa-arrow-left"></i> */}
+                        <img src="/images/our-service-left-arrow.svg" alt="our-service-left-arrow" className='our-service-img-arrow' />
                     </button>
                     <button ref={nextRef} className="our-service-next custom-next ms-2 our-service-prev-next-arrow">
-                        <i className="fa-solid fa-arrow-right"></i>
+                        {/* <i className="fa-solid fa-arrow-right"></i> */}
+                        <img src="/images/our-service-right-arrow.svg" alt="our-service-right-arrow" className='our-service-img-arrow' />
                     </button>
                 </div>
                 <div className="section-title three text-animation row">

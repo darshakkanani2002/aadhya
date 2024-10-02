@@ -1,9 +1,22 @@
-import React, { useEffect, useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import About_Us from './About_Us';
+import { useInView } from 'react-intersection-observer';
+import CountUp from 'react-countup';
 
 export default function Home() {
+    const [countStarted, setCountStarted] = useState
+        (false);
+    const { ref, inView } = useInView({
+        triggerOnce: true, // Trigger the animation only once
+        threshold: 0.3, // Trigger when 30% of the component is in view
+        onChange: (inView) => {
+            if (inView) {
+                setCountStarted(true);
+            }
+        }
+    });
     const bannerImgRef = useRef(null);
 
     useEffect(() => {
@@ -33,55 +46,60 @@ export default function Home() {
         <div>
             {/* hero section */}
             <div className='hero-section' id='main-section'>
+                {/* animation section */}
+                <div className="elementor-widget-container">
+                    <div className="text-slider-section">
+                        <div className="marquee">
+                            <div className="marquee__group">
+                                <span>Welcome to Aadhya Infotech
+                                </span>
+                                <span>EMAIL MARKETING
+                                </span>
+                                <span> DIGITAL STUDIO
+                                </span>
+                                <span>UI/UX DESIGN
+                                </span>
+                                <span>EMAIL MARKETING
+                                </span>
+                                <span>DIGITAL STUDIO
+                                </span>
+                            </div>
+                            <div className="marquee__group">
+                                <span>Welcome to Aadhya Infotech
+                                </span>
+                                <span>EMAIL MARKETING </span>
+                                <span>DIGITAL STUDIO
+                                </span>
+                                <span>UI/UX DESIGN
+                                </span>
+                                <span>EMAIL MARKETING
+                                </span>
+                                <span>DIGITAL STUDIO
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className='container-xl container-fluid'>
                     <div className='row'>
-                        <div className='col-xxl-8 col-xl-7 col-lg-7 d-lg-flex d-block align-items-center'>
+                        <div className='col-lg-6 d-block align-items-center position-relative z-3'>
                             <div className='banner-content-wrap'>
-                                <h1 className="text-animation2">We Compose <span>Software</span> Masterpieces</h1>
+                                <h1 className="text-animation2">We Craft <span>Software </span> Masterpieces.</h1>
+                                <div className='hero-banner-review-text  d-lg-block d-md-flex d-flex justify-content-lg-start justify-content-md-center justify-content-center'>
+                                    <p style={{ perspective: "400px" }} data-aos="fade-up" className='text-lg-start text-md-center text-center'>
+                                        This Is a Company That Provides Services Related to Online Marketing, Web Development, Design, and Other Digital Solutions to Clients.
+                                    </p>
+                                </div>
                                 <div className='banner-content d-lg-flex d-md-block d-block'>
                                     <div className='vector-and-review  text-animation d-lg-block d-md-flex d-flex justify-content-lg-start justify-content-md-center justify-content-center'>
                                         <div>
-                                            <div className='hero-vector'>
-                                                <i className="fa-solid fa-arrow-right-long d-lg-block d-none"></i>
-                                            </div>
-                                        </div>
-                                        <div className='hero-rating'>
-                                            <a href="#" className="rating-area text-decoration-none ">
-                                                <div className="review">
-                                                    <span>Review On</span>
-                                                    <span className='clutch-review-text'>Clutch</span>
-                                                </div>
-                                                <div className="rating">
-                                                    <ul className="star">
-                                                        <li><i className="fa-solid fa-star"></i></li>
-                                                        <li><i className="fa-solid fa-star"></i></li>
-                                                        <li><i className="fa-solid fa-star"></i></li>
-                                                        <li><i className="fa-solid fa-star"></i></li>
-                                                        <li><i className="fa-solid fa-star"></i></li>
-                                                    </ul>
-                                                    <span>(50 Review)</span>
-                                                </div>
-                                            </a>
                                         </div>
                                     </div>
                                     <div className="content-and-btn text-animation" style={{ perspective: "400px" }}>
                                         <div className='hero-banner-review-text  d-lg-block d-md-flex d-flex justify-content-lg-start justify-content-md-center justify-content-center'>
-                                            <p style={{ perspective: "400px" }} data-aos="fade-up">
-                                                <div className='hero-banner-review-text'>Axleo is a business that provides services related to online </div>
-                                                <div className='hero-banner-review-text'><span>marketing,web development, design,</span>  and other digital </div>
-                                                <div className='hero-banner-review-text' s>solutions clients.</div>
-                                            </p>
-                                        </div>
-                                        <div className='hero-banner-review-text  d-lg-block d-md-flex d-flex justify-content-lg-start justify-content-md-center justify-content-center'>
                                             <div className="banner-btn">
                                                 <a className='hero-button-hover text-decoration-none' href="http://+990737621432" target="_blank" rel="nofollow">
-                                                    <span className="icon"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
-                                                        <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z"></path>
-                                                    </svg></span>
-                                                    <span className="content">Schedule a Call</span>
-                                                    <span className="icon two"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
-                                                        <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z"></path>
-                                                    </svg></span>
+                                                    <span className="content">Let's Get Connect</span>
                                                 </a>
                                             </div>
                                         </div>
@@ -89,87 +107,56 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-xxl-4 col-xl-5 col-lg-5 d-lg-flex d-none'>
-                            <div className='magnetic-wrap'>
-                                <div
-                                    className='banner-img magnetic-item'
-                                    ref={bannerImgRef}
-                                    onMouseMove={handleMouseMove}
-                                    onMouseLeave={handleMouseLeave}
-                                >
-                                    <img src="images/banner-img.webp" alt="banner-img" className='img-fluid' />
-                                </div>
+                        <div className='col-lg-6'>
+                            <div className='logo-video-section'>
+                                <video src="/images/logo website video.mp4" autoPlay muted loop className='log-video'></video>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            {/* animation section */}
-            <div className="elementor-widget-container">
-                <div className="text-slider-section">
-                    <div className="marquee">
-                        <div className="marquee__group">
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
-                                    <path d="M20 9.47811L26.1809 0L25.8767 11.4983L36.1889 7.6431L29.5116 16.7508L40 20L29.5116 23.2492L36.1889 32.3569L25.8767 28.5017L26.1809 40L20 30.5219L13.8191 40L14.1233 28.5017L3.82706 32.3569L10.4884 23.2492L0 20L10.4884 16.7508L3.82706 7.6431L14.1233 11.4983L13.8191 0L20 9.47811Z"></path>
-                                </svg> Welcome to Aadhya Infotech
-                            </span>
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
-                                    <path d="M20 9.47811L26.1809 0L25.8767 11.4983L36.1889 7.6431L29.5116 16.7508L40 20L29.5116 23.2492L36.1889 32.3569L25.8767 28.5017L26.1809 40L20 30.5219L13.8191 40L14.1233 28.5017L3.82706 32.3569L10.4884 23.2492L0 20L10.4884 16.7508L3.82706 7.6431L14.1233 11.4983L13.8191 0L20 9.47811Z"></path>
-                                </svg> EMAIL MARKETING
-                            </span>
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
-                                    <path d="M20 9.47811L26.1809 0L25.8767 11.4983L36.1889 7.6431L29.5116 16.7508L40 20L29.5116 23.2492L36.1889 32.3569L25.8767 28.5017L26.1809 40L20 30.5219L13.8191 40L14.1233 28.5017L3.82706 32.3569L10.4884 23.2492L0 20L10.4884 16.7508L3.82706 7.6431L14.1233 11.4983L13.8191 0L20 9.47811Z"></path>
-                                </svg> DIGITAL STUDIO
-                            </span>
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
-                                    <path d="M20 9.47811L26.1809 0L25.8767 11.4983L36.1889 7.6431L29.5116 16.7508L40 20L29.5116 23.2492L36.1889 32.3569L25.8767 28.5017L26.1809 40L20 30.5219L13.8191 40L14.1233 28.5017L3.82706 32.3569L10.4884 23.2492L0 20L10.4884 16.7508L3.82706 7.6431L14.1233 11.4983L13.8191 0L20 9.47811Z"></path>
-                                </svg> UI/UX DESIGN
-                            </span>
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
-                                    <path d="M20 9.47811L26.1809 0L25.8767 11.4983L36.1889 7.6431L29.5116 16.7508L40 20L29.5116 23.2492L36.1889 32.3569L25.8767 28.5017L26.1809 40L20 30.5219L13.8191 40L14.1233 28.5017L3.82706 32.3569L10.4884 23.2492L0 20L10.4884 16.7508L3.82706 7.6431L14.1233 11.4983L13.8191 0L20 9.47811Z"></path>
-                                </svg> EMAIL MARKETING
-                            </span>
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
-                                    <path d="M20 9.47811L26.1809 0L25.8767 11.4983L36.1889 7.6431L29.5116 16.7508L40 20L29.5116 23.2492L36.1889 32.3569L25.8767 28.5017L26.1809 40L20 30.5219L13.8191 40L14.1233 28.5017L3.82706 32.3569L10.4884 23.2492L0 20L10.4884 16.7508L3.82706 7.6431L14.1233 11.4983L13.8191 0L20 9.47811Z"></path>
-                                </svg> DIGITAL STUDIO
-                            </span>
-                        </div>
-                        <div className="marquee__group">
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
-                                    <path d="M20 9.47811L26.1809 0L25.8767 11.4983L36.1889 7.6431L29.5116 16.7508L40 20L29.5116 23.2492L36.1889 32.3569L25.8767 28.5017L26.1809 40L20 30.5219L13.8191 40L14.1233 28.5017L3.82706 32.3569L10.4884 23.2492L0 20L10.4884 16.7508L3.82706 7.6431L14.1233 11.4983L13.8191 0L20 9.47811Z"></path>
-                                </svg> Welcome to Aadhya Infotech
-                            </span>
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
-                                    <path d="M20 9.47811L26.1809 0L25.8767 11.4983L36.1889 7.6431L29.5116 16.7508L40 20L29.5116 23.2492L36.1889 32.3569L25.8767 28.5017L26.1809 40L20 30.5219L13.8191 40L14.1233 28.5017L3.82706 32.3569L10.4884 23.2492L0 20L10.4884 16.7508L3.82706 7.6431L14.1233 11.4983L13.8191 0L20 9.47811Z"></path>
-                                </svg> EMAIL MARKETING </span>
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
-                                    <path d="M20 9.47811L26.1809 0L25.8767 11.4983L36.1889 7.6431L29.5116 16.7508L40 20L29.5116 23.2492L36.1889 32.3569L25.8767 28.5017L26.1809 40L20 30.5219L13.8191 40L14.1233 28.5017L3.82706 32.3569L10.4884 23.2492L0 20L10.4884 16.7508L3.82706 7.6431L14.1233 11.4983L13.8191 0L20 9.47811Z"></path>
-                                </svg> DIGITAL STUDIO
-                            </span>
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
-                                    <path d="M20 9.47811L26.1809 0L25.8767 11.4983L36.1889 7.6431L29.5116 16.7508L40 20L29.5116 23.2492L36.1889 32.3569L25.8767 28.5017L26.1809 40L20 30.5219L13.8191 40L14.1233 28.5017L3.82706 32.3569L10.4884 23.2492L0 20L10.4884 16.7508L3.82706 7.6431L14.1233 11.4983L13.8191 0L20 9.47811Z"></path>
-                                </svg> UI/UX DESIGN
-                            </span>
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
-                                    <path d="M20 9.47811L26.1809 0L25.8767 11.4983L36.1889 7.6431L29.5116 16.7508L40 20L29.5116 23.2492L36.1889 32.3569L25.8767 28.5017L26.1809 40L20 30.5219L13.8191 40L14.1233 28.5017L3.82706 32.3569L10.4884 23.2492L0 20L10.4884 16.7508L3.82706 7.6431L14.1233 11.4983L13.8191 0L20 9.47811Z"></path>
-                                </svg> EMAIL MARKETING
-                            </span>
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
-                                    <path d="M20 9.47811L26.1809 0L25.8767 11.4983L36.1889 7.6431L29.5116 16.7508L40 20L29.5116 23.2492L36.1889 32.3569L25.8767 28.5017L26.1809 40L20 30.5219L13.8191 40L14.1233 28.5017L3.82706 32.3569L10.4884 23.2492L0 20L10.4884 16.7508L3.82706 7.6431L14.1233 11.4983L13.8191 0L20 9.47811Z"></path>
-                                </svg> DIGITAL STUDIO
-                            </span>
+            <div className='container'>
+                <div className='row' ref={ref}>
+                    <div className='col-lg-12'>
+                        <div className='home-ratting'>
+                            <div className='row'>
+                                <div className='col-lg-2 col-md-6 col-sm-6 col-12 text-center px-lg-0'>
+                                    <div className='home-ratting-content'>
+                                        <p className='mb-0'>Clients</p>
+                                        {countStarted ? <CountUp className='home-counter-number' end={35} duration={3} delay={0.5} /> : 0}
+                                        <span className='text-dark'>+</span>
+                                    </div>
+                                </div>
+                                <div className='col-lg-2 col-md-6 col-sm-6 col-12 text-center px-lg-0'>
+                                    <div className='home-ratting-content'>
+                                        <p className='mb-0'>Experts</p>
+                                        {countStarted ? <CountUp className='home-counter-number' end={15} duration={3} delay={0.5} /> : 0}
+                                        <span className='text-dark'>+</span>
+                                    </div>
+                                </div>
+                                <div className='col-lg-2 col-md-6 col-sm-6 col-12 text-center px-lg-0'>
+                                    <div className='home-ratting-content'>
+                                        <p className='mb-0'>Projects Delivered</p>
+                                        {countStarted ? <CountUp className='home-counter-number' end={145} duration={3} delay={0.5} /> : 0}
+                                        <span className='text-dark'>+</span>
+                                    </div>
+                                </div>
+
+                                <div className='col-lg-3 col-md-6 col-sm-6 col-12 text-center px-lg-0'>
+                                    <div className='home-ratting-content'>
+                                        <p className='mb-0'>Service Satisfaction Guarentee.</p>
+                                        {countStarted ? <CountUp className='home-counter-number' end={100} duration={3} delay={0.5} /> : 0}
+                                        <span className='text-dark'>%</span>
+                                    </div>
+                                </div>
+                                <div className='col-lg-3 col-md-6 col-sm-6 col-12 text-center px-lg-0'>
+                                    <div className='home-ratting-last-content'>
+                                        <p className='mb-0'>Highly Accredited Security</p>
+                                        {countStarted ? <CountUp className='home-counter-number' end={145} duration={3} delay={0.5} /> : 0}
+                                        <span className='text-dark'>%</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
