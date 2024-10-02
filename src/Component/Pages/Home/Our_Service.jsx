@@ -27,7 +27,7 @@ export default function Our_Service() {
                 <div className="section-title three text-animation row">
                     <div className='about-our-company-content col-lg-12 our-solution-style-1 text-center mb-5' >
                         <h2 className='testimonial-before'>Our Service</h2>
-                        <p className='mt-4'>As one of the leading software development companies, we at Vasundhara have a diverse <br /> range of services for our clients, where we operate in these core areas services.</p>
+                        <p className='mt-4'>As one of the leading software development companies, we at Vasundhara have a diverse <br className='d-lg-block d-md-none d-none' /> range of services for our clients, where we operate in these core areas services.</p>
                     </div>
                 </div>
 
@@ -35,11 +35,11 @@ export default function Our_Service() {
                 <div className="custom-navigation our-service-prev-next-button">
                     <button ref={prevRef} className="our-service-prev custom-prev me-2 our-service-prev-next-arrow">
                         {/* <i className="fa-solid fa-arrow-left"></i> */}
-                        <img src="/images/our-service-left-arrow.svg" alt="our-service-left-arrow"  className='our-service-img-arrow'/>
+                        <img src="/images/our-service-left-arrow.svg" alt="our-service-left-arrow" className='our-service-img-arrow' />
                     </button>
                     <button ref={nextRef} className="our-service-next custom-next ms-2 our-service-prev-next-arrow">
                         {/* <i className="fa-solid fa-arrow-right"></i> */}
-                        <img src="/images/our-service-right-arrow.svg" alt="our-service-right-arrow" className='our-service-img-arrow'/>
+                        <img src="/images/our-service-right-arrow.svg" alt="our-service-right-arrow" className='our-service-img-arrow' />
                     </button>
                 </div>
 
@@ -47,10 +47,10 @@ export default function Our_Service() {
                     slidesPerView={3}
                     spaceBetween={30}
                     loop={true}
-                    // autoplay={{
-                    //     delay: 7000,
-                    //     disableOnInteraction: false,
-                    // }}
+                    autoplay={{
+                        delay: 7000,
+                        disableOnInteraction: false,
+                    }}
                     breakpoints={{
                         0: {
                             slidesPerView: 1,

@@ -20,7 +20,7 @@ export default function Our_solution() {
                         <div className='overflow-hidden'>
                             <div className="section-title three text-animation row">
                                 <div className='about-our-company col-lg-12 our-solution-style-1 text-center mb-5'>
-                                    <h2>Our Solution<span> Proccess</span> </h2>
+                                    <h2 className='heading-text-before'>Our Solution<span> Proccess</span> </h2>
                                 </div>
                             </div>
                         </div>
@@ -29,7 +29,7 @@ export default function Our_solution() {
                                 <div className='row justify-content-center'>
                                     <div className='col-lg-3'>
                                         <div className='position-relative'>
-                                            <img src="/images/our-solution-img-01.png" alt="our-solution-img-01" className='img-fluid' />
+                                            <img src="/images/our-solution-img-01.png" alt="our-solution-img-01" className='img-fluid our-solution-img-shadow-01' />
                                             <div className='our-solution-step-img'>
                                                 <img src="/images/our-service-procees-b.png" alt="our-service-procees-b" className='img-fluid our-solution-process-img' />
                                             </div>
@@ -50,7 +50,7 @@ export default function Our_solution() {
                                 <div className='row'>
                                     <div className='col-lg-6'>
                                         <div className='position-relative'>
-                                            <img src="/images/our-solution-img-02.png" alt="our-solution-img-02" className='img-fluid' />
+                                            <img src="/images/our-solution-img-02.png" alt="our-solution-img-02" className='img-fluid our-solution-img-shadow-02' />
                                             <div className='our-solution-step-img'>
                                                 <img src="/images/our-service-procees-a.png" alt="our-service-procees-a" className='img-fluid our-solution-process-img' />
                                             </div>
@@ -73,7 +73,7 @@ export default function Our_solution() {
                                 <div className='row'>
                                     <div className='col-lg-6'>
                                         <div className='position-relative'>
-                                            <img src="/images/our-solution-img-03.png" alt="our-solution-img-03" className='img-fluid' />
+                                            <img src="/images/our-solution-img-03.png" alt="our-solution-img-03" className='img-fluid our-solution-img-shadow-03' />
                                             <div className='our-solution-step-img'>
                                                 <img src="/images/our-service-procees-c.png" alt="our-service-procees-c" className='img-fluid our-solution-process-img' />
                                             </div>
@@ -95,7 +95,7 @@ export default function Our_solution() {
                                 <div className='row justify-content-center'>
                                     <div className='col-lg-3'>
                                         <div className='position-relative'>
-                                            <img src="/images/our-solution-img-04.png" alt="our-solution-img-04" className='img-fluid' />
+                                            <img src="/images/our-solution-img-04.png" alt="our-solution-img-04" className='img-fluid our-solution-img-shadow-04' />
                                             <div className='our-solution-step-img'>
                                                 <img src="/images/our-service-procees-d.png" alt="our-service-procees-d" className='img-fluid our-solution-process-img' />
                                             </div>

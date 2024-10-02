@@ -624,16 +624,6 @@ body {
   fill: #474748 !important;
 }
 
-.section-title .dash-and-paragraph p {
-  color: #c4c4c4;
-  font-family: var(--font-unbounded);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
-}
-
-
-
 .counter-and-btn {
   max-width: 320px;
   width: 100%;
@@ -2601,6 +2591,26 @@ footer .menu-container ul li a:hover svg {
   background-color: #3F00F5;
 }
 
+.our-solution-img-shadow-01 {
+  box-shadow: 0px 50px 100px 0px #008DAC33;
+  border-radius: 50%;
+}
+
+.our-solution-img-shadow-02 {
+  box-shadow: 0px 50px 100px 0px #94001B33;
+  border-radius: 50%;
+}
+
+.our-solution-img-shadow-03 {
+  box-shadow: 0px 50px 100px 0px #00317B33;
+  border-radius: 50%;
+}
+
+.our-solution-img-shadow-04 {
+  box-shadow: 0px 50px 100px 0px #007B4233;
+  border-radius: 50%;
+}
+
 @media screen and (min-width:1200px) and (max-width:1400px) {
   .our-solution-step-img {
     position: absolute;
@@ -2677,6 +2687,14 @@ footer .menu-container ul li a:hover svg {
 .our-service-prev-next-arrow:hover {
   background-color: #0093ed;
   border: 1px solid #0093ed;
+}
+
+@media (max-width:390px) {
+  .our-service-prev-next-arrow {
+    height: 50px;
+    width: 50px;
+    padding: 0px !important;
+  }
 }
 
 /* heading before css */
@@ -2913,6 +2931,10 @@ footer .menu-container ul li a:hover svg {
   transition: 0.3s;
 }
 
+/* slick swiper dots */
+.slick-dots {
+  display: none !important;
+}
 
 /* ------------------*/
 /* Contact Page css */

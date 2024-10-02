@@ -50,14 +50,14 @@ export default function AppDevelopProcess() {
             {
                 breakpoint: 767,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                     slidesToScroll: 1,
                     initialSlide: 1,
                     autoplay: true,
                 }
             },
             {
-                breakpoint: 480,
+                breakpoint: 590,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
@@ -66,7 +66,7 @@ export default function AppDevelopProcess() {
         ]
     };
     return (
-        <div>
+        <div className='overflow-hidden'>
             <div className="slider-container mt-5">
                 <div className='container-fluid'>
                     <div className='row'>

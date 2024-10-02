@@ -11,8 +11,8 @@ export default function AppDevelopmentSolution() {
         });
     }, []);
     var settings = {
-        dots: true,
         infinite: true,
+        dots: false,
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -25,8 +25,7 @@ export default function AppDevelopmentSolution() {
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
-                    infinite: true,
-                    dots: true
+                    
                 }
             },
             {
@@ -34,14 +33,14 @@ export default function AppDevelopmentSolution() {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    initialSlide: 1
+                    initialSlide: 1,
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
                 }
             }
         ]

@@ -844,18 +844,11 @@ export default function About_Us() {
                     <div className="container-lg container-fluid">
                         <div className="row mb-60">
                             <div className="section-title four white text-animation vector-and-review">
-                                <div className='techno-stlye-1'>
-                                    <h2>Our Latest  <span className='text-start'>ARTICLE</span></h2>
-                                </div>
-                                <div className='techno-style-2'>
-                                    <div className="dash-and-paragraph three">
-                                        <div className="btn-and-paragraph">
-                                            <p className='vector-and-review'>
-                                                <div className='techno-style-3'>Services to help businesses establish and enhance  </div>
-                                                <div className='techno-style-3'>theironline presence.</div>
-                                            </p>
-                                        </div>
-                                    </div>
+                                <div className='techno-stlye-1 text-center'>
+                                    <h2>Our Latest  <span className='text-start'>Article</span></h2>
+                                    <p className='mb-0'>
+                                        Services to help businesses establish and enhance theironline presence.
+                                    </p>
                                 </div>
                             </div>
                         </div>

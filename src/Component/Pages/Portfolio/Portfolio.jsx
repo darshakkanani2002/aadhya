@@ -25,17 +25,17 @@ export default function Portfolio() {
                 </div>
                 <div>
                     <div>
-                        <div className="home2-portfolio-section bg-white">
+                        <div className="home2-portfolio-section">
                             <div className='container'>
                                 <div className="section-title three text-animation row">
                                     <div className='about-our-company col-lg-12 our-solution-style-1 text-center mb-5'>
-                                        <h2 className='text-lg-start text-md-center text-center new-work-text heading-text-before'>Our Portfolio</h2>
+                                        <h2 className='text-lg-start text-md-center text-center new-work-text heading-text-before'>Project Showcase</h2>
                                     </div>
                                 </div>
                                 <div className='row'>
                                     <div className='col-12'>
-                                        <ul className="nav nav-pills mb-3 d-flex justify-content-center work-navigation-ul gap-5" id="pills-tab" role="tablist">
-                                            <div>
+                                        <ul className="nav nav-pills mb-3 d-flex justify-content-center gap-5" id="pills-tab" role="tablist">
+                                            <div className='d-flex gap-5 flex-wrap gap-5 work-navigation-ul align-items-center justify-content-center'>
                                                 <li className="nav-item" role="presentation">
                                                     <button className="nav-link" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">App Development</button>
                                                 </li>
