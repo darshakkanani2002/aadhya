@@ -149,7 +149,6 @@ export default function Portfolio() {
                                                                         <h5 className='mb-0'>Vedarch Design</h5>
                                                                     </div>
                                                                 </div>
-
                                                             </a>
                                                         </div>
                                                         <div className='col-lg-4 col-md-6 col-sm-6 col-12 mt-4'>
@@ -180,7 +179,7 @@ export default function Portfolio() {
                                                     <div className='col-lg-4 col-md-6 col-sm-6 col-12 mt-4'>
                                                         <a href="#">
                                                             <div className='position-relative wok-img-div'>
-                                                                <img src="/images/work-ui-img-02.jpg" alt="work-ui-img-02   " className='img-fluid rounded-4 work-ui-images' />
+                                                                <img src="/images/work-ui-img-02.jpg" alt="work-ui-img-02" className='img-fluid rounded-4 work-ui-images' />
                                                                 <div className='work-name-text-img'>
                                                                     <h5 className='mb-0'>Weather Ui/UX Design</h5>
                                                                 </div>
@@ -209,7 +208,6 @@ export default function Portfolio() {
                         <div>
                             <Testimonial></Testimonial>
                         </div>
-
                     </div>
                 </div>
             </div>
