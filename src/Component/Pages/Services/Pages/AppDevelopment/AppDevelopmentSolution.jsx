@@ -210,7 +210,6 @@ export default function AppDevelopmentSolution() {
                                             </div>
                                         </div>
                                     </div>
-
                                     <div>
                                         <div className='p-2'>
                                             <div className='app-development-back-02 app-development'>
