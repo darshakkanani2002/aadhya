@@ -149,10 +149,10 @@ export default function Testimonial() {
                         // navigation={{
                         //     clickable: true,
                         // }}
-                        autoplay={{
-                            delay: 2500,
-                            disableOnInteraction: false,
-                        }}
+                        // autoplay={{
+                        //     delay: 2500,
+                        //     disableOnInteraction: false,
+                        // }}
                         breakpoints={{
                             // When the window is >= 320px (small screens)
                             0: {
@@ -214,7 +214,7 @@ export default function Testimonial() {
                                         <div className='text-center mb-4'>
                                             <img src="/images/img_testimonial_03.png" alt="img_testimonial_03" />
                                         </div>
-                                        <div>
+                                        <div className='testimonial-content'>
                                             <div className='mb-2'>
                                                 <h5 className='mb-0'>Presha Rai</h5>
                                                 <span className='testimonial-post-text mb-5'>CEO at maitra.com</span>
@@ -235,7 +235,7 @@ export default function Testimonial() {
                                         <div className='text-center mb-4'>
                                             <img src="/images/img_testimonial_04.png" alt="img_testimonial_04" />
                                         </div>
-                                        <div>
+                                        <div className='testimonial-content'>
                                             <div className='mb-2'>
                                                 <h5 className='mb-0'>Kriya Mishra</h5>
                                                 <span className='testimonial-post-text mb-5'>CEO at cookie.com</span>
@@ -256,7 +256,7 @@ export default function Testimonial() {
                                         <div className='text-center mb-4'>
                                             <img src="/images/img_testimonial_05.png" alt="img_testimonial_05" />
                                         </div>
-                                        <div>
+                                        <div className='testimonial-content'>
                                             <div className='mb-2'>
                                                 <h5 className='mb-0'>Olivia Wilson</h5>
                                                 <span className='testimonial-post-text mb-5'>CEO at wampire.com</span>

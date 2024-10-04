@@ -109,6 +109,7 @@
 @media (max-width:425px) {
     .testimonial-content p {
         font-size: 14px;
+        padding: 6px;
     }
 
     .testimonial-content img {
