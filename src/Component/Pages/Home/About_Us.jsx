@@ -83,7 +83,7 @@ export default function About_Us() {
                                     <button className='about-more-btn'><Link>More</Link></button>
                                 </div>
                             </div>
-                            <div className='col-lg-6 mt-lg-0 mt-md-3 mt-3'>
+                            <div className='col-lg-6 mt-lg-0 mt-md-5 mt-5'>
                                 <div>
                                     <img src="/images/about-img-01.png" alt="about-img-01" className='img-fluid' />
                                 </div>

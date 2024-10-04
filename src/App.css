@@ -582,6 +582,13 @@ body {
   margin-bottom: 60px;
 }
 
+@media(max-width:992px) {
+  .about-our-comapny-content h2 {
+    font-size: 40px;
+    color: #0467FF;
+  }
+}
+
 .about-our-comapny-content h6 {
   font-size: 22px;
   font-weight: 500;
