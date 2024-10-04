@@ -25,7 +25,7 @@ export default function Our_solution() {
                             </div>
                         </div>
                         <div className='row'>
-                            <div className='col-lg-12 mb-5 text-lg-start text-md-center text-center our-solution-process-design-02 p-3'>
+                            <div className='col-lg-12 mb-5 text-lg-start text-md-center text-center our-solution-process-design-02 p-3' data-aos="zoom-in" data-aos-delay="500">
                                 <div className='row justify-content-center'>
                                     <div className='col-lg-3'>
                                         <div className='position-relative'>
@@ -46,7 +46,7 @@ export default function Our_solution() {
                                     </div>
                                 </div>
                             </div>
-                            <div className='col-lg-6 mb-5 our-solustion-procees-a text-lg-start text-md-center text-center our-solution-process-design-01 p-3'>
+                            <div className='col-lg-6 mb-5 our-solustion-procees-a text-lg-start text-md-center text-center our-solution-process-design-01 p-3' data-aos="zoom-in" data-aos-delay="500">
                                 <div className='row'>
                                     <div className='col-lg-6'>
                                         <div className='position-relative'>
@@ -69,7 +69,7 @@ export default function Our_solution() {
                                 </div>
                             </div>
 
-                            <div className='col-lg-6 mb-5 text-lg-start text-md-center text-center our-solution-process-design-03 p-3'>
+                            <div className='col-lg-6 mb-5 text-lg-start text-md-center text-center our-solution-process-design-03 p-3' data-aos="zoom-in" data-aos-delay="400">
                                 <div className='row'>
                                     <div className='col-lg-6'>
                                         <div className='position-relative'>
@@ -91,7 +91,7 @@ export default function Our_solution() {
                                 </div>
                             </div>
 
-                            <div className='col-lg-12 text-lg-start text-md-center text-center our-solution-process-design-04 p-3'>
+                            <div className='col-lg-12 text-lg-start text-md-center text-center our-solution-process-design-04 p-3' data-aos="zoom-in" data-aos-delay="600">
                                 <div className='row justify-content-center'>
                                     <div className='col-lg-3'>
                                         <div className='position-relative'>

@@ -2301,7 +2301,7 @@ footer .footer-top .footer-logo-contact-wrap {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 25px 35px;
+  padding: 15px 15px;
   gap: 40px;
   flex-wrap: wrap;
 }
