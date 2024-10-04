@@ -149,10 +149,10 @@ export default function Testimonial() {
                         // navigation={{
                         //     clickable: true,
                         // }}
-                        // autoplay={{
-                        //     delay: 2500,
-                        //     disableOnInteraction: false,
-                        // }}
+                        autoplay={{
+                            delay: 2500,
+                            disableOnInteraction: false,
+                        }}
                         breakpoints={{
                             // When the window is >= 320px (small screens)
                             0: {
