@@ -4,6 +4,7 @@ import { Link, useLocation } from 'react-router-dom';
 export default function Navbar() {
     const location = useLocation();
     const [activeLink, setActiveLink] = useState(location.pathname);
+
     useEffect(() => {
         // Update the active link when the location changes
         setActiveLink(location.pathname);
@@ -18,13 +19,24 @@ export default function Navbar() {
     const isServiceActive = () => {
         return ['/app', '/game', '/web'].includes(activeLink);
     };
-    // Force page reload
+
+    // Function to handle click and close the offcanvas on medium screens
     const handleLinkClick = (path) => {
         setActiveLink(path);
         if (path === location.pathname) {
             window.location.reload();
         }
+
+        // Close the offcanvas manually
+        const offcanvasElement = document.querySelector('.offcanvas');
+        if (offcanvasElement) {
+            offcanvasElement.classList.remove('show');
+            document.body.classList.remove('offcanvas-backdrop');
+            document.body.style.overflow = '';  // Remove the no-scroll class Bootstrap adds
+            document.body.style.opacity = '';
+        }
     };
+
     return (
         <div>
             <div className='hero-bg-banner'>
@@ -32,19 +44,16 @@ export default function Navbar() {
                     <div className="container">
                         <div className="">
                             <Link to='/' className="navbar-brand py-0">
-                                <img src="images/logo-updated.png" className="logo img-fluid"
-                                    alt="logo" />
+                                <img src="images/logo-updated.png" className="logo img-fluid" alt="logo" />
                             </Link>
                         </div>
-                        <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNav"
-                            aria-controls="navbarNav">
+                        <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" aria-controls="navbarNav">
                             <span className="navbar-toggler-icon"></span>
                         </button>
 
                         <div className="offcanvas offcanvas-start" tabIndex="-1" id="navbarNav" aria-labelledby="navbarNavLabel">
                             <div className="offcanvas-header justify-content-end">
-                                <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas"
-                                    aria-label="Close"></button>
+                                <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                             </div>
                             <div className="offcanvas-body">
                                 <ul className="navbar-nav m-auto mb-2 mt-0 mb-lg-0">
