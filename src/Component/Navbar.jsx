@@ -36,7 +36,6 @@ export default function Navbar() {
             document.body.style.opacity = '';
         }
     };
-
     return (
         <div>
             <div className='hero-bg-banner'>
