@@ -329,9 +329,9 @@ body {
   min-height: 900px;
 }
 
-/* .logo-video-section {
-  transform: translateX(200px);
-} */
+.logo-video-section {
+  overflow: hidden;
+}
 
 @media (min-width:1900px) {
   .logo-video-section {
