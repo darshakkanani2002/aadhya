@@ -60,23 +60,23 @@ export default function Navbar() {
                                         <Link to='/' className={`nav-link ${activeLink === '/' ? 'active' : ''}`} onClick={() => handleLinkClick('/')} aria-current="page" data-section="home">Home</Link>
                                     </li>
                                     <li className="nav-item dropdown d-flex align-items-center">
-                                        <Link className={`nav-link ${isServiceActive() ? 'active' : ''}`} id="servicesDropdown" role="button" aria-expanded="false">
+                                        <Link to='/' className={`nav-link ${isServiceActive() ? 'active' : ''}`} onClick={() => handleLinkClick('/service')} id="servicesDropdown" role="button" aria-expanded="false">
                                             Services
                                         </Link>
-                                        <ul className="dropdown-menu nav-sub-menu py-0" aria-labelledby="servicesDropdown">
+                                        <ul className="dropdown-menu nav-sub-menu py-0 d-none" aria-labelledby="servicesDropdown">
                                             <li><Link to='/app' className="dropdown-item" onClick={() => handleLinkClick('/app')}>App Development</Link></li>
                                             <li><Link to='/game' className="dropdown-item" onClick={() => handleLinkClick('/game')}>Game Development</Link></li>
                                             <li><Link to='/web' className="dropdown-item" onClick={() => handleLinkClick('/web')}>Web Development</Link></li>
                                         </ul>
                                     </li>
                                     <li className="nav-item dropdown d-flex align-items-center">
-                                        <Link to='/technology' className={`nav-link ${activeLink === '/technology' ? 'active' : ''}`} onClick={() => handleLinkClick('/technology')} >Technologies</Link>
+                                        <Link to='/' className={`nav-link ${activeLink === '/technology' ? 'active' : ''}`} onClick={() => handleLinkClick('/technology')} >Technologies</Link>
                                     </li>
                                     <li className="nav-item d-flex align-items-center">
-                                        <Link data-section="contact">Company</Link>
+                                        <Link to='/' className={`nav-link ${isServiceActive() ? 'active' : ''}`} onClick={() => handleLinkClick('/company')} data-section="contact">Company</Link>
                                     </li>
                                     <li className="nav-item d-flex align-items-center">
-                                        <Link to='/portfolio' className={`nav-link ${activeLink === '/portfolio' ? 'active' : ''}`} onClick={() => handleLinkClick('/portfolio')} data-section="blog">Portfolio</Link>
+                                        <Link to='/' className={`nav-link ${activeLink === '/portfolio' ? 'active' : ''}`} onClick={() => handleLinkClick('/portfolio')} data-section="blog">Portfolio</Link>
                                     </li>
                                 </ul>
                                 <div className="p-1 nav-contact-button mt-3 mt-lg-0" role="search">

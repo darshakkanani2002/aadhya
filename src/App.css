@@ -57,6 +57,16 @@ body {
   opacity: 0;
 }
 
+.w-20 {
+  width: 20%;
+}
+
+@media(max-width:992px) {
+  .width-50 {
+    width: 50%;
+  }
+}
+
 /* @media (min-width: 1400px) {
 
   .container,
@@ -1727,41 +1737,28 @@ a {
 }
 
 /* technology section css */
-.techno-stlye-1 {
-  display: block;
-  text-align: start;
-  position: relative;
-  translate: none;
-  rotate: none;
-  scale: none;
-  transform-origin: 248.312px 55.75px;
-  transform: translate3d(0px, 0px, 0px);
-  opacity: 1;
+
+.technology-icon-back {
+  background-color: #E2EEFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  min-height: 240px;
+  box-shadow: 0 0 12px 3px #d8d8d8;
 }
 
-.techno-style-2 {
-  display: block;
-  text-align: start;
-  position: relative;
-  translate: none;
-  rotate: none;
-  scale: none;
-  transform-origin: 268px 26px;
-  transform: translate3d(0px, 0px, 0px);
-  opacity: 1;
+.technology-icon {
+  height: 70px;
+  width: auto;
 }
 
-.techno-style-3 {
-  display: block;
-  text-align: start;
-  position: relative;
-  translate: none;
-  rotate: none;
-  scale: none;
-  transform-origin: 268px 13px;
-  transform: translate3d(0px, 0px, 0px);
-  opacity: 1;
-  color: #626262;
+
+@media (min-width:425px) {
+  .technology-content p {
+    font-size: 22px;
+    font-weight: 500;
+  }
 }
 
 .technology-sec-style {
@@ -1833,7 +1830,7 @@ a {
 
 .technology-tab-wrap .single-technology {
   border-radius: 5px;
-  background: #fff;
+  background: #E2EEFF;
   display: flex;
   flex-direction: column;
   justify-content: center;

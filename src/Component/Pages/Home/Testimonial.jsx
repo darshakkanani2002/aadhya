@@ -22,7 +22,7 @@ export default function Testimonial() {
         });
     }, []);
     return (
-        <div className='testimonial py-5 overflow-hidden'>
+        <div className='testimonial py-5 overflow-hidden d-none'>
             <>
                 <Swiper
                     pagination={{

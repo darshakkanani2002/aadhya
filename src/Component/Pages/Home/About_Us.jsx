@@ -531,9 +531,9 @@ export default function About_Us() {
             </div>
 
             {/* We Used Technology Section */}
-            <div>
+            {/* <div>
                 <div>
-                    <div className="home2-technology-section">
+                    <div className="home2-technology-section d-none">
                         <div className="container-lg container-fluid">
                             <div className="row mb-60">
                                 <div className="section-title four white text-animation vector-and-review text-center">
@@ -793,12 +793,504 @@ export default function About_Us() {
                         </div>
                     </div>
                 </div>
+            </div> */}
+
+            <div>
+                <div>
+                    <div>
+                        <div className="home2-portfolio-section">
+                            <div className='container'>
+                                <div className="section-title three text-animation row">
+                                    <div className='about-our-company col-lg-12 our-solution-style-1 text-center mb-5'>
+                                        <h2 className='text-lg-start text-md-center text-center new-work-text heading-text-before'>We Used Advance Technology</h2>
+                                        <p className='fw-semibold mt-4'>Offer a wide range of services to help businesses establish and enhance <br className='d-lg-block d-md-none d-none' />
+                                            their online presence.</p>
+                                    </div>
+                                </div>
+                                <div className='row'>
+                                    <div className='col-12'>
+                                        <ul className="nav nav-pills mb-3 d-flex justify-content-center gap-5" id="pills-tab" role="tablist">
+                                            <div className='d-flex flex-wrap gap-5 work-navigation-ul align-items-center justify-content-center'>
+                                                <li className="nav-item" role="presentation">
+                                                    <button className="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#tech-Front-End" type="button" role="tab" aria-controls="tech-Front-End" aria-selected="true">Front-End</button>
+                                                </li>
+                                                <li className="nav-item" role="presentation">
+                                                    <button className="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#tech-Back-End" type="button" role="tab" aria-controls="tech-Back-End" aria-selected="false">Back-End</button>
+                                                </li>
+                                                <li className="nav-item" role="presentation">
+                                                    <button className="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#tech-Mobile" type="button" role="tab" aria-controls="tech-Mobile" aria-selected="false">Mobile</button>
+                                                </li>
+                                                <li className="nav-item" role="presentation">
+                                                    <button className="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#tech-DevOps" type="button" role="tab" aria-controls="tech-DevOps" aria-selected="false">DevOps</button>
+                                                </li>
+                                            </div>
+                                        </ul>
+                                        <div className="tab-content" id="pills-tabContent">
+                                            <div className="tab-pane fade show active" id="tech-Front-End" role="tabpanel" aria-labelledby="tech-Front-End-tab" tabIndex="0">
+                                                <div className='container'>
+                                                    <div className='w-100'>
+                                                        <div className='d-flex flex-wrap'>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/html.svg" alt="html" className='technology-icon img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>HTML</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/css.svg" alt="css" className='technology-icon img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>css</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/javascript.svg" alt="javascript" className='technology-icon img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>Javascript</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/vue.svg" alt="vue" className='technology-icon img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>Vue JS</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/react.svg" alt="react" className='technology-icon img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>React JS</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/angular.svg" alt="angular" className='technology-icon img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>Angular JS</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/d3.svg" alt="d3" className='technology-icon img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>D3 Js</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/jquery.svg" alt="jquery" className='technology-icon technology-jquery-img img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>JQuery</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/typescript.svg" alt="typescript" className='technology-icon img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>TypeScript</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/graphql.svg" alt="graphql" className='technology-icon img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>GraphQL</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="tab-pane fade" id="tech-Back-End" role="tabpanel" aria-labelledby="tech-Back-End-tab" tabIndex="0">
+                                                <div className='container'>
+                                                    <div className='w-100'>
+                                                        <div className='d-flex flex-wrap justify-content-center'>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/node-js.svg" alt="node-js" className='technology-icon img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>Node JS</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/ruby.svg" alt="ruby" className='technology-icon img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>Ruby</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/django.svg" alt="django" className='technology-icon img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>D Jnago</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/javascript.svg" alt="javascript" className='technology-icon img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>Express JS</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/asp.svg" alt="asp" className='technology-icon img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>ASP .Net</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/laravel.svg" alt="Laravel" className='technology-icon img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>Laravel</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/firebase.svg" alt="firebase" className='technology-icon img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>Firebase</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="tab-pane fade" id="tech-Mobile" role="tabpanel" aria-labelledby="tech-Mobile-tab" tabIndex="0">
+                                                <div className='container'>
+                                                    <div className='w-100'>
+                                                        <div className='d-flex flex-wrap justify-content-center'>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/flutter.svg" alt="flutter" className='technology-icon img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>Flutter</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/android.svg" alt="android" className='technology-icon img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>Android</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/ios.svg" alt="ios" className='technology-icon img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>Iso App</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/firebase.svg" alt="firebase" className='technology-icon img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>Firebase</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/react.svg" alt="react" className='technology-icon img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>React Native</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/swift.svg" alt="swift" className='technology-icon img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>Swift</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/java.svg" alt="java" className='technology-icon img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>Java</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/kotlin.svg" alt="Kotlin" className='technology-icon img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>Kotlin</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="tab-pane fade" id="tech-DevOps" role="tabpanel" aria-labelledby="tech-DevOps-tab" tabIndex="0">
+                                                <div className='container'>
+                                                    <div className='w-100'>
+                                                        <div className='d-flex flex-wrap'>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/html.svg" alt="html" className='technology-icon img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>HTML</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/css.svg" alt="css" className='technology-icon img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>css</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/javascript.svg" alt="javascript" className='technology-icon img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>Javascript</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/vue.svg" alt="vue" className='technology-icon img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>Vue JS</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/react.svg" alt="react" className='technology-icon img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>React JS</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/angular.svg" alt="angular" className='technology-icon img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>Angular JS</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/d3.svg" alt="d3" className='technology-icon img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>D3 Js</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/jquery.svg" alt="jquery" className='technology-icon technology-jquery-img img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>JQuery</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/typescript.svg" alt="typescript" className='technology-icon img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>TypeScript</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className='w-20 width-50 mt-3'>
+                                                                <div className='mb-4 px-3'>
+                                                                    <div className='technology-icon-back technology-hover text-center'>
+                                                                        <div className="single-technology btn_wrapper big technology-content">
+                                                                            <div className="icon">
+                                                                                <img decoding="async" src="images/graphql.svg" alt="graphql" className='technology-icon img-fluid' />
+                                                                            </div>
+                                                                            <p className='mt-3 mb-0'>GraphQL</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             {/* Testimonial Section */}
             <Testimonial></Testimonial>
 
             {/* Partner Section */}
-            <div>
+            <div className='d-none'>
                 <div>
                     <div className="partner-area">
                         <div className="container-fluid py-5">
@@ -838,7 +1330,7 @@ export default function About_Us() {
             </div>
 
             {/* Latest Blog Section */}
-            <div>
+            <div className='d-none'>
                 <div className="home2-blog-sec">
                     <div className="container-lg container-fluid">
                         <div className="row mb-60">
