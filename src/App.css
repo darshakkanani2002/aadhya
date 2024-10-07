@@ -116,8 +116,10 @@ body {
   padding: 7px 17px;
 }
 
-.nav-link {
-  border-radius: 30px;
+.navbar-nav .nav-link,
+.navbar-nav .nav-link.show {
+  border-radius: 30px !important;
+  padding: 8px 11px;
 }
 
 .navbar-nav .nav-link.active,
@@ -126,7 +128,6 @@ body {
   position: relative;
   background-color: #0467FF;
   border-radius: 30px !important;
-  padding: 8px 11px;
 }
 
 .navbar-nav .nav-link:hover,
@@ -134,7 +135,6 @@ body {
   color: #fff !important;
   background-color: #0467FF;
   border-radius: 30px !important;
-  padding: 8px 11px;
 }
 
 .nav-item a {
@@ -208,9 +208,9 @@ body {
 
 .nav-sub-menu {
   position: absolute;
-  left: 0;
+  left: -20px;
   right: 0;
-  top: 65px;
+  top: 60px;
   margin: 0;
   display: none;
   min-width: 250px;
