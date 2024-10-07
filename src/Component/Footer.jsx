@@ -237,6 +237,28 @@ export default function Footer() {
                     </div>
                 </div>
             </footer>
+            <div className='py-4'>
+                <div className="container">
+                    <div className="d-flex flex-wrap justify-content-between">
+                        <div>
+                            <div className='footer-act-content'>
+                                <p className='mb-0'>Copyright @ 2024 <span className='text-uppercase'>Aadhya Infotech</span> All Right Reserved.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div className='mt-lg-0 mt-md-4 mt-4'>
+                                <ul className='footer-icon list-unstyled d-flex align-items-center gap-5'>
+                                    <li><a href="#"><img src='/images/footer-ic-linkedin.svg' alt='footer-ic-linkedin' title='linkedin' className='img-fluid footer-social-ic'></img></a></li>
+                                    <li><a href="#"><img src='/images/footer-ic-youtube.svg' alt='footer-ic-youtube' title='youtube' className='img-fluid footer-social-ic'></img></a></li>
+                                    <li><a href="#"><img src='/images/footer-ic-facebook.svg' alt='footer-ic-facebook' title='facebook' className='img-fluid footer-social-ic'></img></a></li>
+                                    <li><a href="#"><img src='/images/footer-ic-twitter.svg' alt='footer-ic-twitter' title='twitter' className='img-fluid footer-social-ic'></img></a></li>
+                                    <li><a href="#"><img src='/images/footer-ic-instagram.svg' alt='footer-ic-instagram' title='instagram' className='img-fluid footer-social-ic'></img></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

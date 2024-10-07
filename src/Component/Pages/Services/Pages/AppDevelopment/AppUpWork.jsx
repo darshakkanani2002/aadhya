@@ -32,7 +32,7 @@ export default function AppUpWork() {
         ]
     };
     return (
-        <div className='overflow-hidden'>
+        <div className='overflow-hidden d-none'>
             <div className='app-main-upwork appupwork-media'>
                 <div className='app-upwork-box'>
                     <div className='container'>

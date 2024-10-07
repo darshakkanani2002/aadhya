@@ -14,7 +14,7 @@ export default function GameTechnology() {
                 <div className='container'>
                     <div className="row">
                         <div className="col-lg-12">
-                            <div className='text-center'>
+                            <div className='technology-title-text'>
                                 <h2>Technologies Used for Game Development</h2>
                                 <p>Game development includes character designing, animation, navigation building and functional testing. Each step needs efficient technologies and applications for smoother output.</p>
                             </div>
@@ -29,22 +29,24 @@ export default function GameTechnology() {
                                                 <div className="col-lg-12">
                                                     <div className="technology-tab-wrap">
                                                         <ul className="nav nav-tabs" id="technologyTab" role="tablist">
-                                                            <li className="nav-item" role="presentation">
-                                                                <button className="nav-link active" id="Front-End-tab" data-bs-toggle="tab" data-bs-target="#tech-game-Front-End" type="button" role="tab" aria-controls="tech-game-Front-End" aria-selected="false" tabIndex="-1">
-                                                                    Front-End</button>
-                                                            </li>
-                                                            <li className="nav-item" role="presentation">
-                                                                <button className="nav-link" id="Back-End-tab" data-bs-toggle="tab" data-bs-target="#tech-game-Back-End" type="button" role="tab" aria-controls="tech-game-Back-End" aria-selected="false" tabIndex="-1">
-                                                                    Back-End</button>
-                                                            </li>
-                                                            <li className="nav-item" role="presentation">
-                                                                <button className="nav-link" id="Mobile-tab" data-bs-toggle="tab" data-bs-target="#tech-game-Database" type="button" role="tab" aria-controls="tech-game-Database" aria-selected="true">
-                                                                    Database</button>
-                                                            </li>
+                                                            <div className='d-flex flex-wrap gap-5 work-navigation-ul align-items-center justify-content-center'>
+                                                                <li className="nav-item" role="presentation">
+                                                                    <button className="nav-link active" id="Front-End-tab" data-bs-toggle="tab" data-bs-target="#tech-game-Front-End" type="button" role="tab" aria-controls="tech-game-Front-End" aria-selected="false" tabIndex="-1">
+                                                                        Front-End</button>
+                                                                </li>
+                                                                <li className="nav-item" role="presentation">
+                                                                    <button className="nav-link" id="Back-End-tab" data-bs-toggle="tab" data-bs-target="#tech-game-Back-End" type="button" role="tab" aria-controls="tech-game-Back-End" aria-selected="false" tabIndex="-1">
+                                                                        Back-End</button>
+                                                                </li>
+                                                                <li className="nav-item" role="presentation">
+                                                                    <button className="nav-link" id="Mobile-tab" data-bs-toggle="tab" data-bs-target="#tech-game-Database" type="button" role="tab" aria-controls="tech-game-Database" aria-selected="true">
+                                                                        Database</button>
+                                                                </li>
+                                                            </div>
                                                         </ul>
                                                         <div className="tab-content" id="technologyTabContent">
                                                             <div className="tab-pane fade active show mt-5 pt-5" id="tech-game-Front-End" role="tabpanel" aria-labelledby="Front-End-tab">
-                                                                <div className="row g-4 align-items-end justify-content-center">
+                                                                <div className="row g-4 align-items-end">
                                                                     <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                                             <div className="icon mb-3">

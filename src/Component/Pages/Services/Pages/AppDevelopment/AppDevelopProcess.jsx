@@ -66,7 +66,7 @@ export default function AppDevelopProcess() {
         ]
     };
     return (
-        <div className='overflow-hidden'>
+        <div className='overflow-hidden d-none'>
             <div className="slider-container mt-5">
                 <div className='container-fluid'>
                     <div className='row'>

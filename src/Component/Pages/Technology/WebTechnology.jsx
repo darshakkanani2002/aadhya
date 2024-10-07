@@ -14,7 +14,7 @@ export default function WebTechnology() {
                 <div className='container'>
                     <div className="row">
                         <div className="col-lg-12">
-                            <div className='text-center'>
+                            <div className='technology-title-text'>
                                 <h2>Technologies Used for Mobile App Development</h2>
                                 <p> Mobile app development requires implementation of latest technologies, tools and applications that streamline the prototyping, development, designing and testing processes.</p>
                             </div>
@@ -29,22 +29,24 @@ export default function WebTechnology() {
                                                 <div className="col-lg-12">
                                                     <div className="technology-tab-wrap">
                                                         <ul className="nav nav-tabs" id="technologyTab" role="tablist">
-                                                            <li className="nav-item" role="presentation">
-                                                                <button className="nav-link active" id="Front-End-tab" data-bs-toggle="tab" data-bs-target="#tech-web-Front-End" type="button" role="tab" aria-controls="tech-web-Front-End" aria-selected="false" tabIndex="-1">
-                                                                    Front-End</button>
-                                                            </li>
-                                                            <li className="nav-item" role="presentation">
-                                                                <button className="nav-link" id="Back-End-tab" data-bs-toggle="tab" data-bs-target="#tech-web-Back-End" type="button" role="tab" aria-controls="tech-web-Back-End" aria-selected="false" tabIndex="-1">
-                                                                    Back-End</button>
-                                                            </li>
-                                                            <li className="nav-item" role="presentation">
-                                                                <button className="nav-link" id="Mobile-tab" data-bs-toggle="tab" data-bs-target="#tech-web-Database" type="button" role="tab" aria-controls="tech-web-Database" aria-selected="true">
-                                                                    Database</button>
-                                                            </li>
+                                                            <div className='d-flex flex-wrap gap-5 work-navigation-ul align-items-center justify-content-center'>
+                                                                <li className="nav-item" role="presentation">
+                                                                    <button className="nav-link active" id="Front-End-tab" data-bs-toggle="tab" data-bs-target="#tech-web-Front-End" type="button" role="tab" aria-controls="tech-web-Front-End" aria-selected="false" tabIndex="-1">
+                                                                        Front-End</button>
+                                                                </li>
+                                                                <li className="nav-item" role="presentation">
+                                                                    <button className="nav-link" id="Back-End-tab" data-bs-toggle="tab" data-bs-target="#tech-web-Back-End" type="button" role="tab" aria-controls="tech-web-Back-End" aria-selected="false" tabIndex="-1">
+                                                                        Back-End</button>
+                                                                </li>
+                                                                <li className="nav-item" role="presentation">
+                                                                    <button className="nav-link" id="Mobile-tab" data-bs-toggle="tab" data-bs-target="#tech-web-Database" type="button" role="tab" aria-controls="tech-web-Database" aria-selected="true">
+                                                                        Database</button>
+                                                                </li>
+                                                            </div>
                                                         </ul>
                                                         <div className="tab-content" id="technologyTabContent">
                                                             <div className="tab-pane fade active show mt-5 pt-5" id="tech-web-Front-End" role="tabpanel" aria-labelledby="Front-End-tab">
-                                                                <div className="row g-4 align-items-end justify-content-center">
+                                                                <div className="row g-4 align-items-end">
                                                                     <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                                             <div className="icon mb-3">
@@ -104,7 +106,7 @@ export default function WebTechnology() {
                                                                 </div>
                                                             </div>
                                                             <div className="tab-pane fade mt-5 pt-5" id="tech-web-Back-End" role="tabpanel" aria-labelledby="Back-End-tab">
-                                                                <div className="row g-4 align-items-end justify-content-center">
+                                                                <div className="row g-4 align-items-end">
                                                                     <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
                                                                         <div className="single-technology btn_wrapper technology-sec-style">
                                                                             <div className="icon mb-3">

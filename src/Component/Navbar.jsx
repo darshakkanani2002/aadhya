@@ -63,17 +63,38 @@ export default function Navbar() {
                                         <Link to='/' className={`nav-link ${isServiceActive() ? 'active' : ''}`} onClick={() => handleLinkClick('/service')} id="servicesDropdown" role="button" aria-expanded="false">
                                             Services
                                         </Link>
-                                        <ul className="dropdown-menu nav-sub-menu py-0 d-none" aria-labelledby="servicesDropdown">
-                                            <li><Link to='/app' className="dropdown-item" onClick={() => handleLinkClick('/app')}>App Development</Link></li>
-                                            <li><Link to='/game' className="dropdown-item" onClick={() => handleLinkClick('/game')}>Game Development</Link></li>
-                                            <li><Link to='/web' className="dropdown-item" onClick={() => handleLinkClick('/web')}>Web Development</Link></li>
+                                        <ul className="dropdown-menu nav-sub-menu py-0" aria-labelledby="servicesDropdown">
+                                            <li className='my-2'>
+                                                <Link to='/web' className="dropdown-item d-flex align-items-center" onClick={() => handleLinkClick('/web')}>
+                                                    <div className='nav-submenu-icon'>
+                                                        <img src='/images/nav-submenu-ic-website.svg' alt='nav-submenu-ic-website' className='img-fluid nav-submenu-game-ic'></img>
+                                                    </div>
+                                                    <div className='ms-2'>Web Development</div>
+                                                </Link>
+                                            </li>
+                                            <li className='my-2'>
+                                                <Link to='/game' className="dropdown-item d-flex align-items-center" onClick={() => handleLinkClick('/game')}>
+                                                    <div className='nav-submenu-icon'>
+                                                        <img src='/images/nav-submenu-ic-game.svg' alt='nav-submenu-ic-game' className='img-fluid nav-submenu-game-ic'></img>
+                                                    </div>
+                                                    <div className='ms-2'>Game Development</div>
+                                                </Link>
+                                            </li>
+                                            <li className='my-2'>
+                                                <Link to='/app' className="dropdown-item d-flex align-items-center" onClick={() => handleLinkClick('/app')}>
+                                                    <div className='nav-submenu-icon'>
+                                                        <img src='/images/nav-submenu-ic-app.svg' alt='nav-submenu-ic-app' className='img-fluid nav-submenu-game-ic'></img>
+                                                    </div>
+                                                    <div className='ms-2'>App Development</div>
+                                                </Link>
+                                            </li>
                                         </ul>
                                     </li>
                                     <li className="nav-item dropdown d-flex align-items-center">
-                                        <Link to='/' className={`nav-link ${activeLink === '/technology' ? 'active' : ''}`} onClick={() => handleLinkClick('/technology')} >Technologies</Link>
+                                        <Link to='/technology' className={`nav-link ${activeLink === '/technology' ? 'active' : ''}`} onClick={() => handleLinkClick('/technology')} >Technologies</Link>
                                     </li>
                                     <li className="nav-item d-flex align-items-center">
-                                        <Link to='/' className={`nav-link ${isServiceActive() ? 'active' : ''}`} onClick={() => handleLinkClick('/company')} data-section="contact">Company</Link>
+                                        <Link to='/' className={`nav-link ${activeLink === '/company' ? 'active' : ''}`} onClick={() => handleLinkClick('/company')} data-section="contact">Company</Link>
                                     </li>
                                     <li className="nav-item d-flex align-items-center">
                                         <Link to='/' className={`nav-link ${activeLink === '/portfolio' ? 'active' : ''}`} onClick={() => handleLinkClick('/portfolio')} data-section="blog">Portfolio</Link>

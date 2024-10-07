@@ -25,7 +25,7 @@ export default function AppDevelopmentSolution() {
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
-                    
+
                 }
             },
             {
@@ -55,123 +55,109 @@ export default function AppDevelopmentSolution() {
                                 <div className='col-12'>
                                     <div className='text-center'>
                                         <h2 className='fw-bold app-heding-before'>App Development Solutions</h2>
+                                        <p className='mt-5 text-dark fw-semibold'>
+                                            App development solutions provide tailored software services for creating mobile applications, offering end-to-end processes from concept design to deployment across platforms. These solutions cater to business needs, ensuring apps are functional, user-friendly, and scalable for various devices.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
                         <div className='container'>
-                            <div className="row">
-                                <div className="col-lg-4 col-md-6 col-12 mt-5" data-aos="zoom-in">
-                                    <div>
-                                        <div className='app-development-back-01 app-development'>
-                                            <div>
-                                                <div className='app-development-img-back-01 app-development-rotate'>
-                                                    <img src="/images/app-develop-img-01.gif" alt="app-develop-img-01" className='app-development-img' />
-                                                </div>
-                                                <div className="app-develop-content mt-5">
-                                                    <h4>Technology Consultation </h4>
-                                                    <p>Let our team of experts guide you on each significant technical aspect of app development, so that you can make informed decisions.</p>
-                                                </div>
+                            <div className='row justify-content-center'>
+                                <div className="col-lg-4 mt-5">
+                                    <div className='app-solution-ic'>
+                                        <img src="/images/app-solustion-ic-01.png" alt="app-solution-ic-01" className='img-fluid d-flex m-auto' />
+                                    </div>
+                                    <div className='app-solustion-shape-back'>
+                                        <img src="/images/app-solustion-shape.png" alt="app-solustion-shape" className='img-fluid d-flex m-auto' />
+                                        <div className='text-center'>
+                                            <div className='p-4 app-solution-content'>
+                                                <h3 className='mb-4 fw-semibold'>Technology Consultation</h3>
+                                                <p>Let our team of experts guide you on each significant technical aspect of app development, so that you can make informed decisions.</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-6 col-12 mt-5" data-aos="zoom-in">
-                                    <div>
-                                        <div className='app-development-back-02 app-development'>
-                                            <div>
-                                                <div className='app-development-img-back-02 app-development-rotate'>
-                                                    <img src="/images/app-develop-img-02.gif" alt="app-develop-img-02" className='app-development-img' />
-                                                </div>
-                                                <div className="app-develop-content mt-5">
-                                                    <h4>Native App Development </h4>
-                                                    <p>We use a combination of expertise and proficiency to develop applications based on React Native and Flutter frameworks.</p>
-                                                </div>
-                                            </div>
-                                        </div>
+                                <div className="col-lg-4 mt-5">
+                                    <div className='app-solution-ic'>
+                                        <img src="/images/app-solustion-ic-02.png" alt="app-solution-ic-02" className='img-fluid d-flex m-auto' />
                                     </div>
-                                </div>
-                                <div className="col-lg-4 col-md-6 col-12 mt-5" data-aos="zoom-in">
-                                    <div className='app-development-back-03 app-development'>
-                                        <div>
-                                            <div className='app-development-img-back-03 app-development-rotate'>
-                                                <img src="/images/app-develop-img-03.gif" alt="app-develop-img-03" className='app-development-img' />
-                                            </div>
-                                            <div className="app-develop-content mt-5">
-                                                <h4>Native App Development </h4>
+                                    <div className='app-solustion-shape-back'>
+                                        <img src="/images/app-solustion-shape.png" alt="app-solustion-shape" className='app-solustion-blue-shape img-fluid d-flex m-auto' />
+                                        <div className='text-center'>
+                                            <div className='p-4 app-solution-content'>
+                                                <h3 className='mb-4 fw-semibold'>Native App Development</h3>
                                                 <p>We use a combination of expertise and proficiency to develop applications based on React Native and Flutter frameworks.</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-
-                                <div className="col-lg-4 col-md-6 col-12 mt-5" data-aos="zoom-in">
-                                    <div className='app-development-back-04 app-development'>
-                                        <div>
-                                            <div className='app-development-img-back-04 app-development-rotate'>
-                                                <img src="/images/app-develop-img-04.gif" alt="app-develop-img-04" className='app-development-img' />
-                                            </div>
-                                            <div className="app-develop-content mt-5">
-                                                <h4>Progressive Web App Development</h4>
+                                <div className="col-lg-4 mt-5">
+                                    <div className='app-solution-ic'>
+                                        <img src="/images/app-solustion-ic-03.png" alt="app-solution-ic-03" className='img-fluid d-flex m-auto' />
+                                    </div>
+                                    <div className='app-solustion-shape-back'>
+                                        <img src="/images/app-solustion-shape.png" alt="app-solustion-shape" className='app-solustion-purple-shape img-fluid d-flex m-auto' />
+                                        <div className='text-center'>
+                                            <div className='p-4 app-solution-content'>
+                                                <h3 className='mb-4 fw-semibold'>Progressive Web App Development</h3>
                                                 <p>Our progressive web app development services can benefit you with a responsive and polished app for all devices.</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-
-                                <div className="col-lg-4 col-md-6 col-12 mt-5" data-aos="zoom-in">
-                                    <div className='app-development-back-05 app-development'>
-                                        <div>
-                                            <div className='app-development-img-back-05 app-development-rotate'>
-                                                <img src="/images/app-develop-img-05.gif" alt="app-develop-img-05" className='app-development-img' />
-                                            </div>
-                                            <div className="app-develop-content mt-5">
-                                                <h4>UI & UX Designing</h4>
+                                <div className="col-lg-4 mt-5">
+                                    <div className='app-solution-ic'>
+                                        <img src="/images/app-solustion-ic-04.png" alt="app-solution-ic-04" className='img-fluid d-flex m-auto' />
+                                    </div>
+                                    <div className='app-solustion-shape-back'>
+                                        <img src="/images/app-solustion-shape.png" alt="app-solustion-shape" className='app-solustion-pink-shape img-fluid d-flex m-auto' />
+                                        <div className='text-center'>
+                                            <div className='p-4 app-solution-content'>
+                                                <h3 className='mb-4 fw-semibold'>UI & UX Designing</h3>
                                                 <p>We house UI and UX experts who play a pivotal role in making your mobile app appealing and user-friendly.</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-
-                                <div className="col-lg-4 col-md-6 col-12 mt-5" data-aos="zoom-in">
-                                    <div className='app-development-back-06 app-development'>
-                                        <div>
-                                            <div className='app-development-img-back-06 app-development-rotate'>
-                                                <img src="/images/app-develop-img-06.gif" alt="app-develop-img-06" className='app-development-img' />
-                                            </div>
-                                            <div className="app-develop-content mt-5">
-                                                <h4>Maintenance & Support</h4>
+                                <div className="col-lg-4 mt-5">
+                                    <div className='app-solution-ic'>
+                                        <img src="/images/app-solustion-ic-05.png" alt="app-solution-ic-05" className='img-fluid d-flex m-auto' />
+                                    </div>
+                                    <div className='app-solustion-shape-back'>
+                                        <img src="/images/app-solustion-shape.png" alt="app-solustion-shape" className='app-solustion-gray-shape img-fluid d-flex m-auto' />
+                                        <div className='text-center'>
+                                            <div className='p-4 app-solution-content'>
+                                                <h3 className='mb-4 fw-semibold'>Maintenance & Support</h3>
                                                 <p>Periodic maintenance and upgrades of the application are seamlessly handled under our mobile app development services.</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-
-                            <div className='row justify-content-center'>
-                                <div className="col-lg-4 col-md-6 col-12 mt-5" data-aos="zoom-in">
-                                    <div className='app-development-back-07 app-development'>
-                                        <div>
-                                            <div className='app-development-img-back-07 app-development-rotate'>
-                                                <img src="/images/app-develop-img-07.gif" alt="app-develop-img-07" className='app-development-img' />
-                                            </div>
-                                            <div className="app-develop-content mt-5">
-                                                <h4>QA & Testing</h4>
-                                                <p>Every app is tested for superior quality and functioning. In fact, if you have developed one, we run a detailed check to ensure optimum performance.</p>
+                                <div className="col-lg-4 mt-5">
+                                    <div className='app-solution-ic'>
+                                        <img src="/images/app-solustion-ic-06.png" alt="app-solution-ic-06" className='img-fluid d-flex m-auto' />
+                                    </div>
+                                    <div className='app-solustion-shape-back'>
+                                        <img src="/images/app-solustion-shape.png" alt="app-solustion-shape" className='app-solustion-orange-shape img-fluid d-flex m-auto' />
+                                        <div className='text-center'>
+                                            <div className='p-4 app-solution-content'>
+                                                <h3 className='mb-4 fw-semibold'>Maintenance & Support</h3>
+                                                <p>Periodic maintenance and upgrades of the application are seamlessly handled under our mobile app development services.</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-6 col-12 mt-5" data-aos="zoom-in">
-                                    <div className='app-development-back-08 app-development'>
-                                        <div>
-                                            <div className='app-development-img-back-08 app-development-rotate'>
-                                                <img src="/images/app-develop-img-08.gif" alt="app-develop-img-08" className='app-development-img' />
-                                            </div>
-                                            <div className="app-develop-content mt-5">
-                                                <h4>App Migrations & Integrations</h4>
-                                                <p>Our mobile app solutions include assisting you with migrating your apps from one framework to another or integrating them for better functionality.</p>
+                                <div className="col-lg-4 mt-5">
+                                    <div className='app-solution-ic'>
+                                        <img src="/images/app-solustion-ic-07.png" alt="app-solution-ic-07" className='img-fluid d-flex m-auto' />
+                                    </div>
+                                    <div className='app-solustion-shape-back'>
+                                        <img src="/images/app-solustion-shape.png" alt="app-solustion-shape" className='app-solustion-indigo-shape img-fluid d-flex m-auto' />
+                                        <div className='text-center'>
+                                            <div className='p-4 app-solution-content'>
+                                                <h3 className='mb-4 fw-semibold'>Maintenance & Support</h3>
+                                                <p>Periodic maintenance and upgrades of the application are seamlessly handled under our mobile app development services.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -197,14 +183,19 @@ export default function AppDevelopmentSolution() {
                                 <Slider {...settings}>
                                     <div>
                                         <div className='p-2'>
-                                            <div className='app-development-back-01 app-development'>
+                                            <div className='app-development'>
                                                 <div>
-                                                    <div className='app-development-img-back-01 app-development-rotate'>
-                                                        <img src="/images/app-develop-img-01.gif" alt="app-develop-img-01" className='app-development-img' />
+                                                    <div className='app-solution-ic'>
+                                                        <img src="/images/app-solustion-ic-01.png" alt="app-solution-ic-01" className='img-fluid d-flex m-auto' />
                                                     </div>
-                                                    <div className="app-develop-content mt-5">
-                                                        <h4>Technology Consultation </h4>
-                                                        <p>Let our team of experts guide you on each significant technical aspect of app development, so that you can make informed decisions.</p>
+                                                    <div className='app-solustion-shape-back'>
+                                                        <img src="/images/app-solustion-shape.png" alt="app-solustion-shape" className='img-fluid d-flex m-auto' />
+                                                        <div className='text-center'>
+                                                            <div className='p-lg-4 p-md-3 p-sm-3 p-2 app-solution-content'>
+                                                                <h3 className='mb-4 fw-semibold'>Technology Consultation</h3>
+                                                                <p>Let our team of experts guide you on each significant technical aspect of app development, so that you can make informed decisions.</p>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -212,14 +203,19 @@ export default function AppDevelopmentSolution() {
                                     </div>
                                     <div>
                                         <div className='p-2'>
-                                            <div className='app-development-back-02 app-development'>
+                                            <div className='app-development'>
                                                 <div>
-                                                    <div className='app-development-img-back-02 app-development-rotate'>
-                                                        <img src="/images/app-develop-img-02.gif" alt="app-develop-img-02" className='app-development-img' />
+                                                    <div className='app-solution-ic'>
+                                                        <img src="/images/app-solustion-ic-02.png" alt="app-solution-ic-02" className='img-fluid d-flex m-auto' />
                                                     </div>
-                                                    <div className="app-develop-content mt-5">
-                                                        <h4>Native App Development </h4>
-                                                        <p>We use a combination of expertise and proficiency to develop applications based on React Native and Flutter frameworks.</p>
+                                                    <div className='app-solustion-shape-back'>
+                                                        <img src="/images/app-solustion-shape.png" alt="app-solustion-shape" className='app-solustion-blue-shape img-fluid d-flex m-auto' />
+                                                        <div className='text-center'>
+                                                            <div className='p-lg-4 p-md-3 p-sm-3 p-2 app-solution-content'>
+                                                                <h3 className='mb-4 fw-semibold'>Native App Development</h3>
+                                                                <p>We use a combination of expertise and proficiency to develop applications based on React Native and Flutter frameworks.</p>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -227,14 +223,19 @@ export default function AppDevelopmentSolution() {
                                     </div>
                                     <div>
                                         <div className='p-2'>
-                                            <div className='app-development-back-03 app-development'>
+                                            <div className='app-development'>
                                                 <div>
-                                                    <div className='app-development-img-back-03 app-development-rotate'>
-                                                        <img src="/images/app-develop-img-03.gif" alt="app-develop-img-03" className='app-development-img' />
+                                                    <div className='app-solution-ic'>
+                                                        <img src="/images/app-solustion-ic-03.png" alt="app-solution-ic-03" className='img-fluid d-flex m-auto' />
                                                     </div>
-                                                    <div className="app-develop-content mt-5">
-                                                        <h4>Native App Development </h4>
-                                                        <p>We use a combination of expertise and proficiency to develop applications based on React Native and Flutter frameworks.</p>
+                                                    <div className='app-solustion-shape-back'>
+                                                        <img src="/images/app-solustion-shape.png" alt="app-solustion-shape" className='app-solustion-purple-shape img-fluid d-flex m-auto' />
+                                                        <div className='text-center'>
+                                                            <div className='p-lg-4 p-md-3 p-sm-3 p-2 app-solution-content'>
+                                                                <h3 className='mb-4 fw-semibold'>Progressive Web App Development</h3>
+                                                                <p>Our progressive web app development services can benefit you with a responsive and polished app for all devices.</p>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -242,14 +243,19 @@ export default function AppDevelopmentSolution() {
                                     </div>
                                     <div>
                                         <div className='p-2'>
-                                            <div className='app-development-back-04 app-development'>
+                                            <div className='app-development'>
                                                 <div>
-                                                    <div className='app-development-img-back-04 app-development-rotate'>
-                                                        <img src="/images/app-develop-img-04.gif" alt="app-develop-img-04" className='app-development-img' />
+                                                    <div className='app-solution-ic'>
+                                                        <img src="/images/app-solustion-ic-04.png" alt="app-solution-ic-04" className='img-fluid d-flex m-auto' />
                                                     </div>
-                                                    <div className="app-develop-content mt-5">
-                                                        <h4>Progressive Web App Development</h4>
-                                                        <p>Our progressive web app development services can benefit you with a responsive and polished app for all devices.</p>
+                                                    <div className='app-solustion-shape-back'>
+                                                        <img src="/images/app-solustion-shape.png" alt="app-solustion-shape" className='app-solustion-pink-shape img-fluid d-flex m-auto' />
+                                                        <div className='text-center'>
+                                                            <div className='p-lg-4 p-md-3 p-sm-3 p-2 app-solution-content'>
+                                                                <h3 className='mb-4 fw-semibold'>UI & UX Designing</h3>
+                                                                <p>We house UI and UX experts who play a pivotal role in making your mobile app appealing and user-friendly.</p>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -257,14 +263,19 @@ export default function AppDevelopmentSolution() {
                                     </div>
                                     <div>
                                         <div className='p-2'>
-                                            <div className='app-development-back-05 app-development'>
+                                            <div className='app-development'>
                                                 <div>
-                                                    <div className='app-development-img-back-05 app-development-rotate'>
-                                                        <img src="/images/app-develop-img-05.gif" alt="app-develop-img-05" className='app-development-img' />
+                                                    <div className='app-solution-ic'>
+                                                        <img src="/images/app-solustion-ic-05.png" alt="app-solution-ic-05" className='img-fluid d-flex m-auto' />
                                                     </div>
-                                                    <div className="app-develop-content mt-5">
-                                                        <h4>UI & UX Designing</h4>
-                                                        <p>We house UI and UX experts who play a pivotal role in making your mobile app appealing and user-friendly.</p>
+                                                    <div className='app-solustion-shape-back'>
+                                                        <img src="/images/app-solustion-shape.png" alt="app-solustion-shape" className='app-solustion-gray-shape img-fluid d-flex m-auto' />
+                                                        <div className='text-center'>
+                                                            <div className='p-lg-4 p-md-3 p-sm-3 p-2 app-solution-content'>
+                                                                <h3 className='mb-4 fw-semibold'>Maintenance & Support</h3>
+                                                                <p>Periodic maintenance and upgrades of the application are seamlessly handled under our mobile app development services.</p>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -272,14 +283,19 @@ export default function AppDevelopmentSolution() {
                                     </div>
                                     <div>
                                         <div className='p-2'>
-                                            <div className='app-development-back-06 app-development'>
+                                            <div className='app-development'>
                                                 <div>
-                                                    <div className='app-development-img-back-06 app-development-rotate'>
-                                                        <img src="/images/app-develop-img-06.gif" alt="app-develop-img-06" className='app-development-img' />
+                                                    <div className='app-solution-ic'>
+                                                        <img src="/images/app-solustion-ic-06.png" alt="app-solution-ic-06" className='img-fluid d-flex m-auto' />
                                                     </div>
-                                                    <div className="app-develop-content mt-5">
-                                                        <h4>Maintenance & Support</h4>
-                                                        <p>Periodic maintenance and upgrades of the application are seamlessly handled under our mobile app development services.</p>
+                                                    <div className='app-solustion-shape-back'>
+                                                        <img src="/images/app-solustion-shape.png" alt="app-solustion-shape" className='app-solustion-orange-shape img-fluid d-flex m-auto' />
+                                                        <div className='text-center'>
+                                                            <div className='p-lg-4 p-md-3 p-sm-3 p-2 app-solution-content'>
+                                                                <h3 className='mb-4 fw-semibold'>Maintenance & Support</h3>
+                                                                <p>Periodic maintenance and upgrades of the application are seamlessly handled under our mobile app development services.</p>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -287,29 +303,19 @@ export default function AppDevelopmentSolution() {
                                     </div>
                                     <div>
                                         <div className='p-2'>
-                                            <div className='app-development-back-07 app-development'>
+                                            <div className='app-development'>
                                                 <div>
-                                                    <div className='app-development-img-back-07 app-development-rotate'>
-                                                        <img src="/images/app-develop-img-07.gif" alt="app-develop-img-07" className='app-development-img' />
+                                                    <div className='app-solution-ic'>
+                                                        <img src="/images/app-solustion-ic-07.png" alt="app-solution-ic-07" className='img-fluid d-flex m-auto' />
                                                     </div>
-                                                    <div className="app-develop-content mt-5">
-                                                        <h4>QA & Testing</h4>
-                                                        <p>Every app is tested for superior quality and functioning. In fact, if you have developed one, we run a detailed check to ensure optimum performance.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className='p-2'>
-                                            <div className='app-development-back-08 app-development'>
-                                                <div>
-                                                    <div className='app-development-img-back-08 app-development-rotate'>
-                                                        <img src="/images/app-develop-img-08.gif" alt="app-develop-img-08" className='app-development-img' />
-                                                    </div>
-                                                    <div className="app-develop-content mt-5">
-                                                        <h4>App Migrations & Integrations</h4>
-                                                        <p>Our mobile app solutions include assisting you with migrating your apps from one framework to another or integrating them for better functionality.</p>
+                                                    <div className='app-solustion-shape-back'>
+                                                        <img src="/images/app-solustion-shape.png" alt="app-solustion-shape" className='app-solustion-indigo-shape img-fluid d-flex m-auto' />
+                                                        <div className='text-center'>
+                                                            <div className='p-lg-4 p-md-3 p-sm-3 p-2 app-solution-content'>
+                                                                <h3 className='mb-4 fw-semibold'>Maintenance & Support</h3>
+                                                                <p>Periodic maintenance and upgrades of the application are seamlessly handled under our mobile app development services.</p>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>

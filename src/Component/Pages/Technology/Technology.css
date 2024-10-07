@@ -1,3 +1,8 @@
+.technology-hero-img {
+    max-width: 100%;
+    height: 800px;
+}
+
 .technology-hero-img-02 {
     animation: up-down 2s linear infinite;
     max-width: 116px;
@@ -18,6 +23,21 @@
     z-index: 99;
 }
 
+.technology-content p {
+    color: #000000;
+    font-weight: 500;
+}
+
+@media (min-width:992px) {
+    .technology-content h1 {
+        font-size: 80px;
+    }
+
+    .technology-content p {
+        font-size: 30px;
+    }
+}
+
 @media screen and (min-width:992px) and (max-width:1300px) {
     .technology-hero-img-02 {
         height: 85px;
@@ -28,19 +48,9 @@
     }
 }
 
-.technology-mobile-back {
-    background-color: #eaf3fa;
-}
+
 
 .technology-img {
     width: 100%;
-    height: 70px;
-}
-
-.technology-game-back {
-    background-color: #e5ecff;
-}
-
-.technology-web-back {
-    background-color: #e7f7f6;
+    height: 80px;
 }

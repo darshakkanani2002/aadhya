@@ -1096,7 +1096,6 @@ export default function About_Us() {
                                 </div>
                             </div>
                         </div>
-
                     </div>
                     <div className="home2-blog-section">
                         <div className="container-lg container-fluid">

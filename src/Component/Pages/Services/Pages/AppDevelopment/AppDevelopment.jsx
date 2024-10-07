@@ -13,24 +13,24 @@ export default function AppDevelopment() {
             <div className='app-hero-back'>
                 <div className='container'>
                     <div className='row align-items-center'>
-                        <div className='col-lg-6 text-lg-start text-md-center text-center'>
+                        <div className='col-lg-4 text-lg-start text-md-center text-center'>
                             <div className='app-hero-content'>
-                                <h1 className='fw-bold'>Mobile App Development <br></br>Company</h1>
+                                <h1 className='fw-bold'>Mobile App Development</h1>
                                 <p>We build dynamic, user-friendly, and engaging mobile applications.</p>
                                 <a className="hero-btn btn-white-color btn-animate " href="/quotation">Get a Quote</a>
                             </div>
                         </div>
-                        <div className='col-lg-6 px-1 d-lg-block d-md-none d-none'>
+                        {/* <div className='col-lg-6 px-1 d-lg-block d-md-none d-none'>
                             <div className='position-relative'>
                                 <img src="/images/app-hero-01.svg" alt="app-hero-01" className='img-fluid app-hero-01' />
                                 <img src="/images/app-hero-search-img.svg" alt="app-hero-search-img" className='app-hero-search-img img-fluid' />
                                 <img src="/images/app-hero-lock-img.svg" alt="app-hero-lock-img" className='app-hero-lock-img img-fluid' />
                                 <img src="/images/app-hero-user-img.svg" alt="app-hero-user-img" className='app-hero-user-img img-fluid' />
                             </div>
-                        </div>
-                        <div className='col-lg-6 d-lg-none d-md-block d-block'>
+                        </div> */}
+                        <div className='col-lg-8'>
                             <div className='position-relative pt-lg-0 pt-md-5 pt-5'>
-                                <img src="/images/app-hero-02.svg" alt="app-hero-02" className='img-fluid app-hero-01' />
+                                <img src="/images/app-develop-hero-img.png" alt="app-develop-hero-img" className='img-fluid app-hero-01' />
                             </div>
                         </div>
                     </div>

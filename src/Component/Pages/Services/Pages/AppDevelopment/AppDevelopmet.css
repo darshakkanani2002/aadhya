@@ -1,8 +1,11 @@
 .app-hero-back {
-    background-color: #eff3f8;
+    background-color: #fff;
     height: auto;
     padding: 50px 0;
     width: 100%;
+    min-height: 850px;
+    display: flex;
+    align-items: center;
 }
 
 .app-hero-content p {
@@ -254,6 +257,54 @@
     font-size: 18px;
     font-weight: 300;
     margin-top: 20px !important;
+}
+
+.app-solution-ic {
+    margin-bottom: -60px;
+    position: relative;
+    z-index: 1;
+}
+
+.app-solustion-shape-back {
+    width: 100%;
+    min-height: 481px;
+    background-color: #fff;
+    clip-path: polygon(50% -200%, 100% 0%, 100% 80%, 50% 100%, 0% 80%, 0% 0%);
+    border-radius: 20px;
+}
+
+.app-solution-content p {
+    font-size: 21px;
+}
+
+.app-solustion-blue-shape {
+    filter: brightness(0) saturate(100%) invert(61%) sepia(59%) saturate(6182%) hue-rotate(159deg) brightness(103%) contrast(102%);
+}
+
+.app-solustion-purple-shape {
+    filter: brightness(0) saturate(100%) invert(51%) sepia(86%) saturate(2686%) hue-rotate(198deg) brightness(104%) contrast(101%);
+}
+
+.app-solustion-pink-shape {
+    filter: brightness(0) saturate(100%) invert(45%) sepia(73%) saturate(788%) hue-rotate(303deg) brightness(102%) contrast(101%);
+}
+
+.app-solustion-gray-shape {
+    filter: brightness(0) saturate(100%) invert(57%) sepia(9%) saturate(794%) hue-rotate(193deg) brightness(97%) contrast(88%);
+}
+
+.app-solustion-orange-shape {
+    filter: brightness(0) saturate(100%) invert(71%) sepia(55%) saturate(4204%) hue-rotate(343deg) brightness(102%) contrast(104%);
+}
+
+.app-solustion-indigo-shape {
+    filter: brightness(0) saturate(100%) invert(67%) sepia(34%) saturate(4104%) hue-rotate(158deg) brightness(100%) contrast(103%);
+}
+
+@media(max-width:325px) {
+    .app-solution-content p {
+        font-size: 18px;
+    }
 }
 
 @media (min-width:1399px) {
