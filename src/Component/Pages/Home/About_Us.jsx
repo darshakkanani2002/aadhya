@@ -360,13 +360,13 @@ export default function About_Us() {
                                     <ul className="nav nav-pills mb-3 d-flex justify-content-center gap-5" id="pills-tab" role="tablist">
                                         <div className='d-flex flex-wrap gap-5 work-navigation-ul align-items-center justify-content-center'>
                                             <li className="nav-item" role="presentation">
-                                                <button className="nav-link" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">App Development</button>
+                                                <button className="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">App Development</button>
                                             </li>
                                             <li className="nav-item" role="presentation">
                                                 <button className="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Game Development</button>
                                             </li>
                                             <li className="nav-item" role="presentation">
-                                                <button className="nav-link active" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Website Development</button>
+                                                <button className="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Website Development</button>
                                             </li>
                                             <li className="nav-item" role="presentation">
                                                 <button className="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Ui/Ux Design</button>
@@ -374,38 +374,57 @@ export default function About_Us() {
                                         </div>
                                     </ul>
                                     <div className="tab-content" id="pills-tabContent">
-                                        <div className="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabIndex="0">
+                                        <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabIndex="0">
                                             <div className='container'>
-                                                <div className='row'>
+                                                <div className='row justify-content-center'>
                                                     <div className='col-lg-4 col-md-6 col-sm-6 col-12 mt-4'>
                                                         <a href="#">
-                                                            <div className='position-relative wok-img-div'>
-                                                                <img src="/images/work-app-img-01.webp" alt="work-app-img-01" className='img-fluid' />
+                                                            <div className='position-relative wok-img-div mb-3'>
+                                                                <img src="/images/app-project-img-01.svg" alt="app-project-img-01" className='img-fluid w-100' />
                                                                 <div className='work-name-text-img'>
-                                                                    <h5 className='mb-0'>Adrian James 6 Pack Abs</h5>
+                                                                    <h5 className='mb-0'>What's app status saver</h5>
                                                                 </div>
                                                             </div>
                                                         </a>
+                                                        <div className='project-content text-center'>
+                                                            <div>
+                                                                <h5 className='fw-bold'>What's app status saver <br className='d-lg-block d-md-none d-none'></br> Application</h5>
+                                                                <p >App Designing</p>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                     <div className='col-lg-4 col-md-6 col-sm-6 col-12 mt-4'>
                                                         <a href="#">
-                                                            <div className='position-relative wok-img-div'>
-                                                                <img src="/images/work-app-img-02.png" alt="work-app-img-02" className='img-fluid' />
+                                                            <div className='position-relative wok-img-div mb-3'>
+                                                                <img src="/images/app-project-img-02.svg" alt="app-project-img-02" className='img-fluid w-100' />
                                                                 <div className='work-name-text-img'>
-                                                                    <h5 className='mb-0'>RTO</h5>
+                                                                    <h5 className='mb-0'>Daily Quotes</h5>
                                                                 </div>
                                                             </div>
                                                         </a>
+                                                        <div className='project-content text-center'>
+                                                            <div>
+                                                                <h5 className='fw-bold'>Daily Quotes
+                                                                    <br className='d-lg-block d-md-none d-none'></br>Application</h5>
+                                                                <p >App Designing</p>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                     <div className='col-lg-4 col-md-6 col-sm-6 col-12 mt-4'>
                                                         <a href="#">
-                                                            <div className='position-relative wok-img-div'>
-                                                                <img src="/images/work-app-img-03.webp" alt="work-app-img-03" className='img-fluid' />
+                                                            <div className='position-relative wok-img-div mb-3'>
+                                                                <img src="/images/app-project-img-03.svg" alt="app-project-img-03" className='img-fluid w-100' />
                                                                 <div className='work-name-text-img'>
-                                                                    <h5 className='mb-0'>Clubmall</h5>
+                                                                    <h5 className='mb-0'>Calculator</h5>
                                                                 </div>
                                                             </div>
                                                         </a>
+                                                        <div className='project-content text-center'>
+                                                            <div>
+                                                                <h5 className='fw-bold'>Calculator- Tape to Calculate Application</h5>
+                                                                <p >App Designing</p>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -446,7 +465,7 @@ export default function About_Us() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="tab-pane fade show active" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabIndex="0">
+                                        <div className="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabIndex="0">
                                             <div className='container'>
                                                 <div className='row'>
                                                     <div className='col-lg-4 col-md-6 col-sm-6 col-12 mt-4' data-aos="zoom-in" data-aos-delay="500">
@@ -531,270 +550,6 @@ export default function About_Us() {
             </div>
 
             {/* We Used Technology Section */}
-            {/* <div>
-                <div>
-                    <div className="home2-technology-section d-none">
-                        <div className="container-lg container-fluid">
-                            <div className="row mb-60">
-                                <div className="section-title four white text-animation vector-and-review text-center">
-                                    <h2 className='mb-2'>We Used Advance Technology</h2>
-                                    <p className='fw-semibold'>Offer a wide range of services to help businesses establish and enhance <br className='d-lg-block d-md-none d-none' />
-                                        their online presence.</p>
-                                </div>
-                            </div>
-                            <div className="row">
-                                <div className="col-lg-12">
-                                    <div className="technology-tab-wrap">
-                                        <ul className="nav nav-tabs" id="technologyTab" role="tablist">
-                                            <li className="nav-item" role="presentation">
-                                                <button className="nav-link active" id="Front-End-tab" data-bs-toggle="tab" data-bs-target="#tech-Front-End" type="button" role="tab" aria-controls="tech-Front-End" aria-selected="false" tabIndex="-1">
-                                                    Front-End</button>
-                                            </li>
-                                            <li className="nav-item" role="presentation">
-                                                <button className="nav-link" id="Back-End-tab" data-bs-toggle="tab" data-bs-target="#tech-Back-End" type="button" role="tab" aria-controls="tech-Back-End" aria-selected="false" tabIndex="-1">
-                                                    Back-End</button>
-                                            </li>
-                                            <li className="nav-item" role="presentation">
-                                                <button className="nav-link" id="Mobile-tab" data-bs-toggle="tab" data-bs-target="#tech-Mobile" type="button" role="tab" aria-controls="tech-Mobile" aria-selected="true">
-                                                    Mobile</button>
-                                            </li>
-                                        </ul>
-                                        <div className="tab-content" id="technologyTabContent">
-                                            <div className="tab-pane fade active show" id="tech-Front-End" role="tabpanel" aria-labelledby="Front-End-tab">
-                                                <div className="row g-4 align-items-end justify-content-center">
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
-                                                        <div className="single-technology btn_wrapper big technology-sec-style">
-                                                            <div className="icon">
-                                                                <img decoding="async" src="images/html.svg" alt="Logo" />
-                                                            </div>
-                                                            <span>HTML</span>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
-                                                        <div className="single-technology btn_wrapper technology-sec-style">
-                                                            <div className="icon">
-                                                                <img decoding="async" src="images/css.svg" alt="Logo" />
-                                                            </div>
-                                                            <span>CSS</span>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
-                                                        <div className="single-technology btn_wrapper technology-sec-style">
-                                                            <div className="icon">
-                                                                <img decoding="async" src="images/javascript.svg" alt="Logo" />
-                                                            </div>
-                                                            <span>Javascript</span>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
-                                                        <div className="single-technology btn_wrapper technology-sec-style">
-                                                            <div className="icon">
-                                                                <img decoding="async" src="images/vue.svg" alt="Logo" />
-                                                            </div>
-                                                            <span>Vue JS</span>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
-                                                        <div className="single-technology btn_wrapper technology-sec-style">
-                                                            <div className="icon">
-                                                                <img decoding="async" src="images/react.svg" alt="Logo" />
-                                                            </div>
-                                                            <span>React JS</span>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
-                                                        <div className="single-technology btn_wrapper big technology-sec-style">
-                                                            <div className="icon">
-                                                                <img decoding="async" src="images/angular.svg" alt="Logo" />
-                                                            </div>
-                                                            <span>Angular JS</span>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
-                                                        <div className="single-technology btn_wrapper technology-sec-style d-none">
-                                                            <div className="icon">
-                                                                <img decoding="async" src="images/empty-technology.png" alt="Logo" className='technology-no-icon-img' />
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
-                                                        <div className="single-technology btn_wrapper technology-sec-style">
-                                                            <div className="icon">
-                                                                <img decoding="async" src="images/d3.svg" alt="Logo" />
-                                                            </div>
-                                                            <span>D3 JS</span>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
-                                                        <div className="single-technology btn_wrapper technology-sec-style">
-                                                            <div className="icon">
-                                                                <img decoding="async" src="images/jquery.svg" alt="Logo" className='technology-jquery-img' />
-                                                            </div>
-                                                            <span>JQuery</span>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
-                                                        <div className="single-technology btn_wrapper technology-sec-style">
-                                                            <div className="icon">
-                                                                <img decoding="async" src="images/typescript.svg" alt="Logo" />
-                                                            </div>
-                                                            <span>TypeScript</span>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
-                                                        <div className="single-technology btn_wrapper technology-sec-style">
-                                                            <div className="icon">
-                                                                <img decoding="async" src="images/graphql.svg" alt="Logo" />
-                                                            </div>
-                                                            <span>GraphQL</span>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover d-lg-block d-md-none d-none">
-                                                        <div className="single-technology btn_wrapper technology-sec-style d-none">
-                                                            <div className="icon">
-                                                                <img decoding="async" src="images/empty-technology.png" alt="Logo" className='technology-no-icon-img' />
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="tab-pane fade" id="tech-Back-End" role="tabpanel" aria-labelledby="Back-End-tab">
-                                                <div className="row g-4 align-items-end justify-content-center">
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
-                                                        <div className="single-technology btn_wrapper big technology-sec-style">
-                                                            <div className="icon">
-                                                                <img decoding="async" src="images/node-js.svg" alt="Logo" />
-                                                            </div>
-                                                            <span>Node JS</span>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
-                                                        <div className="single-technology btn_wrapper technology-sec-style">
-                                                            <div className="icon">
-                                                                <img decoding="async" src="images/ruby.svg" alt="Logo" />
-                                                            </div>
-                                                            <span>Ruby</span>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
-                                                        <div className="single-technology btn_wrapper technology-sec-style">
-                                                            <div className="icon">
-                                                                <img decoding="async" src="images/django.svg" alt="Logo" />
-                                                            </div>
-                                                            <span>D Jnago</span>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
-                                                        <div className="single-technology btn_wrapper technology-sec-style">
-                                                            <div className="icon">
-                                                                <img decoding="async" src="images/express-js.svg" alt="Logo" />
-                                                            </div>
-                                                            <span>Express JS</span>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
-                                                        <div className="single-technology btn_wrapper technology-sec-style">
-                                                            <div className="icon">
-                                                                <img decoding="async" src="images/asp.svg" alt="Logo" />
-                                                            </div>
-                                                            <span>ASP .Net</span>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
-                                                        <div className="single-technology btn_wrapper big technology-sec-style" >
-                                                            <div className="icon">
-                                                                <img decoding="async" src="images/laravel.svg" alt="Logo" />
-                                                            </div>
-                                                            <span>Laravel</span>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
-                                                        <div className="single-technology btn_wrapper technology-sec-style">
-                                                            <div className="icon">
-                                                                <img decoding="async" src="images/firebase.svg" alt="Logo" />
-                                                            </div>
-                                                            <span>Firebase</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="tab-pane fade" id="tech-Mobile" role="tabpanel" aria-labelledby="Mobile-tab">
-                                                <div className="row g-4 align-items-end justify-content-center">
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
-                                                        <div className="single-technology btn_wrapper big technology-sec-style">
-                                                            <div className="icon">
-                                                                <img decoding="async" src="images/flutter.svg" alt="Logo" />
-                                                            </div>
-                                                            <span>Flutter</span>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
-                                                        <div className="single-technology btn_wrapper technology-sec-style">
-                                                            <div className="icon">
-                                                                <img decoding="async" src="images/android.svg" alt="Logo" />
-                                                            </div>
-                                                            <span>Android</span>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
-                                                        <div className="single-technology btn_wrapper technology-sec-style">
-                                                            <div className="icon">
-                                                                <img decoding="async" src="images/ios.svg" alt="Logo" />
-                                                            </div>
-                                                            <span>Iso App</span>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
-                                                        <div className="single-technology btn_wrapper technology-sec-style">
-                                                            <div className="icon">
-                                                                <img decoding="async" src="images/firebase.svg" alt="Logo" />
-                                                            </div>
-                                                            <span>Firebase</span>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
-                                                        <div className="single-technology btn_wrapper technology-sec-style">
-                                                            <div className="icon">
-                                                                <img decoding="async" src="images/react.svg" alt="Logo" />
-                                                            </div>
-                                                            <span>React Native</span>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
-                                                        <div className="single-technology btn_wrapper big technology-sec-style">
-                                                            <div className="icon">
-                                                                <img decoding="async" src="images/swift.svg" alt="Logo" />
-                                                            </div>
-                                                            <span>Swift</span>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
-                                                        <div className="single-technology btn_wrapper technology-sec-style">
-                                                            <div className="icon">
-                                                                <img decoding="async" src="images/java.svg" alt="Logo" />
-                                                            </div>
-                                                            <span>Java</span>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-2 col-md-3 col-sm-4 col-6 technology-hover" data-aos="zoom-in" data-aos-delay="500">
-                                                        <div className="single-technology btn_wrapper technology-sec-style">
-                                                            <div className="icon">
-                                                                <img decoding="async" src="images/kotlin.svg" alt="Logo" />
-                                                            </div>
-                                                            <span>Kotlin</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
-
             <div>
                 <div>
                     <div>
@@ -1286,6 +1041,7 @@ export default function About_Us() {
                     </div>
                 </div>
             </div>
+
             {/* Testimonial Section */}
             <Testimonial></Testimonial>
 
@@ -1330,16 +1086,13 @@ export default function About_Us() {
             </div>
 
             {/* Latest Blog Section */}
-            <div className='d-none'>
+            <div className=''>
                 <div className="home2-blog-sec">
                     <div className="container-lg container-fluid">
                         <div className="row mb-60">
                             <div className="section-title four white text-animation vector-and-review">
-                                <div className='techno-stlye-1 text-center'>
-                                    <h2>Our Latest  <span className='text-start'>Article</span></h2>
-                                    <p className='mb-0'>
-                                        Services to help businesses establish and enhance theironline presence.
-                                    </p>
+                                <div className='techno-stlye-1'>
+                                    <h2 className='testimonial-before'>Latest  <span className='text-start'>Post</span></h2>
                                 </div>
                             </div>
                         </div>

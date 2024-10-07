@@ -126,6 +126,7 @@ body {
   position: relative;
   background-color: #0467FF;
   border-radius: 30px !important;
+  padding: 8px 11px;
 }
 
 .navbar-nav .nav-link:hover,
@@ -133,6 +134,7 @@ body {
   color: #fff !important;
   background-color: #0467FF;
   border-radius: 30px !important;
+  padding: 8px 11px;
 }
 
 .nav-item a {
@@ -1428,6 +1430,11 @@ a {
 }
 
 /* Work section css */
+.project-content p {
+  font-size: 18px;
+  color: #7d7d7d;
+}
+
 .work-section-style {
   display: block;
   text-align: start;
@@ -2171,9 +2178,53 @@ a {
 /* Footer Section css */
 footer {
   position: relative;
-  background-color: #1A1A1A;
-  padding: 110px 0 0;
+  background-color: #fff;
+  padding: 55px 0px;
   z-index: 1;
+}
+
+.footer-menu li a {
+  color: #000000;
+  font-size: 20px;
+}
+
+.footer-menu-titele h4 {
+  color: #0467FF;
+  font-weight: 600;
+}
+
+.footer-contact li a {
+  color: #000000;
+}
+
+.footer-form-input {
+  width: 100%;
+  background-color: #E2EEFF;
+  border: 1px solid #E2EEFF;
+  padding: 15px;
+  border-radius: 30px;
+  outline: none;
+}
+
+.footer-form-input::placeholder {
+  color: #000000;
+}
+
+.footer-subscribe-btn {
+  border: 1px solid #0467FF;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 40px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #0467FF;
+  box-shadow: 0px 10.5px 20.99px 0px #0467FF33;
+  transition: 0.5s;
+}
+
+.footer-subscribe-btn:hover {
+  background-color: #0467FF;
+  color: #fff;
 }
 
 footer .vector {

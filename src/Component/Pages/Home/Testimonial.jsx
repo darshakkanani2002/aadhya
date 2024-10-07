@@ -22,7 +22,7 @@ export default function Testimonial() {
         });
     }, []);
     return (
-        <div className='testimonial py-5 overflow-hidden d-none'>
+        <div className='testimonial py-5 overflow-hidden'>
             <>
                 <Swiper
                     pagination={{
@@ -134,13 +134,13 @@ export default function Testimonial() {
                     </button>
                 </div>
                 <div className="section-title three text-animation row">
-                    <div className='about-our-company col-lg-12 our-solution-style-1 text-center mb-5' >
+                    <div className='about-our-company col-lg-12 our-solution-style-1 mb-5' >
                         <h2 className='text-lg-start text-md-center text-center new-work-text testimonial-before'>Testimonials</h2>
                     </div>
                 </div>
                 <>
                     <Swiper
-                        slidesPerView={3}
+                        slidesPerView={2}
                         spaceBetween={30}
                         loop={true}
                         // pagination={{
@@ -149,10 +149,10 @@ export default function Testimonial() {
                         // navigation={{
                         //     clickable: true,
                         // }}
-                        autoplay={{
-                            delay: 2500,
-                            disableOnInteraction: false,
-                        }}
+                        // autoplay={{
+                        //     delay: 2500,
+                        //     disableOnInteraction: false,
+                        // }}
                         breakpoints={{
                             // When the window is >= 320px (small screens)
                             0: {
@@ -166,7 +166,7 @@ export default function Testimonial() {
                             },
                             // When the window is >= 1024px (large screens)
                             1024: {
-                                slidesPerView: 3,
+                                slidesPerView: 2,
                                 spaceBetween: 30,
                             },
                         }}
@@ -188,85 +188,129 @@ export default function Testimonial() {
                     >
                         <SwiperSlide>
                             <div className='p-3 mb-85'>
-                                <div className='testimonial-sec p-lg-4 p-md-4 p-sm-4 p-0 text-center' data-aos="zoom-in" data-aos-delay="500">
+                                <div className='testimonial-sec  p-4 position-relative' data-aos="zoom-in" data-aos-delay="500">
                                     <div>
-                                        <div className='text-center mb-4'>
-                                            <img src="/images/img_testimonial_02.png" alt="img_testimonial_02" />
-                                        </div>
                                         <div className='testimonial-content'>
-                                            <div className='mb-2'>
-                                                <h5 className='mb-0'>Rohan Singh</h5>
-                                                <span className='testimonial-post-text mb-5'>CEO at astra.com</span>
+                                            <p className='mb-4'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+
+                                            <div className='row align-items-center'>
+                                                <div className='col-lg-6'>
+                                                    <div className='testimonial-company-name mb-lg-0 mb-md-3 mb-3'>
+                                                        <div className='d-flex align-items-center'>
+                                                            <div>
+                                                                <img src="/images/testimonial-main-img.svg" alt="testimonial-main-img" className='img-fluid' />
+                                                            </div>
+                                                            <div>
+                                                                <h5 className='mb-0 ms-2'>Aadhya Infotech</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className='col-lg-6'>
+                                                    <img src="/images/ic_testimonial_stars.svg" alt="ic_testimonial_stars" className='testimonial-star-ic img-fluid' />
+                                                </div>
                                             </div>
-                                            <p className='mb-4'>They provided a wide range
-                                                of indian spices to choose from
-                                                and at very affordable rates </p>
-                                            <img src="/images/ic_testimonial_stars.svg" alt="ic_testimonial_stars" className='testimonial-star-ic' />
                                         </div>
                                     </div>
+                                </div>
+                                <div className='testimonial-quates'>
+                                    <img src="/images/testimonial-quates-img.svg" alt="testimonial-quates-img" className='img-fluid' />
                                 </div>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='p-3 mb-85'>
-                                <div className='testimonial-sec p-lg-4 p-md-4 p-sm-4 p-0 text-center' data-aos="zoom-in" data-aos-delay="500">
+                                <div className='testimonial-sec p-4 position-relative' data-aos="zoom-in" data-aos-delay="500">
                                     <div>
-                                        <div className='text-center mb-4'>
-                                            <img src="/images/img_testimonial_03.png" alt="img_testimonial_03" />
-                                        </div>
                                         <div className='testimonial-content'>
-                                            <div className='mb-2'>
-                                                <h5 className='mb-0'>Presha Rai</h5>
-                                                <span className='testimonial-post-text mb-5'>CEO at maitra.com</span>
+                                            <p className='mb-4'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+
+                                            <div className='row align-items-center'>
+                                                <div className='col-lg-6'>
+                                                    <div className='testimonial-company-name mb-lg-0 mb-md-3 mb-3'>
+                                                        <div className='d-flex align-items-center'>
+                                                            <div>
+                                                                <img src="/images/testimonial-main-img.svg" alt="testimonial-main-img" className='img-fluid' />
+                                                            </div>
+                                                            <div>
+                                                                <h5 className='mb-0 ms-2'>Aadhya Infotech</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className='col-lg-6'>
+                                                    <img src="/images/ic_testimonial_stars.svg" alt="ic_testimonial_stars" className='testimonial-star-ic img-fluid' />
+                                                </div>
                                             </div>
-                                            <p className='mb-4'>They provided a wide range
-                                                of indian spices to choose from
-                                                and at very affordable rates </p>
-                                            <img src="/images/ic_testimonial_stars.svg" alt="ic_testimonial_stars" className='testimonial-star-ic' />
                                         </div>
                                     </div>
+                                </div>
+                                <div className='testimonial-quates'>
+                                    <img src="/images/testimonial-quates-img.svg" alt="testimonial-quates-img" className='img-fluid' />
                                 </div>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='p-3 mb-85'>
-                                <div className='testimonial-sec p-lg-4 p-md-4 p-sm-4 p-0 text-center' data-aos="zoom-in" data-aos-delay="500">
+                                <div className='testimonial-sec p-4 position-relative' data-aos="zoom-in" data-aos-delay="500">
                                     <div>
-                                        <div className='text-center mb-4'>
-                                            <img src="/images/img_testimonial_04.png" alt="img_testimonial_04" />
-                                        </div>
                                         <div className='testimonial-content'>
-                                            <div className='mb-2'>
-                                                <h5 className='mb-0'>Kriya Mishra</h5>
-                                                <span className='testimonial-post-text mb-5'>CEO at cookie.com</span>
+                                            <p className='mb-4'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+
+                                            <div className='row align-items-center'>
+                                                <div className='col-lg-6'>
+                                                    <div className='testimonial-company-name mb-lg-0 mb-md-3 mb-3'>
+                                                        <div className='d-flex align-items-center'>
+                                                            <div>
+                                                                <img src="/images/testimonial-main-img.svg" alt="testimonial-main-img" className='img-fluid' />
+                                                            </div>
+                                                            <div>
+                                                                <h5 className='mb-0 ms-2'>Aadhya Infotech</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className='col-lg-6'>
+                                                    <img src="/images/ic_testimonial_stars.svg" alt="ic_testimonial_stars" className='testimonial-star-ic img-fluid' />
+                                                </div>
                                             </div>
-                                            <p className='mb-4'>They provided a wide range
-                                                of indian spices to choose from
-                                                and at very affordable rates </p>
-                                            <img src="/images/ic_testimonial_stars.svg" alt="ic_testimonial_stars" className='testimonial-star-ic' />
                                         </div>
                                     </div>
+                                </div>
+                                <div className='testimonial-quates'>
+                                    <img src="/images/testimonial-quates-img.svg" alt="testimonial-quates-img" className='img-fluid' />
                                 </div>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='p-3 mb-85'>
-                                <div className='testimonial-sec p-lg-4 p-md-4 p-sm-4 p-0 text-center' data-aos="zoom-in" data-aos-delay="500">
+                                <div className='testimonial-sec p-4 position-relative' data-aos="zoom-in" data-aos-delay="500">
                                     <div>
-                                        <div className='text-center mb-4'>
-                                            <img src="/images/img_testimonial_05.png" alt="img_testimonial_05" />
-                                        </div>
                                         <div className='testimonial-content'>
-                                            <div className='mb-2'>
-                                                <h5 className='mb-0'>Olivia Wilson</h5>
-                                                <span className='testimonial-post-text mb-5'>CEO at wampire.com</span>
+                                            <p className='mb-4'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+
+                                            <div className='row align-items-center'>
+                                                <div className='col-lg-6'>
+                                                    <div className='testimonial-company-name mb-lg-0 mb-md-3 mb-3'>
+                                                        <div className='d-flex align-items-center'>
+                                                            <div>
+                                                                <img src="/images/testimonial-main-img.svg" alt="testimonial-main-img" className='img-fluid' />
+                                                            </div>
+                                                            <div>
+                                                                <h5 className='mb-0 ms-2'>Aadhya Infotech</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className='col-lg-6'>
+                                                    <img src="/images/ic_testimonial_stars.svg" alt="ic_testimonial_stars" className='testimonial-star-ic img-fluid' />
+                                                </div>
                                             </div>
-                                            <p className='mb-4'>They provided a wide range
-                                                of indian spices to choose from
-                                                and at very affordable rates </p>
-                                            <img src="/images/ic_testimonial_stars.svg" alt="ic_testimonial_stars" className='testimonial-star-ic' />
                                         </div>
                                     </div>
+                                </div>
+                                <div className='testimonial-quates'>
+                                    <img src="/images/testimonial-quates-img.svg" alt="testimonial-quates-img" className='img-fluid' />
                                 </div>
                             </div>
                         </SwiperSlide>
