@@ -168,7 +168,7 @@ export default function Footer() {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-lg-3 col-md-6 col-sm-6 col-12'>
+                        <div className='col-lg-3 col-md-6 col-sm-6 col-12 mb-lg-0 mb-md-5 mb-5'>
                             <div>
                                 <ul className='footer-menu'>
                                     <li className='my-3'><a href="#">About Us</a></li>
@@ -179,7 +179,7 @@ export default function Footer() {
                                 </ul>
                             </div>
                         </div>
-                        <div className='col-lg-3 col-md-6 col-sm-6 col-12'>
+                        <div className='col-lg-3 col-md-6 col-sm-6 col-12 mb-lg-0 mb-md-5 mb-5'>
                             <div>
                                 <div className='footer-menu-titele'>
                                     <h4>Our Services</h4>
@@ -194,7 +194,7 @@ export default function Footer() {
                                 </ul>
                             </div>
                         </div>
-                        <div className='col-lg-3 col-md-6 col-sm-6 col-12'>
+                        <div className='col-lg-3 col-md-6 col-sm-6 col-12 mb-lg-0 mb-md-5 mb-5'>
                             <div>
                                 <div className='footer-menu-titele mb-4'>
                                     <h4>Phone</h4>
@@ -218,7 +218,7 @@ export default function Footer() {
                             </div>
                         </div>
 
-                        <div className='col-lg-3 col-md-6 col-sm-6 col-12'>
+                        <div className='col-lg-3 col-md-6 col-sm-6 col-12 mb-lg-0 mb-md-5 mb-5'>
                             <div>
                                 <div className='footer-menu-titele mb-4'>
                                     <h4>Join us on our growth journey
