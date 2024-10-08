@@ -1,6 +1,8 @@
-.technology-hero-img {
-    max-width: 100%;
-    height: 800px;
+@media (min-width:992px) {
+    .technology-hero-img {
+        max-width: 100%;
+        height: 800px;
+    }
 }
 
 .technology-hero-img-02 {
