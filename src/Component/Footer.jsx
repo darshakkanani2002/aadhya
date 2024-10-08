@@ -224,7 +224,7 @@ export default function Footer() {
                                     <h4>Join us on our growth journey
                                         to learn from our experiences</h4>
                                 </div>
-                                <form>
+                                <form >
                                     <div className='mb-5'>
                                         <input type="email" name="EMAIL" placeholder="Enter Your Email" className="footer-form-input" required />
                                     </div>
