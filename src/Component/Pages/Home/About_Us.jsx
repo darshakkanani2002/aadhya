@@ -421,16 +421,16 @@ export default function About_Us() {
                                         <ul className="nav nav-pills mb-3 d-flex justify-content-center gap-5" id="pills-tab" role="tablist">
                                             <div className='d-flex flex-wrap gap-5 work-navigation-ul align-items-center justify-content-center'>
                                                 <li className="nav-item" role="presentation">
-                                                    <button className="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#tech-Front-End" type="button" role="tab" aria-controls="tech-Front-End" aria-selected="true">Front-End</button>
+                                                    <button className="nav-link active px-4" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#tech-Front-End" type="button" role="tab" aria-controls="tech-Front-End" aria-selected="true">Front-End</button>
                                                 </li>
                                                 <li className="nav-item" role="presentation">
-                                                    <button className="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#tech-Back-End" type="button" role="tab" aria-controls="tech-Back-End" aria-selected="false">Back-End</button>
+                                                    <button className="nav-link px-4" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#tech-Back-End" type="button" role="tab" aria-controls="tech-Back-End" aria-selected="false">Back-End</button>
                                                 </li>
                                                 <li className="nav-item" role="presentation">
-                                                    <button className="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#tech-Mobile" type="button" role="tab" aria-controls="tech-Mobile" aria-selected="false">Mobile</button>
+                                                    <button className="nav-link px-4" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#tech-Mobile" type="button" role="tab" aria-controls="tech-Mobile" aria-selected="false">Mobile</button>
                                                 </li>
                                                 <li className="nav-item" role="presentation">
-                                                    <button className="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#tech-DevOps" type="button" role="tab" aria-controls="tech-DevOps" aria-selected="false">DevOps</button>
+                                                    <button className="nav-link px-4" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#tech-DevOps" type="button" role="tab" aria-controls="tech-DevOps" aria-selected="false">DevOps</button>
                                                 </li>
                                             </div>
                                         </ul>

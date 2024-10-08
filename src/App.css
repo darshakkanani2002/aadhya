@@ -213,12 +213,13 @@ body {
   top: 60px;
   margin: 0;
   display: none;
-  min-width: 250px;
+  min-width: 275px;
   background: #161616;
   border: 1px solid rgba(13, 23, 32, .0784313725);
   text-align: left;
   background-color: #fff;
-  padding: 7px;
+  padding: 10px;
+  transition: 0.5s;
 }
 
 .nav-sub-menu li a {
@@ -268,6 +269,7 @@ body {
   background-color: #E2EEFF;
   border-radius: 40px;
   font-weight: 600;
+  transition: 0.5s;
 }
 
 .navbar-nav .dropdown:hover .dropdown-menu {
