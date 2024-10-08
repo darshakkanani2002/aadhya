@@ -15,23 +15,29 @@
     padding-bottom: 25px;
 }
 
+@media(min-width:1200px) {
+    .app-development-hero-img {
+        transform: translateX(100px);
+    }
+
+}
+
 .btn-white-color {
-    background-color: #0093ed;
-    border: 1px solid #0093ed;
-    color: #fff;
+    background-color: #fff;
+    border: 2px solid #0467FF;
+    color: #0467FF;
+    font-size: 20px;
+    font-weight: 600;
     position: relative;
     padding: 15px 40px;
-    border-radius: 24px 0px;
+    border-radius: 30px;
     transition: 0.3s;
 }
 
 .btn-white-color:hover {
-    background-color: #fff;
-    border: 1px solid #0093ed;
-    color: #1a1a1a;
-    position: relative;
-    padding: 15px 40px;
-    border-radius: 24px 0px;
+    background-color: #0467FF;
+    border: 2px solid #0467FF;
+    color: #fff;
     box-shadow: 0 0 20px rgba(3, 143, 204, .15);
 }
 

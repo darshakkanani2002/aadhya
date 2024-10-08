@@ -13,11 +13,11 @@ export default function AppDevelopment() {
             <div className='app-hero-back'>
                 <div className='container'>
                     <div className='row align-items-center'>
-                        <div className='col-lg-4 text-lg-start text-md-center text-center'>
-                            <div className='app-hero-content'>
-                                <h1 className='fw-bold'>Mobile App Development</h1>
-                                <p>We build dynamic, user-friendly, and engaging mobile applications.</p>
-                                <a className="hero-btn btn-white-color btn-animate " href="/quotation">Get a Quote</a>
+                        <div className='col-lg-5 text-lg-start text-md-center text-center'>
+                            <div className='app-hero-content technology-content'>
+                                <h1 className='fw-bold mb-0'>Mobile App Development</h1>
+                                <p className='my-4'>Mobile app development refers to the process of creating software applications designed to run on mobile devices such as smartphones and tablets.</p>
+                                <a className="hero-btn btn-white-color btn-animate " href="/quotation">Get Started</a>
                             </div>
                         </div>
                         {/* <div className='col-lg-6 px-1 d-lg-block d-md-none d-none'>
@@ -28,8 +28,8 @@ export default function AppDevelopment() {
                                 <img src="/images/app-hero-user-img.svg" alt="app-hero-user-img" className='app-hero-user-img img-fluid' />
                             </div>
                         </div> */}
-                        <div className='col-lg-8'>
-                            <div className='position-relative pt-lg-0 pt-md-5 pt-5'>
+                        <div className='col-lg-7'>
+                            <div className='position-relative pt-lg-0 pt-md-5 pt-5 app-development-hero-img'>
                                 <img src="/images/app-develop-hero-img.png" alt="app-develop-hero-img" className='img-fluid app-hero-01' />
                             </div>
                         </div>

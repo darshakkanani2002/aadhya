@@ -199,20 +199,20 @@ export default function Footer() {
                                 <div className='footer-menu-titele mb-4'>
                                     <h4>Phone</h4>
                                     <ul className='footer-contact list-unstyled'>
-                                        <li><a href="#">(+91) 9099310347</a></li>
+                                        <li><a href="tel:+919099310347">(+91) 9099310347</a></li>
                                     </ul>
                                 </div>
                                 <div className='footer-menu-titele mb-4'>
                                     <h4>Email</h4>
                                     <ul className='footer-contact list-unstyled'>
-                                        <li><a href="#">info@examplegmail.com</a></li>
+                                        <li><a href="mailto:info@examplegmail.com">info@examplegmail.com</a></li>
                                     </ul>
                                 </div>
 
                                 <div className='footer-menu-titele mb-4'>
                                     <h4>Address</h4>
                                     <ul className='footer-contact list-unstyled'>
-                                        <li><a href="#">307, Dhara Trade Center Near Lajamani Chowk</a></li>
+                                        <li><a href="https://maps.app.goo.gl/UWbKiGwVHRa8Rdb57" target='_blank'>307, Dhara Trade Center Near Lajamani Chowk</a></li>
                                     </ul>
                                 </div>
                             </div>

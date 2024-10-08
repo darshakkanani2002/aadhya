@@ -108,7 +108,7 @@ export default function Contact() {
                                 <div className='col-lg-6'>
                                     <div className="contact-us-map-bg">
                                         <div className="text-center text-sm-center text-md-center text-lg-start ms-lg-5 ms-md-0 ms-0 ps-lg-5 ps-md-0 ps-0">
-                                            <Iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119066.4170945478!2d72.73989521791626!3d21.15934029875684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04e59411d1563%3A0xfe4558290938b042!2sSurat%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1710914582641!5m2!1sen!2sin" width="100%" height="300" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="contact-us-map position-relative z-1"></Iframe>
+                                            <Iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14876.31277179149!2d72.85670806738278!3d21.228747694632208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04f1300c6e52f%3A0xf88307c9c18657e2!2sDhara%20Trade%20Center!5e0!3m2!1sen!2sin!4v1728363143482!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className="contact-us-map position-relative z-1"></Iframe>
                                         </div>
                                     </div>
                                 </div>

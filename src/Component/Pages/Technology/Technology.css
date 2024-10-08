@@ -28,7 +28,7 @@
     font-weight: 500;
 }
 
-@media (min-width:992px) {
+@media (min-width:1200px) {
     .technology-content h1 {
         font-size: 80px;
     }
