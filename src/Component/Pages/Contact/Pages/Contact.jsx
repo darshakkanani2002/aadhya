@@ -22,7 +22,7 @@ export default function Contact() {
                             <div className='row align-items-center'>
                                 <div className='col-lg-6'>
                                     <div className='contact-form-heading'>
-                                        <h2>Get in <span>Touch</span></h2>
+                                        <h2 className='fw-bold'>Get in <span>Touch</span></h2>
                                         <p className='mb-0'>Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu leo molestie
                                             vel, ornare
                                             non id blandit netus.</p>

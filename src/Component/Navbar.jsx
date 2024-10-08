@@ -64,7 +64,7 @@ export default function Navbar() {
                                             Services
                                         </Link>
                                         <ul className="dropdown-menu nav-sub-menu py-0" aria-labelledby="servicesDropdown">
-                                            <li className='my-2'>
+                                            <li className='my-2 d-none'>
                                                 <Link to='/web' className="dropdown-item d-flex align-items-center" onClick={() => handleLinkClick('/web')}>
                                                     <div className='nav-submenu-icon'>
                                                         <img src='/images/nav-submenu-ic-website.svg' alt='nav-submenu-ic-website' className='img-fluid nav-submenu-game-ic'></img>
@@ -72,7 +72,7 @@ export default function Navbar() {
                                                     <div className='ms-2'>Web Development</div>
                                                 </Link>
                                             </li>
-                                            <li className='my-2'>
+                                            <li className='my-2 d-none'>
                                                 <Link to='/game' className="dropdown-item d-flex align-items-center" onClick={() => handleLinkClick('/game')}>
                                                     <div className='nav-submenu-icon'>
                                                         <img src='/images/nav-submenu-ic-game.svg' alt='nav-submenu-ic-game' className='img-fluid nav-submenu-game-ic'></img>
