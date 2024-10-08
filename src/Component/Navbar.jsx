@@ -6,36 +6,32 @@ export default function Navbar() {
     const [activeLink, setActiveLink] = useState(location.pathname);
 
     useEffect(() => {
-        // Update the active link when the location changes
         setActiveLink(location.pathname);
-        // Scroll to the top when the active link changes without using window.scrollTo
         const mainSection = document.getElementById('main-section');
         if (mainSection) {
             mainSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
     }, [location.pathname]);
 
-    // Function to check if the active link is a service route
     const isServiceActive = () => {
         return ['/app', '/game', '/web'].includes(activeLink);
     };
 
-    // Function to handle click and close the offcanvas on medium screens
     const handleLinkClick = (path) => {
         setActiveLink(path);
         if (path === location.pathname) {
             window.location.reload();
         }
 
-        // Close the offcanvas manually
         const offcanvasElement = document.querySelector('.offcanvas');
         if (offcanvasElement) {
             offcanvasElement.classList.remove('show');
             document.body.classList.remove('offcanvas-backdrop');
-            document.body.style.overflow = '';  // Remove the no-scroll class Bootstrap adds
+            document.body.style.overflow = '';
             document.body.style.opacity = '';
         }
     };
+
     return (
         <div>
             <div className='hero-bg-banner'>
@@ -60,12 +56,12 @@ export default function Navbar() {
                                         <Link to='/' className={`nav-link px-4 ${activeLink === '/' ? 'active' : ''}`} onClick={() => handleLinkClick('/')} aria-current="page" data-section="home">Home</Link>
                                     </li>
                                     <li className="nav-item dropdown d-flex align-items-center">
-                                        <Link to='/' className={`nav-link px-4 ${isServiceActive() ? 'active' : ''}`} onClick={() => handleLinkClick('/service')} id="servicesDropdown" role="button" aria-expanded="false">
+                                        <Link to='#' className={`nav-link px-4 ${isServiceActive() ? 'active' : ''}`} id="servicesDropdown" role="button" aria-expanded="false">
                                             Services
                                         </Link>
                                         <ul className="dropdown-menu nav-sub-menu py-0" aria-labelledby="servicesDropdown">
                                             <li className='my-2 d-none'>
-                                                <Link to='/web' className="dropdown-item d-flex align-items-center" onClick={() => handleLinkClick('/web')}>
+                                                <Link to='/web' className={`dropdown-item d-flex align-items-center ${activeLink === '/web' ? 'sub-menu-active' : ''}`} onClick={() => handleLinkClick('/web')}>
                                                     <div className='nav-submenu-icon'>
                                                         <img src='/images/nav-submenu-ic-website.svg' alt='nav-submenu-ic-website' className='img-fluid nav-submenu-game-ic'></img>
                                                     </div>
@@ -73,15 +69,15 @@ export default function Navbar() {
                                                 </Link>
                                             </li>
                                             <li className='my-2 d-none'>
-                                                <Link to='/game' className="dropdown-item d-flex align-items-center" onClick={() => handleLinkClick('/game')}>
+                                                <Link to='/game' className={`dropdown-item d-flex align-items-center ${activeLink === '/game' ? 'sub-menu-active' : ''}`} onClick={() => handleLinkClick('/game')}>
                                                     <div className='nav-submenu-icon'>
-                                                        <img src='/images/nav-submenu-ic-game.svg' alt='nav-submenu-ic-game' className='img-fluid nav-submenu-game-ic'></img>
+                                                        <img src='/images/nav-submenu-ic-game.svg' alt='nav-submenu-ic-game' className={`img-fluid nav-submenu-game-ic ${activeLink === '/game' ? 'sub-menu-active-ic' : ''}`} onClick={() => handleLinkClick('/game')}></img>
                                                     </div>
                                                     <div className='ms-2'>Game Development</div>
                                                 </Link>
                                             </li>
                                             <li className='my-2'>
-                                                <Link to='/app' className="dropdown-item d-flex align-items-center" onClick={() => handleLinkClick('/app')}>
+                                                <Link to='/app' className={`dropdown-item d-flex align-items-center ${activeLink === '/app' ? 'sub-menu-active' : ''}`} onClick={() => handleLinkClick('/app')}>
                                                     <div className='nav-submenu-icon'>
                                                         <img src='/images/nav-submenu-ic-app.svg' alt='nav-submenu-ic-app' className='img-fluid nav-submenu-game-ic'></img>
                                                     </div>

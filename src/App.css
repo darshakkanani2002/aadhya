@@ -272,6 +272,25 @@ body {
   transition: 0.5s;
 }
 
+/* Sub-menu active class based on the provided styles */
+.nav-sub-menu li a.sub-menu-active {
+  color: #000000 !important;
+  background-color: #E2EEFF;
+  border-radius: 40px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.nav-sub-menu li a.sub-menu-active-ic {
+  filter: brightness(0) saturate(100%) invert(71%) sepia(99%) saturate(7493%) hue-rotate(212deg) brightness(102%) contrast(100%) !important;
+}
+
+
+/* .sub-menu-active,
+.nav-submenu-game-ic {
+  filter: brightness(0) saturate(100%) invert(71%) sepia(99%) saturate(7493%) hue-rotate(212deg) brightness(102%) contrast(100%);
+} */
+
 .navbar-nav .dropdown:hover .dropdown-menu {
   display: block;
 }
