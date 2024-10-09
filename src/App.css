@@ -2536,6 +2536,28 @@ footer .menu-container ul li a:hover svg {
   transform: rotate(45deg);
 }
 
+.footer-icon li {
+  background: #f2f7ff;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.footer-icon li:hover {
+  background: #fff;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: 0px 10.6px 21.19px 0px #0467FF33;
+  transition: 0.3s;
+}
+
 /* circle Progressbaar */
 /* .circle-container {
   height: 200vh;

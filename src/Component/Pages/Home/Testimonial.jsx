@@ -214,7 +214,7 @@ export default function Testimonial() {
                                     </div>
                                 </div>
                                 <div className='testimonial-quates'>
-                                    <img src="/images/testimonial-quates-img.svg" alt="testimonial-quates-img" className='img-fluid' />
+                                    <img src="/images/testimonial-quates-img.svg" alt="testimonial-quates-img" className='img-fluid testimonial-quates-img' />
                                 </div>
                             </div>
                         </SwiperSlide>
