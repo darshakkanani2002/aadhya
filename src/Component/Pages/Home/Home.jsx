@@ -51,7 +51,7 @@ export default function Home() {
                     <div className="text-slider-section">
                         <div className="marquee">
                             <div className="marquee__group">
-                                <span>Welcome to Aadhya Infotech
+                                <span className='hero-marquee-text'>Welcome to Aadhya Infotech
                                 </span>
                                 <span>EMAIL MARKETING
                                 </span>
@@ -65,7 +65,7 @@ export default function Home() {
                                 </span>
                             </div>
                             <div className="marquee__group">
-                                <span>Welcome to Aadhya Infotech
+                                <span className='hero-marquee-text'>Welcome to Aadhya Infotech
                                 </span>
                                 <span>EMAIL MARKETING </span>
                                 <span>DIGITAL STUDIO

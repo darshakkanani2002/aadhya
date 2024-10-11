@@ -29,6 +29,10 @@ body {
   }
 }
 
+.hero-marquee-text {
+  color: #0467FF !important;
+}
+
 .mb-60 {
   margin-bottom: 60px;
 }
