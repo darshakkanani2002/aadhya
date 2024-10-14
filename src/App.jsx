@@ -28,7 +28,7 @@ function App() {
           <Route path='/portfolio' element={<Portfolio></Portfolio>}></Route>
         </Routes>
         <Footer></Footer>
-        <Back_to_top></Back_to_top>
+        <Back_to_top> </Back_to_top>
       </Router>
 
 
