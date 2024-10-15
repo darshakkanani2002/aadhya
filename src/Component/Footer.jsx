@@ -131,11 +131,14 @@ export default function Footer() {
                                                                 </li>
                                                                 <li className="single-contact">
                                                                     <span>Phone</span>
-                                                                    <h5><a href="tel:919099310347">+91 - 9099310347 </a></h5>
+                                                                    <h5>
+                                                                        <a href="tel:919104622842">+91 - 9104622842</a>
+                                                                    </h5>
                                                                 </li>
                                                                 <li className="single-contact">
                                                                     <span>Email Now</span>
-                                                                    <h5><a href="mailto:info@examplegmail.com">info@examplegmail.com</a>
+                                                                    <h5>
+                                                                        <a href="mailto:aadhyainfotech02@gmail.com">aadhyainfotech02@gmail.com</a>
                                                                     </h5>
                                                                 </li>
                                                             </ul>
@@ -199,13 +202,13 @@ export default function Footer() {
                                 <div className='footer-menu-titele mb-4'>
                                     <h4>Phone</h4>
                                     <ul className='footer-contact list-unstyled'>
-                                        <li><a href="tel:+919099310347">(+91) 9099310347</a></li>
+                                        <li><a href="tel:+919104622842">(+91) 9104622842</a></li>
                                     </ul>
                                 </div>
                                 <div className='footer-menu-titele mb-4'>
                                     <h4>Email</h4>
                                     <ul className='footer-contact list-unstyled'>
-                                        <li><a href="mailto:info@examplegmail.com">info@examplegmail.com</a></li>
+                                        <li><a href="mailto:aadhyainfotech02@gmail.com">aadhyainfotech02@gmail.com</a></li>
                                     </ul>
                                 </div>
 
