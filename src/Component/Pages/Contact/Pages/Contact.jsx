@@ -82,7 +82,7 @@ export default function Contact() {
                                                     <div className='contact-img-contant'>
                                                         <div className='ps-3'>
                                                             <h6 className="mb-0">PHONE</h6>
-                                                            <p className="mb-0">+91 - 9099310347</p>
+                                                            <p className="mb-0" >+91 - 9104622842</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -95,7 +95,7 @@ export default function Contact() {
                                                     <div className='contact-img-contant'>
                                                         <div className='ps-3'>
                                                             <h6 className="mb-0">Email</h6>
-                                                            <p className="mb-0">info@marcc.com.au</p>
+                                                            <p className="mb-0">aadhyainfotech02@gmail.com</p>
                                                         </div>
                                                     </div>
                                                 </div>
