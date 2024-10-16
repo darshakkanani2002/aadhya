@@ -250,7 +250,7 @@ export default function Footer() {
                         </div>
                         <div>
                             <div className='mt-lg-0 mt-md-4 mt-4'>
-                                <ul className='footer-icon list-unstyled d-flex align-items-center gap-3'>
+                                <ul className='footer-icon list-unstyled d-flex flex-wrap align-items-center gap-3'>
                                     <li>
                                         <a href="#">
                                             <img src='/images/footer-ic-linkedin.svg' alt='footer-ic-linkedin' title='linkedin' className='img-fluid footer-social-ic' />
